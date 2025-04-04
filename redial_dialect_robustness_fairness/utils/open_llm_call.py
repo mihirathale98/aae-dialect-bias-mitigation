@@ -235,33 +235,32 @@ def inference(
         
         # Process each prompt
         with torch.cuda.amp.autocast(enabled=mixed_precision and torch.cuda.is_available()):
-            for i in tqdm(range(0, len(queries), batch_size)):
-                batch_queries = queries[i:i+batch_size]
-                batch_outputs = []
-                
-                # Process each prompt in the batch individually to avoid template issues
-                for query in batch_queries:
-                    with torch.no_grad():
-                        result = pipeline(
-                            query,  # Pass individual message list
+            batch_outputs = []
+
+            
+            # Process each prompt in the batch individually to avoid template issues
+            with torch.no_grad():
+                results = pipeline(
+                            queries,  # Pass individual message list
                             max_new_tokens=max_new_tokens,
                             eos_token_id=terminators,
                             do_sample=do_sample,
                             temperature=temperature,
                             top_p=top_p,
                             return_full_text=False,
-                            num_return_sequences=num_return_sequences
-                        )
-                    
-                    # Format result based on return type
-                    if isinstance(result, list):
-                        # Multiple return sequences
-                        texts = [item["generated_text"] for item in result]
-                    else:
-                        # Single return sequence
-                        texts = [result["generated_text"]]
-                    
-                    batch_outputs.append(texts)
+                            num_return_sequences=num_return_sequences,
+                            batch_size=batch_size,
+                            )
+            for result in results:
+                # Format result based on return type
+                if isinstance(result, list):
+                    # Multiple return sequences
+                    texts = [item["generated_text"] for item in result]
+                else:
+                    # Single return sequence
+                    texts = [result["generated_text"]]
+                
+                batch_outputs.append(texts)
                 
                 outputs.extend(batch_outputs)
                 
