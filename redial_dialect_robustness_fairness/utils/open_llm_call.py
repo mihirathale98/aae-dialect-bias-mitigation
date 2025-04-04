@@ -148,7 +148,8 @@ def inference(
     **kwargs
 ) -> List[str]:
     '''
-    Optimized inference using PyTorch Dataset and DataLoader.
+    Optimized inference using PyTorch Dataset for non-instruction models.
+    For instruction-tuned models, processes each prompt individually to avoid template issues.
     
     Parameters:
         pipeline (transformers.Pipeline): The initialized pipeline.
@@ -198,18 +199,6 @@ def inference(
         max_length=max_new_tokens
     )
     
-    # Set up DataLoader for efficient batching
-    # Only use multiple workers for CPU preprocessing when batch size warrants it
-    effective_workers = num_workers if batch_size > 1 and len(user_prompts) > batch_size else 0
-    
-    dataloader = DataLoader(
-        dataset,
-        batch_size=batch_size,
-        num_workers=effective_workers,
-        pin_memory=pin_memory and torch.cuda.is_available(),
-        shuffle=False  # Maintain order of prompts
-    )
-    
     # Try to load existing outputs if save_dir and save_name are provided
     outputs = []
     start_idx = 0
@@ -233,39 +222,75 @@ def inference(
         with open(input_path, 'w') as f:
             json.dump(dataset.batched_queries, f, indent=4)
     
-    # Skip already processed batches
-    skip_batches = start_idx // batch_size
-    
-    # Set up mixed precision if requested and supported
-    amp_dtype = torch.float16 if mixed_precision and torch.cuda.is_available() else torch.float32
-    
-    # Process batches
-    with torch.cuda.amp.autocast(enabled=mixed_precision and torch.cuda.is_available()):
-        for batch_idx, batch in enumerate(tqdm(dataloader)):
-            if batch_idx < skip_batches:
-                continue
+    # Different processing for instruction-tuned vs non-instruction-tuned models
+    if instruction_tuned:
+        # For instruction-tuned models, process each prompt individually
+        # to avoid template formatting issues with batch processing
+        
+        # Skip already processed prompts
+        queries = dataset.batched_queries[start_idx:]
+        
+        # Set up mixed precision if requested and supported
+        amp_dtype = torch.float16 if mixed_precision and torch.cuda.is_available() else torch.float32
+        
+        # Process each prompt
+        with torch.cuda.amp.autocast(enabled=mixed_precision and torch.cuda.is_available()):
+            for i in tqdm(range(0, len(queries), batch_size)):
+                batch_queries = queries[i:i+batch_size]
+                batch_outputs = []
                 
-            if instruction_tuned:
-                with torch.no_grad():
-                    curr_outputs = pipeline(
-                        batch,
-                        max_new_tokens=max_new_tokens,
-                        eos_token_id=terminators,
-                        do_sample=do_sample,
-                        temperature=temperature,
-                        top_p=top_p,
-                        return_full_text=False,
-                        num_return_sequences=num_return_sequences
-                    )
-                
-                # Format outputs based on pipeline return type
-                if isinstance(curr_outputs[0], list):
-                    batch_outputs = [[oo["generated_text"] for oo in o] for o in curr_outputs]
-                else:
-                    batch_outputs = [[o["generated_text"]] for o in curr_outputs]
+                # Process each prompt in the batch individually to avoid template issues
+                for query in batch_queries:
+                    with torch.no_grad():
+                        result = pipeline(
+                            query,  # Pass individual message list
+                            max_new_tokens=max_new_tokens,
+                            eos_token_id=terminators,
+                            do_sample=do_sample,
+                            temperature=temperature,
+                            top_p=top_p,
+                            return_full_text=False,
+                            num_return_sequences=num_return_sequences
+                        )
                     
+                    # Format result based on return type
+                    if isinstance(result, list):
+                        # Multiple return sequences
+                        texts = [item["generated_text"] for item in result]
+                    else:
+                        # Single return sequence
+                        texts = [result["generated_text"]]
+                    
+                    batch_outputs.append(texts)
+                
                 outputs.extend(batch_outputs)
-            else:
+                
+                # Save intermediate results
+                if save_dir and save_name:
+                    with open(output_path, 'w') as f:
+                        json.dump(outputs, f, indent=4)
+    else:
+        # For non-instruction-tuned models, use DataLoader for efficient batching
+        
+        # Set up DataLoader
+        effective_workers = num_workers if batch_size > 1 and len(user_prompts) > batch_size else 0
+        dataloader = DataLoader(
+            dataset,
+            batch_size=batch_size,
+            num_workers=effective_workers,
+            pin_memory=pin_memory and torch.cuda.is_available(),
+            shuffle=False
+        )
+        
+        # Skip already processed batches
+        skip_batches = start_idx // batch_size
+        
+        # Set up mixed precision
+        with torch.cuda.amp.autocast(enabled=mixed_precision and torch.cuda.is_available()):
+            for batch_idx, batch in enumerate(tqdm(dataloader)):
+                if batch_idx < skip_batches:
+                    continue
+                
                 # Move inputs to the correct device
                 batch = {k: v.to(model.device) for k, v in batch.items()}
                 
@@ -297,15 +322,14 @@ def inference(
                     batch_outputs.append(sequence_outputs)
                 
                 outputs.extend(batch_outputs)
-            
-            # Save intermediate results
-            if save_dir and save_name:
-                with open(output_path, 'w') as f:
-                    json.dump(outputs, f, indent=4)
+                
+                # Save intermediate results
+                if save_dir and save_name:
+                    with open(output_path, 'w') as f:
+                        json.dump(outputs, f, indent=4)
     
     # Return the first generated sequence for each prompt if multiple were requested
     return [o[0] for o in outputs]
-
 
 def pipe_and_infer(model_id: str,
                    save_dir: str=None,
