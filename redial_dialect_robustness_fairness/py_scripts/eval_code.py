@@ -123,6 +123,7 @@ async def main():
             prompts = [ele['prompt'] for ele in data['cot' if cot else 'vanilla'][dia]]
             function_names = [ele['function_name'] for ele in data['cot' if cot else 'vanilla'][dia]]
             data_names = [ele['data_name'] for ele in data['cot' if cot else 'vanilla'][dia]]
+            print("Data name: ", data_names)
             task_ids = [ele['task_idx'] for ele in data['cot' if cot else 'vanilla'][dia]]
             print(f'Generating code for algorithm')
             print(f'model_name: {args.model_name}')
