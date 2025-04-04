@@ -14,6 +14,6 @@ COMPREHENSIVE_INPUT="--input_path ../data/redial/redial_gold/comprehensive.json"
 
 # Run each Python script with the provided arguments
 python3 eval_code.py $COMMON_ARGS "$@"
-python3 eval_logic.py $COMMON_ARGS "$@"
-python3 eval_math.py $COMMON_ARGS "$@"
-python3 eval_comprehensive.py $COMMON_ARGS "$@"
+# python3 eval_logic.py $COMMON_ARGS "$@"
+# python3 eval_math.py $COMMON_ARGS "$@"
+# python3 eval_comprehensive.py $COMMON_ARGS "$@"
