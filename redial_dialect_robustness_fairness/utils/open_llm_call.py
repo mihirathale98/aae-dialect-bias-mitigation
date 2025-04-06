@@ -9,38 +9,80 @@ from .api_wrapper import *
 def init_pipeline(model_id: str,
                   task: str='text-generation',
                   token: str='',
+                  lora_weights: str=None,
+                  lora_config: dict=None,
                   **kwargs):
     '''
-    Initialize inference pipelines for different models.
+    Initialize inference pipelines for different models with optional LoRA weights.
         Parameters:
             model_id (str): The model ID to be used.
             task (str): The task to be performed by the model.
             token (str): The token to be used for the model.
+            lora_weights (str): Path to LoRA weights or HF repo ID containing LoRA weights.
+            lora_config (dict): Configuration for LoRA adapter loading (optional).
         Returns:
             pipeline (transformers.Pipeline): The initialized pipeline.
             terminators (list): The list of terminators for the model.
     '''
+    import torch
+    import transformers
+    from peft import PeftModel, PeftConfig
+    
     assert torch.cuda.is_available(), "This model needs a GPU to run ..."
     device = torch.cuda.current_device()
+    
+    # Load tokenizer
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, padding_side='left', token=token)
-    model = transformers.AutoModelForCausalLM.from_pretrained(model_id, token=token, device_map="auto")
-    # Initialize the pipeline
+    
+    # Load base model
+    model = transformers.AutoModelForCausalLM.from_pretrained(
+        model_id, 
+        token=token, 
+        device_map="auto"
+    )
+    
+    # Load LoRA weights if provided
+    if lora_weights:
+        print(f"Loading LoRA weights from {lora_weights}")
+        
+        # If lora_config is provided, use it for custom loading parameters
+        if lora_config is None:
+            lora_config = {}  # Use default configuration if not provided
+            
+        # Load the model with LoRA weights
+        model = PeftModel.from_pretrained(
+            model,
+            lora_weights,
+            **lora_config
+        )
+        
+        # Optionally merge weights for faster inference if specified in config
+        if lora_config.get('merge_weights', False):
+            print("Merging LoRA weights with base model for optimized inference")
+            model = model.merge_and_unload()
+    
+    # Determine terminators based on model type
     if 'llama-3' in model_id.lower():
         terminators = [tokenizer.eos_token_id,
-                       tokenizer.convert_tokens_to_ids("<|eot_id|>")]
+                      tokenizer.convert_tokens_to_ids("<|eot_id|>")]
     else:
         assert 'mistral' in model_id.lower() or 'gemma' in model_id.lower() or 'mixtral' in model_id.lower(), "Only Mistral/llama/gemma models are supported ..."
         terminators = [tokenizer.eos_token_id]
 
+    # Set pad token to eos token if not already set
     tokenizer.pad_token_id = model.config.eos_token_id
-    pipeline = transformers.pipeline(task=task,
-                                     model=model,
-                                     tokenizer=tokenizer,)
-                                    #  device=device)
-    print(f"Initialized pipeline for {model_id}.")
-    # print(f"Initialized pipeline for {model_id} on device {device}.")
+    
+    # Initialize the pipeline
+    pipeline = transformers.pipeline(
+        task=task,
+        model=model,
+        tokenizer=tokenizer,
+    )
+    
+    print(f"Initialized pipeline for {model_id}" + 
+          (f" with LoRA weights from {lora_weights}" if lora_weights else ""))
+    
     return pipeline, terminators
-
 
 def inference(pipeline: transformers.Pipeline,
               user_prompts: list,
