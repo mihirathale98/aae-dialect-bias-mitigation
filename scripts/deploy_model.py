@@ -1,155 +1,120 @@
 import modal
 import os
-from typing import List, Dict, Any
 
 # Define constants
-MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"  # Using Unsloth's 4-bit quantized model
-LORA_ADAPTER_ID = "/model/lora_finetuned_meta-llama_Meta-Llama-3-8B-Instruct"  # Replace with your LoRA adapter path or HF repo
-API_KEY = modal.Secret.from_name("modal-api-key")  # You can set this as a Modal secret in production
-VLLM_PORT = 8000
+MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
+LORA_ADAPTER_ID = "/model/lora_finetuned_meta-llama_Meta-Llama-3-8B-Instruct"
+API_KEY = modal.Secret.from_name("modal-api-key")
 
-# Create a volume to cache models
-# hf_cache_vol = modal.Volume.from_name("hf-cache", create_if_missing=True)
+# Create volumes for caching
 vllm_cache_vol = modal.Volume.from_name("vllm-cache", create_if_missing=True)
 model_volume = modal.Volume.from_name("model_volume")
 
-# Create the base image with all dependencies
+# Create the base image with necessary dependencies
 image = (
     modal.Image.debian_slim(python_version="3.10")
     .pip_install(
-        "vllm",  # Fast inference engine
-        "unsloth",  # Unsloth for optimizations
-        "huggingface_hub[hf_transfer]==0.26.2",  # For model downloading
-        "transformers",  # For model loading
-        "peft",  # For LoRA adapters
-        "accelerate",  # For inference optimizations
-        "bitsandbytes",  # For quantization
-        "torch",  # PyTorch
+        "unsloth",        # For optimizations
+        "transformers",   # For model loading
+        "peft",           # For LoRA adapters
+        "accelerate",     # For inference optimizations
+        "bitsandbytes",   # For quantization
+        "torch",          # PyTorch
     )
     .env({"HF_HUB_ENABLE_HF_TRANSFER": "1"})  # Faster model transfers
 )
 
 # Create the Modal app
-app = modal.App("llama3-lora-inference", image=image)
+app = modal.App("llama3-lora-inference-simplified", image=image)
 
-# Function to load the model and LoRA adapter
-@app.function(
-    gpu="A10G",  # You can change to H100 for better performance
-    timeout=600,
-    volumes={
-        "/model": model_volume,
-        "/root/.cache/vllm": vllm_cache_vol
-    },
-)
-def load_model_with_lora():
-    import os
-    from unsloth import FastLanguageModel
-    import torch
-    from peft import PeftModel
-
-    os.environ["HUGGINGFACE_HUB_CACHE"] = "/model/hf_cache"
-
-    # Load the base model
-    print("Loading the base model...")
-    model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name=MODEL_ID,
-        max_seq_length=4096,  # Set context length
-        load_in_4bit=False,    # Use 4-bit quantization to reduce memory
-          # Use bfloat16 precision for faster inference
-    )
-    
-    print("Optimizing model for inference...")
-    # Optimize for inference
-    model = FastLanguageModel.for_inference(model)
-    
-    print("Loading the LoRA adapter...")
-    # Load the LoRA adapter
-    model = PeftModel.from_pretrained(
-        model,
-        LORA_ADAPTER_ID,
-    )
-    
-    print("LoRA adapter loaded successfully")
-    return model, tokenizer
-
-# Deploy a vLLM server with the merged model for high-performance inference
-
-@app.function(
-    gpu="A10G",  # You can change to H100 for better performance
-    timeout=600,
+# Define a Modal class to keep the model loaded and warm
+@app.cls(
+    gpu="A10G",  # GPU required for model loading and inference
+    timeout=3600,  # Longer timeout to keep the container alive
     volumes={
         "/model": model_volume,
         "/root/.cache/vllm": vllm_cache_vol,
     },
-    concurrency_limit=4,  # Limit concurrent requests for stability,
-    keep_warm=True,
+    concurrency_limit=4,  # Limit concurrent requests
+    keep_warm=1,  # Keep one instance always running
 )
-def run_inference(prompt: str, max_tokens: int = 512, temperature: float = 0.7) -> str:
-    from unsloth import FastLanguageModel
-    import torch
-    from peft import PeftModel
-    
-    # Load model with LoRA
-    model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name=MODEL_ID,
-        max_seq_length=4096,
-        load_in_4bit=True,
-        # precision="bfloat16"
-    )
-    
-    # Optimize for inference
-    model = FastLanguageModel.for_inference(model)
-    
-    # Load the LoRA adapter
-    model = PeftModel.from_pretrained(
-        model,
-        LORA_ADAPTER_ID,
-    )
-    
-    # Format the input for Llama 3
-    messages = [{"role": "user", "content": prompt}]
-    prompt_formatted = tokenizer.apply_chat_template(
-        messages, 
-        tokenize=False,
-        add_generation_prompt=True
-    )
-    
-    # Generate response
-    input_ids = tokenizer(prompt_formatted, return_tensors="pt").input_ids.to("cuda")
-    
-    with torch.inference_mode():
-        outputs = model.generate(
-            input_ids=input_ids,
-            max_new_tokens=max_tokens,
-            temperature=temperature,
-            top_p=0.95,
-            do_sample=temperature > 0,
+class LlamaWithLoRA:
+    def __init__(self):
+        from unsloth import FastLanguageModel
+        import torch
+        from peft import PeftModel
+        
+        print("Initializing model...")
+        # Set environment variable for caching
+        os.environ["HUGGINGFACE_HUB_CACHE"] = "/model/hf_cache"
+        
+        # Load model with LoRA
+        self.model, self.tokenizer = FastLanguageModel.from_pretrained(
+            model_name=MODEL_ID,
+            max_seq_length=4096,
+            load_in_4bit=True,  # Use 4-bit quantization to reduce memory
         )
-    
-    # Decode the output
-    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    # Remove the prompt from the response
-    response = response.replace(prompt_formatted, "").strip()
-    
-    return response
+        
+        # Optimize for inference
+        self.model = FastLanguageModel.for_inference(self.model)
+        
+        # Load the LoRA adapter
+        self.model = PeftModel.from_pretrained(
+            self.model,
+            LORA_ADAPTER_ID,
+        )
+        print("Model initialized and ready!")
+        
+    @modal.method()
+    def generate(self, prompt: str, max_tokens: int = 512, temperature: float = 0.7) -> str:
+        """Run inference with the already-loaded model"""
+        import torch
+        
+        # Format the input for Llama 3
+        messages = [{"role": "user", "content": prompt}]
+        prompt_formatted = self.tokenizer.apply_chat_template(
+            messages, 
+            tokenize=False,
+            add_generation_prompt=True
+        )
+        
+        # Generate response
+        input_ids = self.tokenizer(prompt_formatted, return_tensors="pt").input_ids.to("cuda")
+        
+        with torch.inference_mode():
+            outputs = self.model.generate(
+                input_ids=input_ids,
+                max_new_tokens=max_tokens,
+                temperature=temperature,
+                top_p=0.95,
+                do_sample=temperature > 0,
+            )
+        
+        # Decode the output
+        response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        # Remove the prompt from the response
+        response = response.replace(prompt_formatted, "").strip()
+        
+        return response
 
-# Deploy a web server
 @app.function(
-    gpu="A10G",  # You can change to H100 for better performance
-    timeout=600,
+    # No GPU needed for API server
+    timeout=3600,  # Extended timeout for long-running server
     volumes={
-        "/model": model_volume,
-        "/root/.cache/vllm": vllm_cache_vol,
+        "/model": model_volume,  # Still need volumes for paths
     },
-    concurrency_limit=4,
+    keep_warm=1,  # Keep server always running
 )
 @modal.web_server(port=8081)
 def serve():
+    """Serve the model via a FastAPI endpoint"""
     from fastapi import FastAPI, HTTPException, Depends, status
     from fastapi.security import APIKeyHeader
     from pydantic import BaseModel
     import time
-    import uvicorn
+    
+    # Initialize our persistent model instance
+    model = LlamaWithLoRA()
     
     class CompletionRequest(BaseModel):
         prompt: str
@@ -177,8 +142,8 @@ def serve():
         start_time = time.time()
         
         try:
-            # Call the inference function
-            completion = run_inference.remote(
+            # Call the method on our persistent model instance
+            completion = model.generate.remote(
                 prompt=request.prompt,
                 max_tokens=request.max_tokens,
                 temperature=request.temperature,
@@ -194,17 +159,28 @@ def serve():
     
     @app.get("/health")
     async def health_check():
-        return {"status": "ok"}
+        return {"status": "ok", "model_loaded": True}
     
     return app
 
 # For local testing
 @app.local_entrypoint()
 def main():
-    # Test inference
-    test_prompt = "Break down why LoRA fine-tunin’ good for them big language models."
-    print(f"Running inference with prompt: {test_prompt}")
+    # Test inference using the persistent class
+    model = LlamaWithLoRA()
     
-    # Call the remote function
-    result = run_inference.remote(test_prompt)
-    print(f"Response: {result}")
+    # Test multiple inferences in a loop to demonstrate persistence
+    test_prompts = [
+        "Break down why LoRA fine-tunin' good for them big language models.",
+        "Explain the advantage of 4-bit quantization for inference.",
+        "What are the main benefits of Modal for ML model deployment?"
+    ]
+    
+    for i, prompt in enumerate(test_prompts):
+        print(f"\nRunning inference #{i+1} with prompt: {prompt}")
+        
+        # Call the remote method
+        result = model.generate.remote(prompt)
+        print(f"Response: {result}")
+        
+    print("\nAll inferences completed successfully!")
