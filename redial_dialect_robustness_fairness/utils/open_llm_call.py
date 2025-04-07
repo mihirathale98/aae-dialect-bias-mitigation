@@ -286,7 +286,7 @@ def pipe_and_infer(model_id: str,
                    use_modal: bool=False,
                    modal_endpoint: str=None,
                    top_p: float=1.0,
-                   max_new_tokens: int=4096,
+                   max_new_tokens: int=2048,
                    **kwargs):
     '''
     Initialize and run inference on a model.
@@ -301,6 +301,10 @@ def pipe_and_infer(model_id: str,
         Returns:
             outputs (list): The list of outputs from the model.
     '''
+    import os
+    import json
+    from tqdm import tqdm
+    
     if save_dir:
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
@@ -308,7 +312,6 @@ def pipe_and_infer(model_id: str,
     # Option 3: Use Modal endpoint
     if use_modal:
         import requests
-        import json
         
         try:
             with open(os.path.join(save_dir, save_name), 'r') as f:
@@ -322,38 +325,38 @@ def pipe_and_infer(model_id: str,
         
         # Prepare headers for the request
         headers = {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'X-API-Key': kwargs.get('modal_api_key', '')  # API key header format updated to match our Modal app
         }
-        
-        # Add authentication header if provided
-        if 'modal_api_key' in kwargs:
-            headers['Authorization'] = f"Bearer {kwargs['modal_api_key']}"
             
         for i in tqdm(range(len(kwargs['user_prompts']))):
             if i < start_idx:
                 continue
                 
             user_prompt = kwargs['user_prompts'][i]
-            sys_prompt = kwargs['sys_prompts'][i] if kwargs.get('sys_prompts') and i < len(kwargs['sys_prompts']) else ""
             
-            # Prepare the payload for Modal endpoint
+            # Prepare the payload for our Modal endpoint format
+            # Updated to match the CompletionRequest format in our Modal app
             payload = {
                 'prompt': user_prompt,
-                'temperature': kwargs.get('temperature', 0),
-                'max_tokens': 2048,
+                'temperature': kwargs.get('temperature', 0.0),
+                'max_tokens': max_new_tokens
             }
             
             try:
                 # Make the request to the Modal endpoint
-                response = requests.post(modal_endpoint, headers=headers, json=payload)
+                response = requests.post(f"{modal_endpoint}/complete", headers=headers, json=payload)
                 response.raise_for_status()  # Raise an exception for HTTP errors
                 
-                # Parse the response
+                # Parse the response to match our Modal app's CompletionResponse format
                 result = response.json()
                 
                 # Extract the model's response text from the result
-                # Adjust this based on your Modal endpoint's response format
-                output = result.get('response', "Modal API NO RESPONSE")
+                output = result.get('completion', "Modal API NO RESPONSE")
+                
+                # Optional: Log the time taken
+                time_taken = result.get('time_taken', 0)
+                print(f"Request completed in {time_taken:.2f} seconds")
                 
             except Exception as e:
                 print(f"Error calling Modal endpoint: {str(e)}")
@@ -377,21 +380,18 @@ def pipe_and_infer(model_id: str,
                 if outputs[i] in ["Modal API NO RESPONSE", "Modal API ERROR"]:
                     # try to rerun the API
                     user_prompt = kwargs['user_prompts'][i]
-                    sys_prompt = kwargs['sys_prompts'][i] if kwargs.get('sys_prompts') and i < len(kwargs['sys_prompts']) else ""
                     
                     payload = {
                         'prompt': user_prompt,
-                        'system_prompt': sys_prompt,
-                        'temperature': kwargs.get('temperature', 1.0),
-                        'top_p': top_p,
+                        'temperature': kwargs.get('temperature', 0.0),
                         'max_tokens': max_new_tokens
                     }
                     
                     try:
-                        response = requests.post(modal_endpoint, headers=headers, json=payload)
+                        response = requests.post(f"{modal_endpoint}/complete", headers=headers, json=payload)
                         response.raise_for_status()
                         result = response.json()
-                        output = result.get('response', "Modal API NO RESPONSE")
+                        output = result.get('completion', "Modal API NO RESPONSE")
                     except Exception as e:
                         print(f"Error in retry {count} for prompt {i}: {str(e)}")
                         output = "Modal API ERROR after retry"
@@ -405,6 +405,8 @@ def pipe_and_infer(model_id: str,
                     
     # Original Option 1: Local inference
     elif not use_api:
+        import transformers
+        
         if 'it' in model_id.lower() or 'inst' in model_id.lower() or 'chat' in model_id.lower():
             kwargs['instruction_tuned'] = True
             pipeline, terminators = init_pipeline(model_id=model_id,
@@ -433,6 +435,8 @@ def pipe_and_infer(model_id: str,
             
     # Original Option 2: API inference
     else:
+        import json
+        
         try:
             with open(os.path.join(save_dir, save_name), 'r') as f:
                 outputs = json.load(f)

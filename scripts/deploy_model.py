@@ -20,6 +20,8 @@ image = (
         "accelerate",     # For inference optimizations
         "bitsandbytes",   # For quantization
         "torch",          # PyTorch
+        "fastapi",        # For API
+        "uvicorn",        # For API
     )
     .env({"HF_HUB_ENABLE_HF_TRANSFER": "1"})  # Faster model transfers
 )
@@ -105,7 +107,7 @@ class LlamaWithLoRA:
     },
     keep_warm=1,  # Keep server always running
 )
-@modal.web_server(port=8081)
+@modal.web_server(port=8000)
 def serve():
     """Serve the model via a FastAPI endpoint"""
     from fastapi import FastAPI, HTTPException, Depends, status
