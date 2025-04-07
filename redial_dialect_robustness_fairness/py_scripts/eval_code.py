@@ -98,6 +98,16 @@ async def main():
                         default='',
                         required=False,
                         help='Deployment for open-source LLM if using API wrapper')
+    parser.add_argument('--use_modal',
+                        type=bool,
+                        default=False,
+                        required=False,
+                        help='Use Modal for open-source LLM if using API wrapper')
+    parser.add_argument('--modal_endpoint',
+                        type=str,
+                        default=None,
+                        required=False,
+                        help='Modal endpoint for open-source LLM if using API wrapper')
     args = parser.parse_args()
     # print all arguments
     print(args)
@@ -150,7 +160,9 @@ async def main():
                                 use_api=args.use_api,
                                 url=args.url,
                                 api_key=args.api_key,
-                                deployment=args.deployment)    
+                                deployment=args.deployment,
+                                use_modal=args.use_modal,
+                                modal_endpoint=args.modal_endpoint)    
                 
 
 if __name__ == '__main__':

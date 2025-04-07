@@ -634,7 +634,9 @@ def eval_general_open_llm(prompts,
                           task_ids=None,
                           url='',
                           api_key='',
-                          deployment=''):
+                          deployment='',
+                          use_modal=False,
+                          modal_endpoint=None):
     '''
     Evaluate open LLM models.
         Parameters:
@@ -673,7 +675,9 @@ def eval_general_open_llm(prompts,
                                 batch_size=batch_size,
                                 url=url,
                                 api_key=api_key,
-                                deployment=deployment)
+                                deployment=deployment,
+                                use_modal=use_modal,
+                                modal_endpoint=modal_endpoint)
         save_path = os.path.join(save_dir,
                                 f'aave_{transformed}_cot_{cot}.json')
         outputs = eval_save_ans(answers=answers,
@@ -725,7 +729,9 @@ async def eval_redial(client,
                     task_ids=None,
                     url='',
                     api_key='',
-                    deployment=''):
+                    deployment='',
+                    use_modal=False,
+                    modal_endpoint=None):
     '''
     Evaluate any model.
         Parameters:
@@ -792,5 +798,7 @@ async def eval_redial(client,
                                 task_ids=task_ids,
                                 url=url,
                                 api_key=api_key,
-                                deployment=deployment)
+                                deployment=deployment,
+                                use_modal=use_modal,
+                                modal_endpoint=modal_endpoint)
         

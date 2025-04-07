@@ -182,10 +182,109 @@ def inference(pipeline: transformers.Pipeline,
     return [o[0] for o in outputs]
 
 
+# def pipe_and_infer(model_id: str,
+#                    save_dir: str=None,
+#                    save_name: str=None,
+#                    use_api: bool=False,
+#                    top_p: float=1.0,
+#                    max_new_tokens: int=4096,
+#                    **kwargs):
+#     '''
+#     Initialize and run inference on a model.
+#         Parameters:
+#             model_id (str): The model ID to be used.
+#             save_dir (str): The directory to save the outputs.
+#             save_name (str): The name of the file to save the outputs.
+#             use_api (bool): Whether to use the API for inference
+#             **kwargs: Additional keyword arguments for the inference and pipeline function.
+#         Returns:
+#             outputs (list): The list of outputs from the model.
+#     '''
+#     if save_dir:
+#         if not os.path.exists(save_dir):
+#             os.makedirs(save_dir)
+#     if not use_api:
+#         if 'it' in model_id.lower() or 'inst' in model_id.lower() or 'chat' in model_id.lower():
+#             kwargs['instruction_tuned'] = True
+#             pipeline, terminators = init_pipeline(model_id=model_id,
+#                                             **kwargs)
+#             outputs = inference(pipeline=pipeline,
+#                                 terminators=terminators,
+#                                 save_dir=save_dir,
+#                                 save_name=save_name,
+#                                 **kwargs)
+#             # unload the model
+#             pipeline.model = None
+#         else:
+#             kwargs['instruction_tuned'] = False
+#             model = transformers.AutoModelForCausalLM.from_pretrained(model_id, token=kwargs['token'], device_map="auto")
+#             tokenizer = transformers.AutoTokenizer.from_pretrained(model_id, padding_side='left', **kwargs)
+#             tokenizer.pad_token_id = model.config.eos_token_id
+#             outputs = inference(model=model,
+#                                 pipeline=None,
+#                                 terminators=None,
+#                                 tokenizer=tokenizer,
+#                                 save_dir=save_dir,
+#                                 save_name=save_name,
+#                                 **kwargs)
+#             # unload the model
+#             model = None
+            
+#     else:
+#         try:
+#             with open(os.path.join(save_dir, save_name), 'r') as f:
+#                 outputs = json.load(f)
+#         except:
+#             outputs = []
+#         start_idx = len(outputs)
+#         llama_client = LlamaWrapper(url=kwargs['url'],
+#                                     api_key=kwargs['api_key'],
+#                                     deployment=kwargs['deployment'])
+#         if kwargs['sys_prompts']:
+#             assert len(kwargs['user_prompts']) == len(kwargs['sys_prompts']), "The number of user prompts must be equal to the number of system prompts"
+#         for i in tqdm(range(len(kwargs['user_prompts']))):
+#             if i < start_idx:
+#                 continue
+#             user_prompt = kwargs['user_prompts'][i]
+#             output = llama_client.run(system_prompt = kwargs['sys_prompts'][i],
+#                                       user_prompt=user_prompt,
+#                                       model_version=model_id,
+#                                       temperature=kwargs['temperature'],
+#                                       top_p=top_p,
+#                                       max_new_tokens=max_new_tokens)
+#             outputs.append(output)
+#             with open(os.path.join(save_dir, save_name), 'w') as f:
+#                 json.dump(outputs, f, indent=4)
+#         # check no response
+#         flag = True
+#         count = 0
+#         while flag and count < 3:
+#             count+=1
+#             print("Checking for API NO RESPONSE ...")
+#             flag = False
+#             for i in tqdm(range(len(outputs))):
+#                 if outputs[i] == "API NO RESPONSE":
+#                     # try to rerun the API
+#                     user_prompt = kwargs['user_prompts'][i]
+#                     output = llama_client.run(system_prompt = kwargs['sys_prompts'][i],
+#                                             user_prompt=user_prompt,
+#                                             model_version=model_id,
+#                                             temperature=kwargs['temperature'],
+#                                             top_p=top_p,
+#                                             max_new_tokens=max_new_tokens)
+#                     outputs[i] = output
+#                     with open(os.path.join(save_dir, save_name), 'w') as f:
+#                         json.dump(outputs, f, indent=4)
+#                     flag = True
+        
+#     return outputs
+
 def pipe_and_infer(model_id: str,
                    save_dir: str=None,
                    save_name: str=None,
                    use_api: bool=False,
+                   use_modal: bool=False,
+                   modal_endpoint: str=None,
                    top_p: float=1.0,
                    max_new_tokens: int=4096,
                    **kwargs):
@@ -195,7 +294,9 @@ def pipe_and_infer(model_id: str,
             model_id (str): The model ID to be used.
             save_dir (str): The directory to save the outputs.
             save_name (str): The name of the file to save the outputs.
-            use_api (bool): Whether to use the API for inference
+            use_api (bool): Whether to use the API for inference.
+            use_modal (bool): Whether to use a Modal endpoint for inference.
+            modal_endpoint (str): The URL of the Modal endpoint.
             **kwargs: Additional keyword arguments for the inference and pipeline function.
         Returns:
             outputs (list): The list of outputs from the model.
@@ -203,7 +304,109 @@ def pipe_and_infer(model_id: str,
     if save_dir:
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
-    if not use_api:
+            
+    # Option 3: Use Modal endpoint
+    if use_modal:
+        import requests
+        import json
+        
+        try:
+            with open(os.path.join(save_dir, save_name), 'r') as f:
+                outputs = json.load(f)
+        except:
+            outputs = []
+            
+        start_idx = len(outputs)
+        
+        assert modal_endpoint is not None, "Modal endpoint URL must be provided when use_modal=True"
+        
+        # Prepare headers for the request
+        headers = {
+            'Content-Type': 'application/json'
+        }
+        
+        # Add authentication header if provided
+        if 'modal_api_key' in kwargs:
+            headers['Authorization'] = f"Bearer {kwargs['modal_api_key']}"
+            
+        for i in tqdm(range(len(kwargs['user_prompts']))):
+            if i < start_idx:
+                continue
+                
+            user_prompt = kwargs['user_prompts'][i]
+            sys_prompt = kwargs['sys_prompts'][i] if kwargs.get('sys_prompts') and i < len(kwargs['sys_prompts']) else ""
+            
+            # Prepare the payload for Modal endpoint
+            payload = {
+                'prompt': user_prompt,
+                'system_prompt': sys_prompt,
+                'temperature': kwargs.get('temperature', 1.0),
+                'top_p': top_p,
+                'max_tokens': max_new_tokens
+            }
+            
+            try:
+                # Make the request to the Modal endpoint
+                response = requests.post(modal_endpoint, headers=headers, json=payload)
+                response.raise_for_status()  # Raise an exception for HTTP errors
+                
+                # Parse the response
+                result = response.json()
+                
+                # Extract the model's response text from the result
+                # Adjust this based on your Modal endpoint's response format
+                output = result.get('response', "Modal API NO RESPONSE")
+                
+            except Exception as e:
+                print(f"Error calling Modal endpoint: {str(e)}")
+                output = "Modal API ERROR"
+                
+            outputs.append(output)
+            
+            # Save after each iteration to ensure progress is retained
+            if save_dir:
+                with open(os.path.join(save_dir, save_name), 'w') as f:
+                    json.dump(outputs, f, indent=4)
+        
+        # Retry logic for failed responses
+        flag = True
+        count = 0
+        while flag and count < 3:
+            count += 1
+            print("Checking for Modal API NO RESPONSE or ERROR...")
+            flag = False
+            for i in tqdm(range(len(outputs))):
+                if outputs[i] in ["Modal API NO RESPONSE", "Modal API ERROR"]:
+                    # try to rerun the API
+                    user_prompt = kwargs['user_prompts'][i]
+                    sys_prompt = kwargs['sys_prompts'][i] if kwargs.get('sys_prompts') and i < len(kwargs['sys_prompts']) else ""
+                    
+                    payload = {
+                        'prompt': user_prompt,
+                        'system_prompt': sys_prompt,
+                        'temperature': kwargs.get('temperature', 1.0),
+                        'top_p': top_p,
+                        'max_tokens': max_new_tokens
+                    }
+                    
+                    try:
+                        response = requests.post(modal_endpoint, headers=headers, json=payload)
+                        response.raise_for_status()
+                        result = response.json()
+                        output = result.get('response', "Modal API NO RESPONSE")
+                    except Exception as e:
+                        print(f"Error in retry {count} for prompt {i}: {str(e)}")
+                        output = "Modal API ERROR after retry"
+                        
+                    outputs[i] = output
+                    
+                    if save_dir:
+                        with open(os.path.join(save_dir, save_name), 'w') as f:
+                            json.dump(outputs, f, indent=4)
+                    flag = True
+                    
+    # Original Option 1: Local inference
+    elif not use_api:
         if 'it' in model_id.lower() or 'inst' in model_id.lower() or 'chat' in model_id.lower():
             kwargs['instruction_tuned'] = True
             pipeline, terminators = init_pipeline(model_id=model_id,
@@ -230,6 +433,7 @@ def pipe_and_infer(model_id: str,
             # unload the model
             model = None
             
+    # Original Option 2: API inference
     else:
         try:
             with open(os.path.join(save_dir, save_name), 'r') as f:
