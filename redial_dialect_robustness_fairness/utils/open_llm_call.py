@@ -339,10 +339,8 @@ def pipe_and_infer(model_id: str,
             # Prepare the payload for Modal endpoint
             payload = {
                 'prompt': user_prompt,
-                'system_prompt': sys_prompt,
-                'temperature': kwargs.get('temperature', 1.0),
-                'top_p': top_p,
-                'max_tokens': max_new_tokens
+                'temperature': kwargs.get('temperature', 0),
+                'max_tokens': 2048,
             }
             
             try:

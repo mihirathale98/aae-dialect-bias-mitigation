@@ -3,27 +3,28 @@ import os
 from typing import List, Dict, Any
 
 # Define constants
-MODEL_ID = "unsloth/llama-3-8b-Instruct-bnb-4bit"  # Using Unsloth's 4-bit quantized model
-LORA_ADAPTER_ID = "path/to/your/lora/adapter"  # Replace with your LoRA adapter path or HF repo
-API_KEY = "your-api-key"  # You can set this as a Modal secret in production
+MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"  # Using Unsloth's 4-bit quantized model
+LORA_ADAPTER_ID = "/model/lora_finetuned_meta-llama_Meta-Llama-3-8B-Instruct"  # Replace with your LoRA adapter path or HF repo
+API_KEY = modal.Secret.from_name("modal-api-key")  # You can set this as a Modal secret in production
 VLLM_PORT = 8000
 
 # Create a volume to cache models
-hf_cache_vol = modal.Volume.from_name("hf-cache", create_if_missing=True)
+# hf_cache_vol = modal.Volume.from_name("hf-cache", create_if_missing=True)
 vllm_cache_vol = modal.Volume.from_name("vllm-cache", create_if_missing=True)
+model_volume = modal.Volume.from_name("model_volume")
 
 # Create the base image with all dependencies
 image = (
     modal.Image.debian_slim(python_version="3.10")
     .pip_install(
-        "vllm==0.7.2",  # Fast inference engine
-        "unsloth[llama]==0.6.0",  # Unsloth for optimizations
+        "vllm",  # Fast inference engine
+        "unsloth",  # Unsloth for optimizations
         "huggingface_hub[hf_transfer]==0.26.2",  # For model downloading
-        "transformers>=4.43.0",  # For model loading
-        "peft>=0.9.0",  # For LoRA adapters
+        "transformers",  # For model loading
+        "peft",  # For LoRA adapters
         "accelerate",  # For inference optimizations
-        "bitsandbytes>=0.42.0",  # For quantization
-        "torch>=2.3.0",  # PyTorch
+        "bitsandbytes",  # For quantization
+        "torch",  # PyTorch
     )
     .env({"HF_HUB_ENABLE_HF_TRANSFER": "1"})  # Faster model transfers
 )
@@ -36,22 +37,25 @@ app = modal.App("llama3-lora-inference", image=image)
     gpu="A10G",  # You can change to H100 for better performance
     timeout=600,
     volumes={
-        "/root/.cache/huggingface": hf_cache_vol,
-        "/root/.cache/vllm": vllm_cache_vol,
+        "/model": model_volume,
+        "/root/.cache/vllm": vllm_cache_vol
     },
 )
 def load_model_with_lora():
+    import os
     from unsloth import FastLanguageModel
     import torch
     from peft import PeftModel
+
+    os.environ["HUGGINGFACE_HUB_CACHE"] = "/model/hf_cache"
 
     # Load the base model
     print("Loading the base model...")
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=MODEL_ID,
         max_seq_length=4096,  # Set context length
-        load_in_4bit=True,    # Use 4-bit quantization to reduce memory
-        precision="bfloat16"  # Use bfloat16 precision for faster inference
+        load_in_4bit=False,    # Use 4-bit quantization to reduce memory
+          # Use bfloat16 precision for faster inference
     )
     
     print("Optimizing model for inference...")
@@ -74,7 +78,7 @@ def load_model_with_lora():
     gpu="A10G",  # You can change to H100 for better performance
     timeout=600,
     volumes={
-        "/root/.cache/huggingface": hf_cache_vol,
+        "/model": model_volume,
         "/root/.cache/vllm": vllm_cache_vol,
     },
     concurrency_limit=4,  # Limit concurrent requests for stability,
@@ -90,7 +94,7 @@ def run_inference(prompt: str, max_tokens: int = 512, temperature: float = 0.7) 
         model_name=MODEL_ID,
         max_seq_length=4096,
         load_in_4bit=True,
-        precision="bfloat16"
+        # precision="bfloat16"
     )
     
     # Optimize for inference
@@ -134,12 +138,12 @@ def run_inference(prompt: str, max_tokens: int = 512, temperature: float = 0.7) 
     gpu="A10G",  # You can change to H100 for better performance
     timeout=600,
     volumes={
-        "/root/.cache/huggingface": hf_cache_vol,
+        "/model": model_volume,
         "/root/.cache/vllm": vllm_cache_vol,
     },
     concurrency_limit=4,
 )
-@modal.web_server()
+@modal.web_server(port=8081)
 def serve():
     from fastapi import FastAPI, HTTPException, Depends, status
     from fastapi.security import APIKeyHeader
@@ -149,8 +153,8 @@ def serve():
     
     class CompletionRequest(BaseModel):
         prompt: str
-        max_tokens: int = 512
-        temperature: float = 0.7
+        max_tokens: int = 1024
+        temperature: float = 0.0
         
     class CompletionResponse(BaseModel):
         completion: str
@@ -198,7 +202,7 @@ def serve():
 @app.local_entrypoint()
 def main():
     # Test inference
-    test_prompt = "Explain the benefits of LoRA fine-tuning for LLMs"
+    test_prompt = "Break down why LoRA fine-tunin’ good for them big language models."
     print(f"Running inference with prompt: {test_prompt}")
     
     # Call the remote function

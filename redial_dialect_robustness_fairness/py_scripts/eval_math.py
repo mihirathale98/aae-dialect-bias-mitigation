@@ -155,7 +155,9 @@ async def main():
                             temperature=args.temperature,
                             url=args.url,
                             api_key=args.api_key,
-                            deployment=args.deployment)
+                            deployment=args.deployment,
+                            use_modal=args.use_modal,
+                            modal_endpoint=args.modal_endpoint)
 
 
 if __name__ == "__main__":
