@@ -4,7 +4,7 @@ import os
 # Define constants
 MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
 LORA_ADAPTER_ID = "/model/lora_finetuned_meta-llama_Meta-Llama-3-8B-Instruct"
-API_KEY = modal.Secret.from_name("modal-api-key")
+API_KEY = modal.Secret.from_name("modal_api_key")
 
 # Create volumes for caching
 vllm_cache_vol = modal.Volume.from_name("vllm-cache", create_if_missing=True)

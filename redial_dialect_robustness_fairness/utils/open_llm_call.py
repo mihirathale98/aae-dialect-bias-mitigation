@@ -326,7 +326,7 @@ def pipe_and_infer(model_id: str,
         # Prepare headers for the request
         headers = {
             'Content-Type': 'application/json',
-            'X-API-Key': kwargs.get('modal_api_key', '')  # API key header format updated to match our Modal app
+            'X-API-Key': kwargs.get('modal_api_key', os.getenv('modal_api_key'))  # API key header format updated to match our Modal app
         }
             
         for i in tqdm(range(len(kwargs['user_prompts']))):
