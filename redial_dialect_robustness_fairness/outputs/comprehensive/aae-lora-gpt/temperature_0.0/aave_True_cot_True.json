@@ -1,0 +1,212 @@
+[
+    {
+        "task_id": 0,
+        "question": "If you finna go fish for the first time, here's what you got to know and the times you need for each step.\nStep 1. To kick things off, pull up to the outdoor store (10 minutes)\nStep 2. Check out which one of them fishing poles is good and which one is not (30 minutes)\nStep 3. Cop a fishing pole (5 minutes)\nStep 4.Get yourself some bait as well (5 minutes)\nStep 5. Head out to a lake (20 minutes)\nStep 6.rent yourself a small boat (15 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>1 hour 20 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=4800), datetime.timedelta(seconds=4800)]",
+        "parsed_answer": [
+            "1 hour 20 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:03.462880",
+        "correctness": [
+            true
+        ]
+    },
+    {
+        "task_id": 1,
+        "question": "To have a nerf gun war, here's what you've got to do and the times you'l need for each step\nStep 1. Grab the nerf gun ammo out from the closet (5 minutes)\nStep 2.From Inside the closet pull out the nerf quns (5 minutes)\nStep 3. Hand out the guns and ammo to everybody (5 minutes)\nStep 4. Dash off to all directions (10 minutes)\nStep 5. Duck behind trees and them buildings (5 minutes)\nStep 6. Blast at anyone coming through (1 hours)\nStep 7. Pick up them used toys and stash them away (10 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 6.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>25 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=5400), datetime.timedelta(seconds=5400)]",
+        "parsed_answer": [
+            "25 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:03.463543",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 2,
+        "question": "To mow the lawn today, here's what you gotta know 'fore everything goes down\nStep 1.get the lawnmower outta the garage (5 minutes)\nStep 2.make sure its got enough gas in it (5 minutes)\nStep 3. Make sure everything runnin' smooth and all the parts sittin' where they supposed to be (15 minutes)\nStep 4. start the mower (5 minutes)\nStep 5. mow the lawn (1 hours)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>25 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=5100), datetime.timedelta(seconds=5100)]",
+        "parsed_answer": [
+            "25 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:04.390381",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 3,
+        "question": "Say you trynna invest money, this right here is all the steps and the times you need for each step\nStep 1. First thing first, you got to go on to the internet (1 minutes)\nStep 2.search the internet for an investment website (2 minutes)\nStep 3. Hit the link to the site (1 minutes)\nStep 4. create a new account (4 minutes)\nStep 5. try to find some you'd invest in (5 minutes)\nStep 6. send the cheese from your account into the funds (5 minutes)\nStep 7. keep tabs on how the stocks are doing all year long (365 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 6.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>1 minute</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(days=365, seconds=840), datetime.timedelta(days=365, seconds=840)]",
+        "parsed_answer": [
+            "1 minute"
+        ],
+        "timestamp": "2025-04-08 12:29:04.390475",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 4,
+        "question": "To collect bacteria samples, here are the steps and the times needed for each step\nStep 1. Put on the proper glove on your left hand (20 seconds)\nStep 2. Put on the proper glove on your right (20 seconds)\nStep 3. Cut off just a lil piece from the material at hand (15 minutes)\nStep 4. Put the sample inside of a clean plastic bag (10 seconds)\nStep 5. Close the plastic bag (5 seconds)\nStep 6. Put a label on that plastic bag (2 minutes)\nStep 7.Store up the sample (20 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>1 hour 2 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=2255), datetime.timedelta(seconds=2255)]",
+        "parsed_answer": [
+            "1 hour 2 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:05.481171",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 5,
+        "question": "Say you dream to one day level up like how them writers be, here are the steps and the times needed for this dream to come true.\nStep 1. Search the Internet for genres that are popping right now (20 hours)\nStep 2. Search the internet on how you could level up your writing (5 hours)\nStep 3. Go ahead and take some writing classes.(10 hours)\nStep 4. Put in some work and get to practicing, maybe like an hour a day. (90 days)\nStep 5. Go in and just write that book.(365 days)\nStep 6. Run around to different publishers and let them check out your book (90 days)\nStep 7. Make that dough and get that fame (365 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer> 1095 days </answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(days=911, seconds=21600), datetime.timedelta(days=911, seconds=21600)]",
+        "parsed_answer": [
+            "1095 days"
+        ],
+        "timestamp": "2025-04-08 12:29:05.481270",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 6,
+        "question": "If you trynna cop some headphones, here are the steps and the times you need to get that done\nStep 1. See what kinda different headphones are out there (15 minutes)\nStep 2.check out some of their reviews (15 minutes)\nStep 3. Watch one of them video reviews (10 minutes)\nStep 4. add the headphones on to your cart (1 minutes)\nStep 5. Put in your credit card info (3 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>25 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=2040), datetime.timedelta(seconds=2040)]",
+        "parsed_answer": [
+            "25 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:06.420059",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 7,
+        "question": "If you wanna wild out, here are the steps and the times needed for each step.\nStep 1. Fire up that computer. (2 minutes)\nStep 2.Open your browser.(15 seconds)\nStep 3. Look up some wild stuff that you could do (15 minutes)\nStep 4. Find some wild stuff that you can actually do.(15 minutes)\nStep 5. Find something wild that ain't that dangerous to do . (15 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>2 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=1935), datetime.timedelta(seconds=1935)]",
+        "parsed_answer": [
+            "2 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:06.420177",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 8,
+        "question": "If you wanna wait to jump onto a bus, here are the steps and the times needed for each step.\nStep 1. Think about a place you wanna head out to (1 minutes)\nStep 2. Check online where the bus stop at  (2 minutes)\nStep 3. map out where the bus stop is (3 minutes)\nStep 4. Stroll on over  to the bus stop (5 minutes)\nStep 5. Get yourself  a bus pass (5 minutes)\nStep 6. Grab the pass (2 minutes)\nStep 7. Ensure that the bus show up on time (2 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 7.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 4.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>13 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=840), datetime.timedelta(seconds=840)]",
+        "parsed_answer": [
+            "13 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:07.387089",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 9,
+        "question": "If you looking for a new book to read, here's how you go about it and how long it will take\nStep 1. Pull up at the  book store (20 minutes)\nStep 2. Step inside the store (2 minutes)\nStep 3. search through the fiction isle (10 minutes)\nStep 4. search through sci-fi isle (10 minutes)\nStep 5. Pick out the book (5 minutes)\nStep 6. Slide that book over to cashier (5 minutes)\nStep 7. Put down the cheese for that book (1 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer> 40 minutes </answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=2580), datetime.timedelta(seconds=2580)]",
+        "parsed_answer": [
+            "40 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:07.387178",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 10,
+        "question": "Here is how you go about building a fort, the steps and times needed.\nStep 1. find a suitable spot for the fort (30 minutes)\nStep 2. Buy yourself some materials and supplies (1 hours)\nStep 3. Put all your stuff together, all of them materials and supplies  (2 hours)\nStep 4. Come up with a plan for the fort (30 minutes)\nStep 5. Pull up to the store (30 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 5.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 2.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>2 hours and 30 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=14400), datetime.timedelta(seconds=14400)]",
+        "parsed_answer": [
+            "2 hours and 30 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:08.535800",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 11,
+        "question": "If you trynna learn guitar, here's how you do it and how long it takes for each step.\nStep 1. Buy yourself  a guitar (1 hours)\nStep 2. Take that guitar out (30 seconds)\nStep 3. check out some video  lessons (3 hours)\nStep 4. Press them strings down  (10 seconds)\nStep 5. strum those strings (5 seconds)\nStep 6. keep working and practicing on them cords (90 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>1 hour and 5 minutes</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(days=90, seconds=14415), datetime.timedelta(days=90, seconds=14415)]",
+        "parsed_answer": [
+            "1 hour and 5 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:08.535906",
+        "correctness": [
+            false
+        ]
+    },
+    {
+        "task_id": 12,
+        "question": "If you trynna get yourself  some beer, here's how you go about it and the times it takes.\nStep 1. Hop into the car. (1 minutes)\nStep 2. Count up the dough (10 minutes)\nStep 3. Hand the dough over to the cashier. (2 minutes)\nStep 4. Pull up to the beer store. (15 minutes)\nStep 5. Let the cashier take a look at your ID. (1 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 4.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 4 before hittin' the 2.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 3.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer> 28 minutes </answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(seconds=1680), datetime.timedelta(seconds=1680)]",
+        "parsed_answer": [
+            "28 minutes"
+        ],
+        "timestamp": "2025-04-08 12:29:09.513313",
+        "correctness": [
+            true
+        ]
+    },
+    {
+        "task_id": 13,
+        "question": "To win first prize in the science fair at school, here are the steps and the times needed for each step.\nStep 1. Think up a hypothesis (5 days)\nStep 2. come up with all of them materials required to test (5 days)\nStep 3. Go ahead and test the hypothesis (5 days)\nStep 4. Write down you done did for the tests (5 days)\nStep 5. Wrap it up and come up with a conclusion (5 days)\nStep 6. Based on the conclusion that you done did, put together a presentation (5 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": [
+            "<answer>25 days</answer>"
+        ],
+        "parsed_ground_truth": "[datetime.timedelta(days=25), datetime.timedelta(days=25)]",
+        "parsed_answer": [
+            "25 days"
+        ],
+        "timestamp": "2025-04-08 12:29:09.513419",
+        "correctness": [
+            true
+        ]
+    }
+]

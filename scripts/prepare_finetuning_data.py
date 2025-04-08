@@ -1,5 +1,9 @@
 import argparse
-from data import load_alpaca_data, convert_dataset
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from src.data import load_alpaca_data, convert_dataset
 
 def main():
     parser = argparse.ArgumentParser(description="Convert Alpaca dataset to LLaMA 2 and Phi formats.")

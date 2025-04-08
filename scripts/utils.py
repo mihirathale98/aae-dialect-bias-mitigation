@@ -1,15 +1,6 @@
-import os
+# utils.py
 import torch
-from modal import method, gpu
-from datasets import load_dataset
-from transformers import (
-    AutoModelForCausalLM, 
-    AutoTokenizer, 
-    BitsAndBytesConfig,
-    TrainingArguments
-)
-from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
-from trl import SFTTrainer
+from modal import method
 
 class ModelFinetuner:
     @method()
@@ -26,6 +17,16 @@ class ModelFinetuner:
         lora_dropout: float,
         max_seq_length: int,
     ):
+        from datasets import load_dataset
+        from transformers import (
+            AutoModelForCausalLM, 
+            AutoTokenizer, 
+            BitsAndBytesConfig,
+            TrainingArguments
+        )
+        from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
+        from trl import SFTTrainer
+        
         print(f"Fine-tuning {model_name}")
         print("Loading dataset...")
         dataset = load_dataset('csv', data_files=dataset_path, split="train")
