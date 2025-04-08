@@ -1,4 +1,5 @@
 from openai import AsyncAzureOpenAI
+from openai import AsyncOpenAI
 from openai import (
     APIConnectionError,
     APIError,
@@ -22,10 +23,7 @@ ERROR_ERRORS_TO_MESSAGES = {
 
 
 
-def get_client(endpoint: str,
-               api_version: str,
-               token_provider_scope: str,
-               token_provider_credential=AzureCliCredential(),):
+def get_client():
     '''
     Get client for Azure OpenAI
         Parameters:
@@ -36,11 +34,14 @@ def get_client(endpoint: str,
         Returns:
             client (AsyncAzureOpenAI): client for Azure OpenAI
     '''
-    client = AsyncAzureOpenAI(
-        azure_endpoint=endpoint,
-        azure_ad_token_provider=get_bearer_token_provider(token_provider_credential, token_provider_scope),
-        api_version=api_version,
-    )
+    # client = AsyncAzureOpenAI(
+    #     azure_endpoint=endpoint,
+    #     azure_ad_token_provider=get_bearer_token_provider(token_provider_credential, token_provider_scope),
+    #     api_version=api_version,
+    # )
+    client = AsyncOpenAI(base_url="https://mihir-athale01--vllm-app-serve.modal.run/v1",
+            api_key="super-secret-key",
+            )
     return client
 
 
@@ -75,7 +76,7 @@ async def _throttled_openai_chat_completion_acreate(
                                                         frequency_penalty=frequency_penalty,
                                                         presence_penalty=presence_penalty,
                                                         stop=stop,
-                                                        # max_tokens=100000
+                                                        max_tokens=2048
                                                     )
         except Exception as e:
             if isinstance(e, APIError):

@@ -1,0 +1,520 @@
+[
+    {
+        "prompt": "If you finna go fish for the first time, here's what you got to know and the times you need for each step.\nStep 1. To kick things off, pull up to the outdoor store (10 minutes)\nStep 2. Check out which one of them fishing poles is good and which one is not (30 minutes)\nStep 3. Cop a fishing pole (5 minutes)\nStep 4.Get yourself some bait as well (5 minutes)\nStep 5. Head out to a lake (20 minutes)\nStep 6.rent yourself a small boat (15 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-ec21971b61c147bfa71341e577e90df9",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>1 hour 20 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129742,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 12,
+                "prompt_tokens": 310,
+                "total_tokens": 322,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "To have a nerf gun war, here's what you've got to do and the times you'l need for each step\nStep 1. Grab the nerf gun ammo out from the closet (5 minutes)\nStep 2.From Inside the closet pull out the nerf quns (5 minutes)\nStep 3. Hand out the guns and ammo to everybody (5 minutes)\nStep 4. Dash off to all directions (10 minutes)\nStep 5. Duck behind trees and them buildings (5 minutes)\nStep 6. Blast at anyone coming through (1 hours)\nStep 7. Pick up them used toys and stash them away (10 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 6.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-2d9284ad2d354e1e821834fc805c2134",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>25 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129742,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 340,
+                "total_tokens": 349,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "To mow the lawn today, here's what you gotta know 'fore everything goes down\nStep 1.get the lawnmower outta the garage (5 minutes)\nStep 2.make sure its got enough gas in it (5 minutes)\nStep 3. Make sure everything runnin' smooth and all the parts sittin' where they supposed to be (15 minutes)\nStep 4. start the mower (5 minutes)\nStep 5. mow the lawn (1 hours)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-720c65cefb11411a9b38765e347626d8",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>25 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129743,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 276,
+                "total_tokens": 285,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "Say you trynna invest money, this right here is all the steps and the times you need for each step\nStep 1. First thing first, you got to go on to the internet (1 minutes)\nStep 2.search the internet for an investment website (2 minutes)\nStep 3. Hit the link to the site (1 minutes)\nStep 4. create a new account (4 minutes)\nStep 5. try to find some you'd invest in (5 minutes)\nStep 6. send the cheese from your account into the funds (5 minutes)\nStep 7. keep tabs on how the stocks are doing all year long (365 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 6.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-fef0d39a35844beb9f426a49adac0c5b",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>1 minute</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129743,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 341,
+                "total_tokens": 350,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "To collect bacteria samples, here are the steps and the times needed for each step\nStep 1. Put on the proper glove on your left hand (20 seconds)\nStep 2. Put on the proper glove on your right (20 seconds)\nStep 3. Cut off just a lil piece from the material at hand (15 minutes)\nStep 4. Put the sample inside of a clean plastic bag (10 seconds)\nStep 5. Close the plastic bag (5 seconds)\nStep 6. Put a label on that plastic bag (2 minutes)\nStep 7.Store up the sample (20 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-a8eccc9c3e0d4ad4b4b4e04cfa319e5a",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>1 hour 2 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129744,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 12,
+                "prompt_tokens": 314,
+                "total_tokens": 326,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "Say you dream to one day level up like how them writers be, here are the steps and the times needed for this dream to come true.\nStep 1. Search the Internet for genres that are popping right now (20 hours)\nStep 2. Search the internet on how you could level up your writing (5 hours)\nStep 3. Go ahead and take some writing classes.(10 hours)\nStep 4. Put in some work and get to practicing, maybe like an hour a day. (90 days)\nStep 5. Go in and just write that book.(365 days)\nStep 6. Run around to different publishers and let them check out your book (90 days)\nStep 7. Make that dough and get that fame (365 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-d3eb2818b0ab47bb828251d687fb4883",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer> 1095 days </answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129744,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 11,
+                "prompt_tokens": 345,
+                "total_tokens": 356,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If you trynna cop some headphones, here are the steps and the times you need to get that done\nStep 1. See what kinda different headphones are out there (15 minutes)\nStep 2.check out some of their reviews (15 minutes)\nStep 3. Watch one of them video reviews (10 minutes)\nStep 4. add the headphones on to your cart (1 minutes)\nStep 5. Put in your credit card info (3 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-9ec04f4ed71543d7aeddaeca28d5c341",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>25 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129745,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 270,
+                "total_tokens": 279,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If you wanna wild out, here are the steps and the times needed for each step.\nStep 1. Fire up that computer. (2 minutes)\nStep 2.Open your browser.(15 seconds)\nStep 3. Look up some wild stuff that you could do (15 minutes)\nStep 4. Find some wild stuff that you can actually do.(15 minutes)\nStep 5. Find something wild that ain't that dangerous to do . (15 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-e55f3d25dabe42739d6645b30428f0db",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>2 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129745,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 254,
+                "total_tokens": 263,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If you wanna wait to jump onto a bus, here are the steps and the times needed for each step.\nStep 1. Think about a place you wanna head out to (1 minutes)\nStep 2. Check online where the bus stop at  (2 minutes)\nStep 3. map out where the bus stop is (3 minutes)\nStep 4. Stroll on over  to the bus stop (5 minutes)\nStep 5. Get yourself  a bus pass (5 minutes)\nStep 6. Grab the pass (2 minutes)\nStep 7. Ensure that the bus show up on time (2 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 7.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 4.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-ab086bfd1ca64ac582b77002aefeba8a",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>13 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129746,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 318,
+                "total_tokens": 327,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If you looking for a new book to read, here's how you go about it and how long it will take\nStep 1. Pull up at the  book store (20 minutes)\nStep 2. Step inside the store (2 minutes)\nStep 3. search through the fiction isle (10 minutes)\nStep 4. search through sci-fi isle (10 minutes)\nStep 5. Pick out the book (5 minutes)\nStep 6. Slide that book over to cashier (5 minutes)\nStep 7. Put down the cheese for that book (1 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\nYou gotta deal with 6 before hittin' the 7.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-9172e62ebe284e9e9af83a1d9fb53b64",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer> 40 minutes </answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129746,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 10,
+                "prompt_tokens": 325,
+                "total_tokens": 335,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "Here is how you go about building a fort, the steps and times needed.\nStep 1. find a suitable spot for the fort (30 minutes)\nStep 2. Buy yourself some materials and supplies (1 hours)\nStep 3. Put all your stuff together, all of them materials and supplies  (2 hours)\nStep 4. Come up with a plan for the fort (30 minutes)\nStep 5. Pull up to the store (30 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 5.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 2.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-308c40ae3a1f4cbb9d8868945a5ec5b2",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>2 hours and 30 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129747,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 13,
+                "prompt_tokens": 255,
+                "total_tokens": 268,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If you trynna learn guitar, here's how you do it and how long it takes for each step.\nStep 1. Buy yourself  a guitar (1 hours)\nStep 2. Take that guitar out (30 seconds)\nStep 3. check out some video  lessons (3 hours)\nStep 4. Press them strings down  (10 seconds)\nStep 5. strum those strings (5 seconds)\nStep 6. keep working and practicing on them cords (90 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 1 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 4.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-963a1fe2d64f4224b2e615d395d99c3b",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>1 hour and 5 minutes</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129747,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 13,
+                "prompt_tokens": 292,
+                "total_tokens": 305,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If you trynna get yourself  some beer, here's how you go about it and the times it takes.\nStep 1. Hop into the car. (1 minutes)\nStep 2. Count up the dough (10 minutes)\nStep 3. Hand the dough over to the cashier. (2 minutes)\nStep 4. Pull up to the beer store. (15 minutes)\nStep 5. Let the cashier take a look at your ID. (1 minutes)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 4.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 4 before hittin' the 2.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 3.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-84601941555c4014aa518319be13a393",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer> 28 minutes </answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129748,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 10,
+                "prompt_tokens": 273,
+                "total_tokens": 283,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "To win first prize in the science fair at school, here are the steps and the times needed for each step.\nStep 1. Think up a hypothesis (5 days)\nStep 2. come up with all of them materials required to test (5 days)\nStep 3. Go ahead and test the hypothesis (5 days)\nStep 4. Write down you done did for the tests (5 days)\nStep 5. Wrap it up and come up with a conclusion (5 days)\nStep 6. Based on the conclusion that you done did, put together a presentation (5 days)\n\n\nThese ordering constraints gotta be followed when you doin' 'em steps above:\nYou gotta deal with 1 before hittin' the 2.\nYou gotta deal with 2 before hittin' the 3.\nYou gotta deal with 2 before hittin' the 4.\nYou gotta deal with 3 before hittin' the 5.\nYou gotta deal with 4 before hittin' the 5.\nYou gotta deal with 5 before hittin' the 6.\n\n\nQuestion: Assumin' you outta do all 'em steps to finish up the task, and you got infinite resources. What the shortest time be to knock this task out? Aight, let's break it down step by step. Then wrap that answer up in <answer></answer> (e.g., <answer>1 min</answer>).\nAnswer:",
+        "response": {
+            "id": "chatcmpl-b649e0670fd74acc865a6bb671150f26",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>25 days</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744129748,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 9,
+                "prompt_tokens": 311,
+                "total_tokens": 320,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    }
+]

@@ -25,17 +25,17 @@ async def main():
     parser.add_argument('--azure_endpoint',
                         type=str,
                         default="",
-                        required=True,
+                        required=False,
                         help='Azure endpoint')
     parser.add_argument('--api_version',
                         type=str,
                         default=None,
-                        required=True,
+                        required=False,
                         help='API version')
     parser.add_argument('--token_provider_scope',
                         type=str,
                         default=None,
-                        required=True,
+                        required=False,
                         help='Token provider scope')
     parser.add_argument('--temperature',
                         type=float,
@@ -118,7 +118,7 @@ async def main():
         data = json.load(f)
     
     if 'gpt' in args.model_name.lower():
-        client = get_client(endpoint=args.azure_endpoint,)
+        client = get_client()
     else:
         client = None
     for dia in ['aave', 'original']:

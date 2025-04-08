@@ -114,8 +114,7 @@ async def main():
 
     data = json.load(open(args.input_path, 'r'))
     if 'gpt' in args.model_name.lower():
-        client = get_client(endpoint=args.azure_endpoint,
-                            api_version=args.api_version,)
+        client = get_client()
     else:
         client = None
     for dia in ['aave', 'original']:

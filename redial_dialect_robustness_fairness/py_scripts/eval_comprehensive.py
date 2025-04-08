@@ -25,17 +25,17 @@ async def main():
     parser.add_argument('--azure_endpoint',
                         type=str,
                         default="",
-                        required=True,
+                        required=False,
                         help='Azure endpoint')
     parser.add_argument('--api_version',
                         type=str,
                         default=None,
-                        required=True,
+                        required=False,
                         help='API version')
     parser.add_argument('--token_provider_scope',
                         type=str,
                         default=None,
-                        required=True,
+                        required=False,
                         help='Token provider scope')
     parser.add_argument('--n_choices',
                         type=int,
@@ -116,7 +116,7 @@ async def main():
     # print all arguments
     print(args)
     if 'gpt' in args.model_name.lower():
-        client = get_client(endpoint=args.azure_endpoint,)
+        client = get_client()
     else:
         client = None
     with open(args.input_path, 'r') as f:
