@@ -35,7 +35,7 @@ VLLM_PORT = 8000
     image=vllm_image,
     gpu=f"H100:{N_GPU}",
     # how many requests can one replica handle? tune carefully!
-    allow_concurrent_inputs=4,
+    allow_concurrent_inputs=32,
     # how long should we stay up with no requests?
     scaledown_window=5 * MINUTES,
     volumes={
