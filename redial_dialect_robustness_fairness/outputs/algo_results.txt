@@ -1,0 +1,1154 @@
+Sanitized: Mbpp/725 (line 1 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/130 (line 2 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/305 (line 3 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/97 (line 4 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/84 (line 5 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/777 (line 6 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/392 (line 7 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/565 (line 8 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/622 (line 9 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/98 (line 10 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/414 (line 11 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/471 (line 12 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/309 (line 13 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/731 (line 14 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/749 (line 15 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/233 (line 16 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/616 (line 17 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/800 (line 18 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/475 (line 19 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/597 (line 20 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/809 (line 21 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/310 (line 22 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/632 (line 23 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/260 (line 24 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/287 (line 25 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/170 (line 26 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/172 (line 27 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/171 (line 28 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/57 (line 29 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/760 (line 30 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/567 (line 31 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/80 (line 32 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/92 (line 33 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/119 (line 34 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/131 (line 35 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/61 (line 36 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/734 (line 37 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/721 (line 38 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/439 (line 39 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/599 (line 40 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/280 (line 41 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/598 (line 42 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/256 (line 43 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/240 (line 44 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/458 (line 45 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/279 (line 46 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/479 (line 47 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/750 (line 48 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/415 (line 49 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/89 (line 50 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/745 (line 51 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/106 (line 52 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/577 (line 53 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/395 (line 54 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/743 (line 55 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/748 (line 56 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/12 (line 57 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/277 (line 58 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/762 (line 59 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/244 (line 60 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/426 (line 61 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/160 (line 62 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/722 (line 63 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/239 (line 64 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/451 (line 65 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/56 (line 66 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/67 (line 67 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/612 (line 68 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/781 (line 69 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/463 (line 70 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/410 (line 71 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/103 (line 72 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/17 (line 73 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/453 (line 74 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/285 (line 75 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/635 (line 76 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/555 (line 77 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/563 (line 78 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/274 (line 79 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/728 (line 80 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/404 (line 81 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/59 (line 82 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/9 (line 83 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/759 (line 84 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/566 (line 85 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/791 (line 86 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/801 (line 87 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/456 (line 88 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/643 (line 89 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/72 (line 90 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/435 (line 91 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/459 (line 92 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/62 (line 93 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/270 (line 94 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/591 (line 95 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/576 (line 96 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/450 (line 97 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/299 (line 98 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/568 (line 99 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/418 (line 100 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/638 (line 101 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/242 (line 102 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/588 (line 103 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/126 (line 104 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/283 (line 105 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/794 (line 106 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/95 (line 107 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/735 (line 108 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/266 (line 109 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/604 (line 110 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/271 (line 111 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/74 (line 112 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/614 (line 113 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/11 (line 114 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/94 (line 115 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/446 (line 116 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/740 (line 117 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/2 (line 118 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/732 (line 119 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/580 (line 120 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/394 (line 121 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/261 (line 122 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/389 (line 123 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/75 (line 124 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/222 (line 125 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/628 (line 126 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/245 (line 127 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/259 (line 128 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/127 (line 129 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/611 (line 130 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/478 (line 131 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/93 (line 132 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/88 (line 133 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/311 (line 134 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/590 (line 135 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/578 (line 136 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/102 (line 137 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/297 (line 138 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/765 (line 139 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/290 (line 140 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/113 (line 141 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/758 (line 142 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/767 (line 143 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/608 (line 144 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/766 (line 145 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/723 (line 146 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/641 (line 147 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/286 (line 148 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/476 (line 149 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized: Mbpp/790 (line 150 in ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl)
+Sanitized 150 out of 150 files.
+Check the sanitized files at ../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_humaneval_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_mbpp_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_True_mbpp_to_eval_unparsed-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_mbpp_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_True_mbpp_to_eval-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_humaneval_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_True_humaneval_to_eval_unparsed-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_humaneval_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_mbpp_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_humaneval_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_humaneval_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_True_humaneval_to_eval-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_humaneval_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_humaneval_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_log.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_mbpp_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_humaneval_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_humaneval_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_mbpp_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_mbpp_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_humaneval_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_mbpp_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_humaneval_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_humaneval_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_mbpp_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_mbpp_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_log.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_True_mbpp_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_humaneval_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_humaneval_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_mbpp_to_eval.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True_log.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_mbpp_to_eval_unparsed.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_humaneval_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_humaneval_to_eval-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed-sanitized.jsonl
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_False_log.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_False_cot_True.json
+../outputs/algorithm/aae-lora-gpt/temperature_0.0/aave_True_cot_False_mbpp_to_eval_unparsed.jsonl
+
+Unable to find image 'ganler/evalplus:v0.2.1' locally
+v0.2.1: Pulling from ganler/evalplus
+8a1e25ce7c4f: Pulling fs layer
+1103112ebfc4: Pulling fs layer
+d155c15b7553: Pulling fs layer
+9e59167aa400: Pulling fs layer
+4a654a9b63a6: Pulling fs layer
+f01ad9a87a28: Pulling fs layer
+1b86ab1977b8: Pulling fs layer
+9e59167aa400: Waiting
+f01ad9a87a28: Waiting
+4a654a9b63a6: Waiting
+1b86ab1977b8: Waiting
+0b8d31181a57: Pulling fs layer
+f1d15ef41206: Pulling fs layer
+0b8d31181a57: Waiting
+f1d15ef41206: Waiting
+464929ef8fa3: Pulling fs layer
+464929ef8fa3: Waiting
+e1de3dc9ea75: Pulling fs layer
+e1de3dc9ea75: Waiting
+1103112ebfc4: Verifying Checksum
+1103112ebfc4: Download complete
+9e59167aa400: Download complete
+d155c15b7553: Verifying Checksum
+d155c15b7553: Download complete
+4a654a9b63a6: Download complete
+8a1e25ce7c4f: Verifying Checksum
+8a1e25ce7c4f: Download complete
+1b86ab1977b8: Download complete
+0b8d31181a57: Verifying Checksum
+0b8d31181a57: Download complete
+464929ef8fa3: Verifying Checksum
+e1de3dc9ea75: Download complete
+8a1e25ce7c4f: Pull complete
+1103112ebfc4: Pull complete
+f1d15ef41206: Verifying Checksum
+f1d15ef41206: Download complete
+f01ad9a87a28: Verifying Checksum
+f01ad9a87a28: Download complete
+d155c15b7553: Pull complete
+9e59167aa400: Pull complete
+4a654a9b63a6: Pull complete
+f01ad9a87a28: Pull complete
+1b86ab1977b8: Pull complete
+0b8d31181a57: Pull complete
+f1d15ef41206: Pull complete
+464929ef8fa3: Pull complete
+e1de3dc9ea75: Pull complete
+Digest: sha256:2bb315e40ea502b4f47ebf1f93561ef88280d251bdc6f394578c63d90e1825d7
+Status: Downloaded newer image for ganler/evalplus:v0.2.1
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_True_humaneval_to_eval_unparsed-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 38.48s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.482
+humaneval+ (base + extra tests)
+pass@1:	0.421
+
+Unable to find image 'ganler/evalplus:v0.2.1' locally
+v0.2.1: Pulling from ganler/evalplus
+8a1e25ce7c4f: Pulling fs layer
+1103112ebfc4: Pulling fs layer
+d155c15b7553: Pulling fs layer
+9e59167aa400: Pulling fs layer
+4a654a9b63a6: Pulling fs layer
+9e59167aa400: Waiting
+f01ad9a87a28: Pulling fs layer
+1b86ab1977b8: Pulling fs layer
+4a654a9b63a6: Waiting
+0b8d31181a57: Pulling fs layer
+f1d15ef41206: Pulling fs layer
+f01ad9a87a28: Waiting
+1b86ab1977b8: Waiting
+464929ef8fa3: Pulling fs layer
+e1de3dc9ea75: Pulling fs layer
+e1de3dc9ea75: Waiting
+0b8d31181a57: Waiting
+464929ef8fa3: Waiting
+f1d15ef41206: Waiting
+1103112ebfc4: Verifying Checksum
+1103112ebfc4: Download complete
+9e59167aa400: Verifying Checksum
+9e59167aa400: Download complete
+d155c15b7553: Verifying Checksum
+d155c15b7553: Download complete
+4a654a9b63a6: Download complete
+8a1e25ce7c4f: Download complete
+1b86ab1977b8: Download complete
+0b8d31181a57: Verifying Checksum
+0b8d31181a57: Download complete
+464929ef8fa3: Verifying Checksum
+464929ef8fa3: Download complete
+e1de3dc9ea75: Verifying Checksum
+e1de3dc9ea75: Download complete
+8a1e25ce7c4f: Pull complete
+1103112ebfc4: Pull complete
+f1d15ef41206: Verifying Checksum
+f1d15ef41206: Download complete
+f01ad9a87a28: Verifying Checksum
+f01ad9a87a28: Download complete
+d155c15b7553: Pull complete
+9e59167aa400: Pull complete
+4a654a9b63a6: Pull complete
+f01ad9a87a28: Pull complete
+1b86ab1977b8: Pull complete
+0b8d31181a57: Pull complete
+f1d15ef41206: Pull complete
+464929ef8fa3: Pull complete
+e1de3dc9ea75: Pull complete
+Digest: sha256:2bb315e40ea502b4f47ebf1f93561ef88280d251bdc6f394578c63d90e1825d7
+Status: Image is up to date for ganler/evalplus:v0.2.1
+
+0it [00:00, ?it/s]
+1it [00:00,  4.41it/s]
+164it [00:00, 559.23it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  1%|          | 1/164 [00:00<00:35,  4.61it/s]
+  4%|▎         | 6/164 [00:00<00:07, 21.84it/s]
+  5%|▌         | 9/164 [00:00<00:08, 19.35it/s]
+  7%|▋         | 12/164 [00:00<00:11, 13.52it/s]
+ 10%|▉         | 16/164 [00:02<00:25,  5.73it/s]
+ 12%|█▏        | 20/164 [00:02<00:17,  8.19it/s]
+ 13%|█▎        | 22/164 [00:02<00:15,  8.97it/s]
+ 15%|█▍        | 24/164 [00:02<00:14,  9.59it/s]
+ 16%|█▌        | 26/164 [00:02<00:13, 10.28it/s]
+ 17%|█▋        | 28/164 [00:02<00:14,  9.11it/s]
+ 18%|█▊        | 30/164 [00:06<01:16,  1.75it/s]
+ 21%|██        | 34/164 [00:06<00:46,  2.80it/s]
+ 23%|██▎       | 38/164 [00:07<00:29,  4.26it/s]
+ 24%|██▍       | 40/164 [00:07<00:26,  4.65it/s]
+ 26%|██▌       | 42/164 [00:07<00:21,  5.57it/s]
+ 27%|██▋       | 44/164 [00:07<00:20,  5.97it/s]
+ 28%|██▊       | 46/164 [00:07<00:16,  7.17it/s]
+ 29%|██▉       | 48/164 [00:08<00:14,  7.97it/s]
+ 31%|███       | 51/164 [00:08<00:10, 10.37it/s]
+ 34%|███▍      | 56/164 [00:08<00:06, 15.91it/s]
+ 36%|███▌      | 59/164 [00:08<00:07, 13.83it/s]
+ 38%|███▊      | 62/164 [00:08<00:06, 16.37it/s]
+ 40%|███▉      | 65/164 [00:09<00:07, 13.32it/s]
+ 41%|████      | 67/164 [00:09<00:09, 10.75it/s]
+ 43%|████▎     | 71/164 [00:09<00:07, 13.23it/s]
+ 45%|████▍     | 73/164 [00:09<00:07, 12.27it/s]
+ 46%|████▋     | 76/164 [00:10<00:08, 10.81it/s]
+ 48%|████▊     | 79/164 [00:10<00:06, 12.30it/s]
+ 49%|████▉     | 81/164 [00:10<00:06, 12.69it/s]
+ 51%|█████     | 83/164 [00:10<00:07, 11.26it/s]
+ 52%|█████▏    | 86/164 [00:10<00:06, 12.08it/s]
+ 54%|█████▍    | 89/164 [00:10<00:05, 14.91it/s]
+ 55%|█████▌    | 91/164 [00:11<00:04, 15.12it/s]
+ 57%|█████▋    | 93/164 [00:11<00:05, 12.07it/s]
+ 58%|█████▊    | 95/164 [00:11<00:05, 12.45it/s]
+ 59%|█████▉    | 97/164 [00:11<00:05, 11.89it/s]
+ 60%|██████    | 99/164 [00:11<00:06,  9.78it/s]
+ 62%|██████▏   | 101/164 [00:12<00:06,  9.10it/s]
+ 63%|██████▎   | 104/164 [00:12<00:05, 11.50it/s]
+ 65%|██████▍   | 106/164 [00:12<00:05, 10.80it/s]
+ 66%|██████▋   | 109/164 [00:12<00:04, 12.49it/s]
+ 68%|██████▊   | 111/164 [00:12<00:04, 12.86it/s]
+ 70%|███████   | 115/164 [00:13<00:02, 16.71it/s]
+ 71%|███████▏  | 117/164 [00:13<00:03, 14.01it/s]
+ 74%|███████▍  | 121/164 [00:13<00:02, 18.28it/s]
+ 76%|███████▌  | 124/164 [00:14<00:07,  5.71it/s]
+ 79%|███████▉  | 130/164 [00:15<00:04,  7.11it/s]
+ 81%|████████  | 133/164 [00:15<00:03,  8.70it/s]
+ 82%|████████▏ | 135/164 [00:15<00:03,  8.23it/s]
+ 84%|████████▎ | 137/164 [00:15<00:03,  8.84it/s]
+ 85%|████████▍ | 139/164 [00:16<00:02,  9.59it/s]
+ 86%|████████▌ | 141/164 [00:16<00:02, 10.26it/s]
+ 87%|████████▋ | 143/164 [00:16<00:02, 10.02it/s]
+ 89%|████████▉ | 146/164 [00:16<00:01, 11.63it/s]
+ 91%|█████████ | 149/164 [00:16<00:01, 14.07it/s]
+ 93%|█████████▎| 153/164 [00:16<00:00, 17.72it/s]
+ 95%|█████████▌| 156/164 [00:17<00:00, 18.65it/s]
+ 97%|█████████▋| 159/164 [00:17<00:00, 17.72it/s]
+ 98%|█████████▊| 161/164 [00:17<00:00, 18.16it/s]
+ 99%|█████████▉| 163/164 [00:21<00:00,  1.73it/s]
+100%|██████████| 164/164 [00:21<00:00,  7.50it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_False_humaneval_to_eval_unparsed-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 38.64s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.543
+humaneval+ (base + extra tests)
+pass@1:	0.470
+
+Unable to find image 'ganler/evalplus:v0.2.1' locally
+v0.2.1: Pulling from ganler/evalplus
+8a1e25ce7c4f: Pulling fs layer
+1103112ebfc4: Pulling fs layer
+d155c15b7553: Pulling fs layer
+1103112ebfc4: Download complete
+9e59167aa400: Pulling fs layer
+4a654a9b63a6: Pulling fs layer
+9e59167aa400: Waiting
+f01ad9a87a28: Pulling fs layer
+4a654a9b63a6: Waiting
+1b86ab1977b8: Pulling fs layer
+f01ad9a87a28: Waiting
+0b8d31181a57: Pulling fs layer
+f1d15ef41206: Pulling fs layer
+464929ef8fa3: Pulling fs layer
+e1de3dc9ea75: Pulling fs layer
+1b86ab1977b8: Waiting
+0b8d31181a57: Waiting
+f1d15ef41206: Waiting
+e1de3dc9ea75: Waiting
+464929ef8fa3: Waiting
+9e59167aa400: Verifying Checksum
+9e59167aa400: Download complete
+d155c15b7553: Verifying Checksum
+4a654a9b63a6: Verifying Checksum
+4a654a9b63a6: Download complete
+8a1e25ce7c4f: Verifying Checksum
+8a1e25ce7c4f: Download complete
+1b86ab1977b8: Download complete
+0b8d31181a57: Verifying Checksum
+0b8d31181a57: Download complete
+464929ef8fa3: Verifying Checksum
+464929ef8fa3: Download complete
+e1de3dc9ea75: Download complete
+8a1e25ce7c4f: Pull complete
+1103112ebfc4: Pull complete
+f1d15ef41206: Verifying Checksum
+f1d15ef41206: Download complete
+f01ad9a87a28: Verifying Checksum
+f01ad9a87a28: Download complete
+d155c15b7553: Pull complete
+9e59167aa400: Pull complete
+4a654a9b63a6: Pull complete
+f01ad9a87a28: Pull complete
+1b86ab1977b8: Pull complete
+0b8d31181a57: Pull complete
+f1d15ef41206: Pull complete
+464929ef8fa3: Pull complete
+e1de3dc9ea75: Pull complete
+Digest: sha256:2bb315e40ea502b4f47ebf1f93561ef88280d251bdc6f394578c63d90e1825d7
+Status: Image is up to date for ganler/evalplus:v0.2.1
+
+0it [00:00, ?it/s]
+1it [00:00,  6.99it/s]
+164it [00:00, 973.89it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  1%|          | 1/164 [00:00<00:30,  5.39it/s]
+  4%|▎         | 6/164 [00:00<00:10, 15.45it/s]
+  6%|▌         | 10/164 [00:00<00:07, 21.77it/s]
+  8%|▊         | 13/164 [00:00<00:12, 12.12it/s]
+ 10%|▉         | 16/164 [00:02<00:27,  5.47it/s]
+ 11%|█         | 18/164 [00:05<01:20,  1.81it/s]
+ 12%|█▏        | 19/164 [00:05<01:11,  2.03it/s]
+ 12%|█▏        | 20/164 [00:05<01:01,  2.34it/s]
+ 13%|█▎        | 21/164 [00:06<00:55,  2.59it/s]
+ 13%|█▎        | 22/164 [00:06<00:47,  2.98it/s]
+ 15%|█▍        | 24/164 [00:06<00:34,  4.06it/s]
+ 15%|█▌        | 25/164 [00:06<00:31,  4.46it/s]
+ 17%|█▋        | 28/164 [00:06<00:20,  6.75it/s]
+ 18%|█▊        | 29/164 [00:06<00:19,  7.10it/s]
+ 18%|█▊        | 30/164 [00:07<00:18,  7.19it/s]
+ 20%|█▉        | 32/164 [00:07<00:21,  6.16it/s]
+ 21%|██        | 34/164 [00:07<00:18,  7.10it/s]
+ 22%|██▏       | 36/164 [00:08<00:20,  6.24it/s]
+ 23%|██▎       | 37/164 [00:08<00:21,  5.78it/s]
+ 23%|██▎       | 38/164 [00:08<00:25,  5.03it/s]
+ 24%|██▍       | 39/164 [00:08<00:24,  5.05it/s]
+ 24%|██▍       | 40/164 [00:08<00:22,  5.40it/s]
+ 26%|██▌       | 43/164 [00:09<00:16,  7.34it/s]
+ 27%|██▋       | 45/164 [00:09<00:14,  7.97it/s]
+ 28%|██▊       | 46/164 [00:09<00:15,  7.74it/s]
+ 29%|██▉       | 48/164 [00:09<00:11,  9.87it/s]
+ 30%|███       | 50/164 [00:09<00:11, 10.21it/s]
+ 32%|███▏      | 53/164 [00:09<00:08, 13.40it/s]
+ 34%|███▎      | 55/164 [00:10<00:08, 13.31it/s]
+ 35%|███▌      | 58/164 [00:10<00:08, 12.05it/s]
+ 37%|███▋      | 60/164 [00:10<00:08, 11.65it/s]
+ 38%|███▊      | 62/164 [00:10<00:09, 10.55it/s]
+ 39%|███▉      | 64/164 [00:11<00:10,  9.78it/s]
+ 41%|████      | 67/164 [00:11<00:09, 10.67it/s]
+ 42%|████▏     | 69/164 [00:11<00:08, 10.93it/s]
+ 43%|████▎     | 71/164 [00:11<00:07, 12.16it/s]
+ 45%|████▍     | 73/164 [00:11<00:07, 12.72it/s]
+ 46%|████▌     | 75/164 [00:11<00:06, 14.14it/s]
+ 47%|████▋     | 77/164 [00:11<00:05, 15.01it/s]
+ 48%|████▊     | 79/164 [00:12<00:05, 14.73it/s]
+ 50%|█████     | 82/164 [00:12<00:04, 16.60it/s]
+ 51%|█████     | 84/164 [00:12<00:04, 17.02it/s]
+ 52%|█████▏    | 86/164 [00:12<00:05, 14.87it/s]
+ 54%|█████▍    | 89/164 [00:12<00:04, 17.98it/s]
+ 55%|█████▌    | 91/164 [00:12<00:04, 17.03it/s]
+ 57%|█████▋    | 93/164 [00:12<00:05, 13.25it/s]
+ 58%|█████▊    | 95/164 [00:13<00:05, 12.02it/s]
+ 59%|█████▉    | 97/164 [00:13<00:06,  9.82it/s]
+ 60%|██████    | 99/164 [00:13<00:06,  9.83it/s]
+ 62%|██████▏   | 101/164 [00:13<00:06,  9.92it/s]
+ 63%|██████▎   | 104/164 [00:14<00:04, 12.05it/s]
+ 65%|██████▌   | 107/164 [00:14<00:03, 14.52it/s]
+ 66%|██████▋   | 109/164 [00:14<00:03, 14.54it/s]
+ 68%|██████▊   | 111/164 [00:14<00:03, 14.29it/s]
+ 69%|██████▉   | 113/164 [00:14<00:03, 14.37it/s]
+ 70%|███████   | 115/164 [00:14<00:04, 10.71it/s]
+ 72%|███████▏  | 118/164 [00:14<00:03, 14.12it/s]
+ 73%|███████▎  | 120/164 [00:15<00:03, 12.71it/s]
+ 74%|███████▍  | 122/164 [00:15<00:03, 13.41it/s]
+ 76%|███████▌  | 124/164 [00:17<00:11,  3.38it/s]
+ 79%|███████▊  | 129/164 [00:17<00:06,  5.34it/s]
+ 81%|████████  | 133/164 [00:17<00:04,  7.52it/s]
+ 83%|████████▎ | 136/164 [00:17<00:03,  9.24it/s]
+ 84%|████████▍ | 138/164 [00:17<00:02,  9.96it/s]
+ 85%|████████▌ | 140/164 [00:18<00:02, 10.40it/s]
+ 87%|████████▋ | 142/164 [00:18<00:02, 10.50it/s]
+ 88%|████████▊ | 144/164 [00:18<00:01, 11.08it/s]
+ 89%|████████▉ | 146/164 [00:21<00:08,  2.22it/s]
+ 90%|████████▉ | 147/164 [00:21<00:07,  2.27it/s]
+ 91%|█████████▏| 150/164 [00:21<00:03,  3.55it/s]
+ 93%|█████████▎| 153/164 [00:21<00:02,  5.19it/s]
+ 95%|█████████▌| 156/164 [00:21<00:01,  7.19it/s]
+ 97%|█████████▋| 159/164 [00:22<00:00,  8.96it/s]
+ 99%|█████████▉| 162/164 [00:22<00:00, 11.23it/s]
+100%|██████████| 164/164 [00:26<00:00,  6.23it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_False_humaneval_to_eval_unparsed-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 32.85s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.543
+humaneval+ (base + extra tests)
+pass@1:	0.482
+
+
+0it [00:00, ?it/s]
+128it [00:00, 1145.24it/s]
+164it [00:00, 1418.36it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  2%|▏         | 3/164 [00:00<00:05, 29.89it/s]
+  5%|▍         | 8/164 [00:00<00:03, 41.10it/s]
+  8%|▊         | 13/164 [00:00<00:04, 31.19it/s]
+ 10%|█         | 17/164 [00:00<00:10, 14.05it/s]
+ 13%|█▎        | 22/164 [00:01<00:07, 19.42it/s]
+ 16%|█▌        | 26/164 [00:01<00:06, 22.37it/s]
+ 19%|█▉        | 31/164 [00:01<00:05, 24.11it/s]
+ 21%|██▏       | 35/164 [00:01<00:04, 26.19it/s]
+ 24%|██▍       | 39/164 [00:01<00:07, 16.38it/s]
+ 26%|██▌       | 42/164 [00:02<00:09, 13.50it/s]
+ 27%|██▋       | 44/164 [00:02<00:11, 10.83it/s]
+ 28%|██▊       | 46/164 [00:02<00:10, 11.41it/s]
+ 29%|██▉       | 48/164 [00:02<00:09, 11.83it/s]
+ 30%|███       | 50/164 [00:03<00:09, 12.36it/s]
+ 32%|███▏      | 52/164 [00:03<00:08, 13.05it/s]
+ 34%|███▎      | 55/164 [00:03<00:06, 16.18it/s]
+ 35%|███▍      | 57/164 [00:03<00:07, 15.02it/s]
+ 37%|███▋      | 60/164 [00:03<00:06, 16.30it/s]
+ 39%|███▉      | 64/164 [00:03<00:04, 20.58it/s]
+ 41%|████▏     | 68/164 [00:03<00:04, 22.52it/s]
+ 44%|████▍     | 72/164 [00:04<00:03, 25.38it/s]
+ 48%|████▊     | 78/164 [00:04<00:02, 32.22it/s]
+ 50%|█████     | 82/164 [00:04<00:02, 34.07it/s]
+ 52%|█████▏    | 86/164 [00:04<00:02, 31.66it/s]
+ 55%|█████▍    | 90/164 [00:04<00:02, 32.95it/s]
+ 57%|█████▋    | 94/164 [00:04<00:02, 27.95it/s]
+ 60%|█████▉    | 98/164 [00:04<00:02, 22.55it/s]
+ 62%|██████▏   | 101/164 [00:05<00:02, 21.69it/s]
+ 63%|██████▎   | 104/164 [00:05<00:02, 20.79it/s]
+ 65%|██████▌   | 107/164 [00:05<00:02, 22.31it/s]
+ 67%|██████▋   | 110/164 [00:05<00:02, 21.36it/s]
+ 70%|██████▉   | 114/164 [00:05<00:02, 23.67it/s]
+ 71%|███████▏  | 117/164 [00:05<00:01, 25.04it/s]
+ 74%|███████▍  | 121/164 [00:05<00:01, 27.71it/s]
+ 76%|███████▌  | 124/164 [00:06<00:04,  8.75it/s]
+ 79%|███████▊  | 129/164 [00:07<00:03, 10.37it/s]
+ 82%|████████▏ | 134/164 [00:07<00:02, 13.96it/s]
+ 84%|████████▎ | 137/164 [00:07<00:02, 13.39it/s]
+ 85%|████████▌ | 140/164 [00:07<00:01, 14.70it/s]
+ 87%|████████▋ | 143/164 [00:07<00:01, 15.97it/s]
+ 89%|████████▉ | 146/164 [00:08<00:01, 17.22it/s]
+ 91%|█████████ | 149/164 [00:08<00:00, 19.32it/s]
+ 93%|█████████▎| 152/164 [00:08<00:00, 18.55it/s]
+ 96%|█████████▌| 157/164 [00:08<00:00, 22.89it/s]
+ 99%|█████████▉| 163/164 [00:10<00:00,  6.12it/s]
+100%|██████████| 164/164 [00:12<00:00, 13.08it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_False_mbpp_to_eval_unparsed-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+
+Unable to find image 'ganler/evalplus:v0.2.1' locally
+v0.2.1: Pulling from ganler/evalplus
+8a1e25ce7c4f: Pulling fs layer
+1103112ebfc4: Pulling fs layer
+d155c15b7553: Pulling fs layer
+9e59167aa400: Pulling fs layer
+4a654a9b63a6: Pulling fs layer
+f01ad9a87a28: Pulling fs layer
+1b86ab1977b8: Pulling fs layer
+0b8d31181a57: Pulling fs layer
+9e59167aa400: Waiting
+1103112ebfc4: Download complete
+4a654a9b63a6: Waiting
+f01ad9a87a28: Waiting
+1b86ab1977b8: Waiting
+f1d15ef41206: Pulling fs layer
+464929ef8fa3: Pulling fs layer
+0b8d31181a57: Waiting
+e1de3dc9ea75: Pulling fs layer
+464929ef8fa3: Waiting
+e1de3dc9ea75: Waiting
+f1d15ef41206: Waiting
+9e59167aa400: Verifying Checksum
+9e59167aa400: Download complete
+d155c15b7553: Verifying Checksum
+d155c15b7553: Download complete
+4a654a9b63a6: Verifying Checksum
+4a654a9b63a6: Download complete
+8a1e25ce7c4f: Download complete
+1b86ab1977b8: Download complete
+0b8d31181a57: Verifying Checksum
+0b8d31181a57: Download complete
+464929ef8fa3: Verifying Checksum
+464929ef8fa3: Download complete
+e1de3dc9ea75: Verifying Checksum
+e1de3dc9ea75: Download complete
+8a1e25ce7c4f: Pull complete
+1103112ebfc4: Pull complete
+f1d15ef41206: Verifying Checksum
+f1d15ef41206: Download complete
+f01ad9a87a28: Verifying Checksum
+f01ad9a87a28: Download complete
+d155c15b7553: Pull complete
+9e59167aa400: Pull complete
+4a654a9b63a6: Pull complete
+f01ad9a87a28: Pull complete
+1b86ab1977b8: Pull complete
+0b8d31181a57: Pull complete
+f1d15ef41206: Pull complete
+464929ef8fa3: Pull complete
+e1de3dc9ea75: Pull complete
+Digest: sha256:2bb315e40ea502b4f47ebf1f93561ef88280d251bdc6f394578c63d90e1825d7
+Status: Downloaded newer image for ganler/evalplus:v0.2.1
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_True_mbpp_to_eval-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_False_mbpp_to_eval-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 29.56s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.537
+humaneval+ (base + extra tests)
+pass@1:	0.457
+
+
+0it [00:00, ?it/s]
+1it [00:00,  8.32it/s]
+164it [00:00, 1024.64it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  4%|▎         | 6/164 [00:00<00:04, 38.00it/s]
+  6%|▌         | 10/164 [00:00<00:07, 21.61it/s]
+ 10%|▉         | 16/164 [00:01<00:11, 12.51it/s]
+ 13%|█▎        | 21/164 [00:01<00:08, 16.77it/s]
+ 15%|█▍        | 24/164 [00:01<00:08, 17.19it/s]
+ 17%|█▋        | 28/164 [00:01<00:07, 19.01it/s]
+ 19%|█▉        | 31/164 [00:01<00:06, 19.85it/s]
+ 21%|██        | 34/164 [00:01<00:07, 16.66it/s]
+ 22%|██▏       | 36/164 [00:02<00:09, 13.82it/s]
+ 23%|██▎       | 38/164 [00:02<00:13,  9.58it/s]
+ 24%|██▍       | 40/164 [00:03<00:16,  7.64it/s]
+ 26%|██▌       | 42/164 [00:03<00:15,  7.71it/s]
+ 26%|██▌       | 43/164 [00:03<00:15,  7.64it/s]
+ 27%|██▋       | 45/164 [00:03<00:13,  8.56it/s]
+ 29%|██▉       | 48/164 [00:03<00:10, 11.35it/s]
+ 30%|███       | 50/164 [00:03<00:09, 11.52it/s]
+ 32%|███▏      | 52/164 [00:04<00:09, 11.89it/s]
+ 34%|███▍      | 56/164 [00:04<00:06, 16.78it/s]
+ 35%|███▌      | 58/164 [00:04<00:07, 13.41it/s]
+ 37%|███▋      | 60/164 [00:04<00:07, 14.22it/s]
+ 38%|███▊      | 63/164 [00:04<00:07, 13.90it/s]
+ 40%|███▉      | 65/164 [00:04<00:07, 13.81it/s]
+ 41%|████▏     | 68/164 [00:05<00:06, 14.39it/s]
+ 44%|████▍     | 72/164 [00:05<00:05, 16.01it/s]
+ 46%|████▋     | 76/164 [00:05<00:05, 17.58it/s]
+ 49%|████▉     | 80/164 [00:05<00:04, 18.65it/s]
+ 51%|█████     | 83/164 [00:05<00:03, 20.74it/s]
+ 52%|█████▏    | 86/164 [00:05<00:03, 20.54it/s]
+ 54%|█████▍    | 89/164 [00:06<00:03, 20.36it/s]
+ 56%|█████▌    | 92/164 [00:06<00:04, 15.12it/s]
+ 58%|█████▊    | 95/164 [00:06<00:04, 16.95it/s]
+ 59%|█████▉    | 97/164 [00:07<00:06,  9.92it/s]
+ 60%|██████    | 99/164 [00:07<00:07,  8.15it/s]
+ 63%|██████▎   | 103/164 [00:07<00:05, 10.41it/s]
+ 64%|██████▍   | 105/164 [00:07<00:05, 10.52it/s]
+ 66%|██████▋   | 109/164 [00:08<00:04, 12.62it/s]
+ 68%|██████▊   | 111/164 [00:08<00:04, 13.05it/s]
+ 70%|██████▉   | 114/164 [00:08<00:03, 13.78it/s]
+ 71%|███████   | 116/164 [00:08<00:03, 14.33it/s]
+ 72%|███████▏  | 118/164 [00:08<00:03, 15.18it/s]
+ 73%|███████▎  | 120/164 [00:08<00:03, 12.99it/s]
+ 75%|███████▌  | 123/164 [00:11<00:17,  2.41it/s]
+ 79%|███████▉  | 130/164 [00:12<00:07,  4.43it/s]
+ 82%|████████▏ | 134/164 [00:12<00:05,  5.56it/s]
+ 83%|████████▎ | 136/164 [00:12<00:04,  6.10it/s]
+ 85%|████████▍ | 139/164 [00:12<00:03,  7.53it/s]
+ 86%|████████▌ | 141/164 [00:13<00:02,  7.86it/s]
+ 87%|████████▋ | 143/164 [00:13<00:02,  8.31it/s]
+ 89%|████████▉ | 146/164 [00:14<00:02,  6.81it/s]
+ 90%|████████▉ | 147/164 [00:14<00:02,  6.01it/s]
+ 91%|█████████ | 149/164 [00:14<00:02,  7.01it/s]
+ 93%|█████████▎| 152/164 [00:14<00:01,  8.18it/s]
+ 95%|█████████▍| 155/164 [00:14<00:00,  9.66it/s]
+ 97%|█████████▋| 159/164 [00:15<00:00, 12.81it/s]
+ 98%|█████████▊| 161/164 [00:15<00:00, 13.69it/s]
+ 99%|█████████▉| 163/164 [00:15<00:00, 12.94it/s]
+100%|██████████| 164/164 [00:19<00:00,  8.55it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_True_humaneval_to_eval-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 29.74s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.494
+humaneval+ (base + extra tests)
+pass@1:	0.427
+
+
+0it [00:00, ?it/s]
+1it [00:00,  7.76it/s]
+164it [00:00, 815.69it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  2%|▏         | 3/164 [00:00<00:06, 23.37it/s]
+  5%|▌         | 9/164 [00:00<00:03, 40.77it/s]
+  9%|▊         | 14/164 [00:00<00:06, 23.07it/s]
+ 10%|█         | 17/164 [00:01<00:13, 10.51it/s]
+ 13%|█▎        | 21/164 [00:01<00:11, 12.73it/s]
+ 15%|█▍        | 24/164 [00:01<00:11, 12.64it/s]
+ 17%|█▋        | 28/164 [00:01<00:08, 15.52it/s]
+ 20%|█▉        | 32/164 [00:01<00:07, 18.20it/s]
+ 21%|██▏       | 35/164 [00:02<00:06, 18.46it/s]
+ 23%|██▎       | 38/164 [00:02<00:08, 14.72it/s]
+ 24%|██▍       | 40/164 [00:02<00:09, 12.89it/s]
+ 26%|██▌       | 42/164 [00:02<00:10, 11.57it/s]
+ 27%|██▋       | 44/164 [00:03<00:09, 12.02it/s]
+ 28%|██▊       | 46/164 [00:03<00:10, 11.51it/s]
+ 29%|██▉       | 48/164 [00:03<00:10, 11.36it/s]
+ 31%|███       | 51/164 [00:03<00:07, 14.54it/s]
+ 34%|███▎      | 55/164 [00:03<00:06, 16.20it/s]
+ 35%|███▌      | 58/164 [00:03<00:06, 15.34it/s]
+ 37%|███▋      | 60/164 [00:04<00:07, 14.57it/s]
+ 38%|███▊      | 62/164 [00:04<00:07, 13.07it/s]
+ 39%|███▉      | 64/164 [00:04<00:08, 11.43it/s]
+ 40%|████      | 66/164 [00:04<00:08, 12.05it/s]
+ 42%|████▏     | 69/164 [00:04<00:06, 14.94it/s]
+ 44%|████▍     | 72/164 [00:04<00:05, 16.59it/s]
+ 45%|████▌     | 74/164 [00:05<00:05, 17.00it/s]
+ 46%|████▋     | 76/164 [00:05<00:05, 16.99it/s]
+ 48%|████▊     | 78/164 [00:05<00:05, 16.63it/s]
+ 49%|████▉     | 80/164 [00:05<00:05, 15.73it/s]
+ 50%|█████     | 82/164 [00:05<00:05, 15.96it/s]
+ 52%|█████▏    | 85/164 [00:05<00:04, 17.69it/s]
+ 53%|█████▎    | 87/164 [00:05<00:04, 16.29it/s]
+ 55%|█████▍    | 90/164 [00:06<00:04, 15.92it/s]
+ 56%|█████▌    | 92/164 [00:06<00:05, 12.82it/s]
+ 57%|█████▋    | 94/164 [00:06<00:07,  9.19it/s]
+ 59%|█████▊    | 96/164 [00:06<00:07,  9.02it/s]
+ 60%|█████▉    | 98/164 [00:07<00:08,  8.09it/s]
+ 61%|██████    | 100/164 [00:07<00:06,  9.21it/s]
+ 62%|██████▏   | 102/164 [00:07<00:07,  8.73it/s]
+ 64%|██████▍   | 105/164 [00:07<00:05, 11.46it/s]
+ 65%|██████▌   | 107/164 [00:07<00:05, 11.23it/s]
+ 67%|██████▋   | 110/164 [00:08<00:04, 12.41it/s]
+ 68%|██████▊   | 112/164 [00:08<00:03, 13.36it/s]
+ 70%|███████   | 115/164 [00:08<00:04, 12.05it/s]
+ 73%|███████▎  | 119/164 [00:08<00:03, 14.04it/s]
+ 74%|███████▍  | 121/164 [00:08<00:03, 13.91it/s]
+ 76%|███████▌  | 124/164 [00:11<00:13,  3.00it/s]
+ 79%|███████▉  | 130/164 [00:12<00:07,  4.56it/s]
+ 81%|████████  | 133/164 [00:12<00:05,  5.74it/s]
+ 82%|████████▏ | 135/164 [00:12<00:04,  6.10it/s]
+ 84%|████████▍ | 138/164 [00:12<00:03,  7.20it/s]
+ 85%|████████▌ | 140/164 [00:12<00:03,  7.37it/s]
+ 87%|████████▋ | 142/164 [00:13<00:02,  7.66it/s]
+ 88%|████████▊ | 144/164 [00:13<00:02,  7.56it/s]
+ 88%|████████▊ | 145/164 [00:14<00:04,  4.66it/s]
+ 89%|████████▉ | 146/164 [00:14<00:03,  4.96it/s]
+ 91%|█████████ | 149/164 [00:14<00:02,  7.33it/s]
+ 93%|█████████▎| 153/164 [00:14<00:01, 10.70it/s]
+ 95%|█████████▍| 155/164 [00:14<00:00, 11.98it/s]
+ 96%|█████████▌| 157/164 [00:14<00:00, 12.15it/s]
+ 98%|█████████▊| 160/164 [00:14<00:00, 15.06it/s]
+ 99%|█████████▉| 163/164 [00:15<00:00, 10.07it/s]
+100%|██████████| 164/164 [00:18<00:00,  8.66it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_True_mbpp_to_eval_unparsed-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_False_mbpp_to_eval-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 29.65s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.482
+humaneval+ (base + extra tests)
+pass@1:	0.433
+
+
+0it [00:00, ?it/s]
+1it [00:00,  7.12it/s]
+164it [00:00, 915.35it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  1%|          | 1/164 [00:00<00:16,  9.76it/s]
+  5%|▍         | 8/164 [00:00<00:04, 38.50it/s]
+  7%|▋         | 12/164 [00:00<00:07, 20.45it/s]
+  9%|▉         | 15/164 [00:01<00:18,  7.86it/s]
+ 10%|█         | 17/164 [00:01<00:22,  6.44it/s]
+ 13%|█▎        | 21/164 [00:02<00:15,  9.14it/s]
+ 15%|█▍        | 24/164 [00:02<00:13, 10.67it/s]
+ 17%|█▋        | 28/164 [00:02<00:10, 13.46it/s]
+ 20%|█▉        | 32/164 [00:02<00:08, 15.97it/s]
+ 22%|██▏       | 36/164 [00:02<00:07, 18.13it/s]
+ 24%|██▍       | 39/164 [00:02<00:06, 18.40it/s]
+ 26%|██▌       | 42/164 [00:03<00:06, 18.21it/s]
+ 27%|██▋       | 45/164 [00:03<00:06, 18.34it/s]
+ 29%|██▉       | 48/164 [00:03<00:06, 18.41it/s]
+ 31%|███       | 51/164 [00:03<00:06, 16.95it/s]
+ 33%|███▎      | 54/164 [00:03<00:05, 18.73it/s]
+ 35%|███▌      | 58/164 [00:03<00:05, 20.88it/s]
+ 37%|███▋      | 61/164 [00:04<00:05, 20.36it/s]
+ 39%|███▉      | 64/164 [00:04<00:05, 18.80it/s]
+ 41%|████      | 67/164 [00:04<00:05, 18.32it/s]
+ 43%|████▎     | 71/164 [00:04<00:04, 21.82it/s]
+ 45%|████▌     | 74/164 [00:04<00:03, 22.62it/s]
+ 47%|████▋     | 77/164 [00:04<00:03, 22.90it/s]
+ 49%|████▉     | 80/164 [00:04<00:03, 22.70it/s]
+ 51%|█████     | 83/164 [00:05<00:04, 20.22it/s]
+ 52%|█████▏    | 86/164 [00:05<00:03, 21.69it/s]
+ 54%|█████▍    | 89/164 [00:05<00:03, 22.81it/s]
+ 56%|█████▌    | 92/164 [00:05<00:03, 20.24it/s]
+ 58%|█████▊    | 95/164 [00:05<00:03, 19.08it/s]
+ 59%|█████▉    | 97/164 [00:05<00:04, 15.92it/s]
+ 60%|██████    | 99/164 [00:06<00:04, 15.91it/s]
+ 62%|██████▏   | 101/164 [00:06<00:04, 14.22it/s]
+ 63%|██████▎   | 103/164 [00:06<00:04, 14.83it/s]
+ 64%|██████▍   | 105/164 [00:06<00:03, 15.50it/s]
+ 66%|██████▌   | 108/164 [00:06<00:03, 18.55it/s]
+ 68%|██████▊   | 112/164 [00:06<00:02, 22.19it/s]
+ 70%|███████   | 115/164 [00:06<00:02, 23.65it/s]
+ 73%|███████▎  | 119/164 [00:06<00:01, 27.17it/s]
+ 74%|███████▍  | 122/164 [00:06<00:01, 27.69it/s]
+ 76%|███████▌  | 125/164 [00:07<00:04,  8.94it/s]
+ 79%|███████▊  | 129/164 [00:08<00:03,  8.82it/s]
+ 80%|████████  | 132/164 [00:08<00:02, 10.81it/s]
+ 82%|████████▏ | 135/164 [00:08<00:02, 12.32it/s]
+ 84%|████████▎ | 137/164 [00:08<00:02, 12.97it/s]
+ 85%|████████▍ | 139/164 [00:08<00:01, 13.34it/s]
+ 86%|████████▌ | 141/164 [00:08<00:01, 14.11it/s]
+ 88%|████████▊ | 145/164 [00:09<00:01, 18.53it/s]
+ 90%|█████████ | 148/164 [00:09<00:00, 18.10it/s]
+ 92%|█████████▏| 151/164 [00:09<00:00, 18.05it/s]
+ 95%|█████████▍| 155/164 [00:09<00:00, 22.51it/s]
+ 97%|█████████▋| 159/164 [00:09<00:00, 26.22it/s]
+ 99%|█████████▉| 162/164 [00:09<00:00, 26.30it/s]
+100%|██████████| 164/164 [00:13<00:00, 11.84it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_False_humaneval_to_eval-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_False_cot_False_humaneval_to_eval-sanitized.jsonl humaneval
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 28.58s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.537
+humaneval+ (base + extra tests)
+pass@1:	0.463
+
+
+0it [00:00, ?it/s]
+1it [00:00,  7.08it/s]
+164it [00:00, 899.98it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  1%|          | 1/164 [00:00<00:19,  8.38it/s]
+  4%|▎         | 6/164 [00:00<00:05, 29.31it/s]
+  7%|▋         | 12/164 [00:01<00:20,  7.35it/s]
+ 10%|▉         | 16/164 [00:02<00:20,  7.33it/s]
+ 13%|█▎        | 21/164 [00:02<00:13, 10.61it/s]
+ 15%|█▍        | 24/164 [00:02<00:11, 11.69it/s]
+ 17%|█▋        | 28/164 [00:02<00:09, 14.38it/s]
+ 19%|█▉        | 31/164 [00:02<00:08, 15.53it/s]
+ 21%|██        | 34/164 [00:02<00:08, 15.00it/s]
+ 22%|██▏       | 36/164 [00:03<00:10, 12.35it/s]
+ 23%|██▎       | 38/164 [00:03<00:12, 10.23it/s]
+ 24%|██▍       | 40/164 [00:03<00:13,  9.27it/s]
+ 26%|██▌       | 42/164 [00:04<00:14,  8.41it/s]
+ 27%|██▋       | 44/164 [00:04<00:13,  8.60it/s]
+ 28%|██▊       | 46/164 [00:04<00:12,  9.47it/s]
+ 29%|██▉       | 48/164 [00:04<00:11, 10.45it/s]
+ 31%|███       | 51/164 [00:04<00:09, 11.79it/s]
+ 33%|███▎      | 54/164 [00:04<00:07, 13.91it/s]
+ 35%|███▍      | 57/164 [00:04<00:06, 16.13it/s]
+ 36%|███▌      | 59/164 [00:05<00:06, 16.45it/s]
+ 38%|███▊      | 62/164 [00:05<00:05, 19.38it/s]
+ 40%|███▉      | 65/164 [00:05<00:04, 21.45it/s]
+ 41%|████▏     | 68/164 [00:05<00:04, 20.45it/s]
+ 44%|████▍     | 72/164 [00:05<00:03, 23.64it/s]
+ 46%|████▋     | 76/164 [00:05<00:03, 27.20it/s]
+ 48%|████▊     | 79/164 [00:05<00:03, 25.78it/s]
+ 50%|█████     | 82/164 [00:05<00:03, 25.37it/s]
+ 52%|█████▏    | 85/164 [00:06<00:03, 24.88it/s]
+ 54%|█████▎    | 88/164 [00:06<00:03, 25.10it/s]
+ 56%|█████▌    | 92/164 [00:06<00:02, 28.34it/s]
+ 58%|█████▊    | 95/164 [00:06<00:03, 22.43it/s]
+ 60%|█████▉    | 98/164 [00:06<00:03, 18.84it/s]
+ 62%|██████▏   | 101/164 [00:07<00:04, 14.91it/s]
+ 63%|██████▎   | 103/164 [00:07<00:03, 15.34it/s]
+ 65%|██████▍   | 106/164 [00:07<00:03, 17.23it/s]
+ 66%|██████▋   | 109/164 [00:07<00:02, 18.62it/s]
+ 69%|██████▉   | 113/164 [00:07<00:02, 23.06it/s]
+ 71%|███████▏  | 117/164 [00:07<00:01, 26.70it/s]
+ 73%|███████▎  | 120/164 [00:07<00:01, 24.92it/s]
+ 76%|███████▌  | 124/164 [00:08<00:04,  8.82it/s]
+ 79%|███████▊  | 129/164 [00:09<00:03, 10.12it/s]
+ 80%|████████  | 132/164 [00:09<00:02, 11.77it/s]
+ 82%|████████▏ | 135/164 [00:09<00:02, 13.03it/s]
+ 84%|████████▎ | 137/164 [00:09<00:01, 13.99it/s]
+ 85%|████████▌ | 140/164 [00:09<00:01, 15.76it/s]
+ 87%|████████▋ | 143/164 [00:09<00:01, 18.07it/s]
+ 89%|████████▉ | 146/164 [00:09<00:00, 19.65it/s]
+ 91%|█████████▏| 150/164 [00:10<00:00, 21.63it/s]
+ 93%|█████████▎| 153/164 [00:10<00:00, 22.64it/s]
+ 95%|█████████▌| 156/164 [00:10<00:00, 21.42it/s]
+ 98%|█████████▊| 160/164 [00:10<00:00, 24.79it/s]
+ 99%|█████████▉| 163/164 [00:12<00:00,  5.33it/s]
+100%|██████████| 164/164 [00:14<00:00, 11.31it/s]
+
+../outputs/algorithm/aae-lora-gpt/temperature_0.0 aave_True_cot_False_mbpp_to_eval_unparsed-sanitized.jsonl mbpp
+/home/mihirathale/projects/aae-dialect-bias-mitigation/redial_dialect_robustness_fairness/outputs/algorithm/aae-lora-gpt/temperature_0.0
+Computing expected output...
+Expected outputs computed in 106.69s
+Reading samples...
+
+
+0it [00:00, ?it/s]
+1it [00:00,  4.86it/s]
+399it [00:00, 1500.84it/s]
+
+  0%|          | 0/399 [00:00<?, ?it/s]
+  0%|          | 1/399 [00:00<00:51,  7.79it/s]
+  2%|▏         | 7/399 [00:00<00:16, 24.28it/s]
+  3%|▎         | 12/399 [00:00<00:12, 31.55it/s]
+  4%|▍         | 16/399 [00:00<00:12, 31.63it/s]
+  5%|▌         | 20/399 [00:00<00:13, 27.32it/s]
+  6%|▌         | 24/399 [00:00<00:13, 28.06it/s]
+  7%|▋         | 27/399 [00:01<00:14, 26.47it/s]
+  8%|▊         | 30/399 [00:01<00:15, 24.57it/s]
+  9%|▊         | 34/399 [00:01<00:13, 26.51it/s]
+  9%|▉         | 37/399 [00:01<00:14, 24.96it/s]
+ 10%|█         | 40/399 [00:01<00:16, 22.13it/s]
+ 11%|█         | 43/399 [00:01<00:16, 21.67it/s]
+ 12%|█▏        | 46/399 [00:01<00:16, 21.82it/s]
+ 12%|█▏        | 49/399 [00:01<00:15, 22.49it/s]
+ 13%|█▎        | 52/399 [00:02<00:16, 21.05it/s]
+ 14%|█▍        | 55/399 [00:02<00:16, 21.27it/s]
+ 15%|█▍        | 58/399 [00:02<00:15, 22.18it/s]
+ 15%|█▌        | 61/399 [00:02<00:15, 21.64it/s]
+ 16%|█▌        | 64/399 [00:02<00:17, 19.36it/s]
+ 17%|█▋        | 67/399 [00:02<00:18, 18.37it/s]
+ 18%|█▊        | 70/399 [00:03<00:18, 17.86it/s]
+ 18%|█▊        | 72/399 [00:03<00:21, 15.49it/s]
+ 19%|█▊        | 74/399 [00:03<00:23, 13.83it/s]
+ 19%|█▉        | 77/399 [00:03<00:22, 14.25it/s]
+ 20%|██        | 80/399 [00:03<00:21, 14.66it/s]
+ 21%|██        | 84/399 [00:04<00:18, 17.23it/s]
+ 22%|██▏       | 88/399 [00:04<00:15, 19.66it/s]
+ 23%|██▎       | 92/399 [00:04<00:14, 21.01it/s]
+ 24%|██▍       | 96/399 [00:04<00:13, 22.17it/s]
+ 25%|██▌       | 100/399 [00:04<00:13, 22.23it/s]
+ 26%|██▋       | 105/399 [00:04<00:12, 23.75it/s]
+ 28%|██▊       | 110/399 [00:05<00:11, 25.14it/s]
+ 29%|██▊       | 114/399 [00:05<00:11, 25.00it/s]
+ 29%|██▉       | 117/399 [00:05<00:10, 25.69it/s]
+ 30%|███       | 120/399 [00:05<00:11, 23.46it/s]
+ 31%|███       | 123/399 [00:05<00:11, 23.68it/s]
+ 32%|███▏      | 126/399 [00:05<00:12, 22.36it/s]
+ 32%|███▏      | 129/399 [00:05<00:11, 23.09it/s]
+ 33%|███▎      | 132/399 [00:06<00:11, 22.29it/s]
+ 34%|███▍      | 135/399 [00:06<00:11, 22.69it/s]
+ 35%|███▍      | 138/399 [00:06<00:13, 19.61it/s]
+ 35%|███▌      | 141/399 [00:06<00:12, 20.75it/s]
+ 36%|███▌      | 144/399 [00:06<00:12, 19.98it/s]
+ 37%|███▋      | 147/399 [00:06<00:11, 21.73it/s]
+ 38%|███▊      | 150/399 [00:06<00:12, 20.24it/s]
+ 39%|███▊      | 154/399 [00:07<00:11, 20.87it/s]
+ 39%|███▉      | 157/399 [00:07<00:10, 22.20it/s]
+ 40%|████      | 160/399 [00:07<00:11, 20.19it/s]
+ 41%|████      | 163/399 [00:07<00:11, 20.68it/s]
+ 42%|████▏     | 166/399 [00:07<00:11, 19.66it/s]
+ 42%|████▏     | 169/399 [00:07<00:10, 21.87it/s]
+ 43%|████▎     | 172/399 [00:07<00:10, 21.54it/s]
+ 44%|████▍     | 175/399 [00:08<00:10, 20.68it/s]
+ 45%|████▍     | 178/399 [00:08<00:11, 19.84it/s]
+ 46%|████▌     | 182/399 [00:08<00:10, 20.78it/s]
+ 47%|████▋     | 186/399 [00:08<00:09, 21.57it/s]
+ 48%|████▊     | 190/399 [00:08<00:09, 22.08it/s]
+ 49%|████▊     | 194/399 [00:09<00:09, 21.33it/s]
+Computing expected output...
+Expected outputs computed in 30.63s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.494
+humaneval+ (base + extra tests)
+pass@1:	0.433
+
+
+0it [00:00, ?it/s]
+1it [00:00,  8.46it/s]
+164it [00:00, 989.79it/s]
+
+  0%|          | 0/164 [00:00<?, ?it/s]
+  4%|▎         | 6/164 [00:00<00:03, 50.51it/s]
+  7%|▋         | 12/164 [00:00<00:03, 38.07it/s]
+ 10%|▉         | 16/164 [00:00<00:09, 15.47it/s]
+ 13%|█▎        | 21/164 [00:00<00:06, 20.98it/s]
+ 15%|█▌        | 25/164 [00:01<00:06, 21.55it/s]
+ 17%|█▋        | 28/164 [00:01<00:05, 22.90it/s]
+ 19%|█▉        | 31/164 [00:01<00:05, 23.74it/s]
+ 21%|██▏       | 35/164 [00:01<00:05, 25.27it/s]
+ 23%|██▎       | 38/164 [00:01<00:05, 22.75it/s]
+ 25%|██▌       | 41/164 [00:01<00:06, 19.37it/s]
+ 27%|██▋       | 44/164 [00:02<00:06, 18.99it/s]
+ 29%|██▊       | 47/164 [00:02<00:06, 17.34it/s]
+ 30%|██▉       | 49/164 [00:02<00:07, 16.07it/s]
+ 31%|███       | 51/164 [00:02<00:07, 15.68it/s]
+ 32%|███▏      | 53/164 [00:02<00:06, 16.07it/s]
+ 34%|███▍      | 56/164 [00:02<00:05, 18.19it/s]
+ 35%|███▌      | 58/164 [00:02<00:06, 16.06it/s]
+ 37%|███▋      | 60/164 [00:03<00:06, 16.74it/s]
+ 38%|███▊      | 62/164 [00:03<00:05, 17.43it/s]
+ 39%|███▉      | 64/164 [00:03<00:06, 15.20it/s]
+ 40%|████      | 66/164 [00:03<00:06, 15.26it/s]
+ 41%|████▏     | 68/164 [00:03<00:06, 15.60it/s]
+ 43%|████▎     | 71/164 [00:03<00:05, 17.01it/s]
+ 45%|████▍     | 73/164 [00:03<00:05, 16.24it/s]
+ 46%|████▌     | 75/164 [00:04<00:05, 15.63it/s]
+ 48%|████▊     | 78/164 [00:04<00:04, 18.46it/s]
+ 50%|█████     | 82/164 [00:04<00:03, 21.56it/s]
+ 52%|█████▏    | 86/164 [00:04<00:03, 24.92it/s]
+ 55%|█████▍    | 90/164 [00:04<00:02, 26.49it/s]
+ 57%|█████▋    | 93/164 [00:04<00:02, 27.07it/s]
+ 59%|█████▊    | 96/164 [00:04<00:02, 23.36it/s]
+ 60%|██████    | 99/164 [00:04<00:03, 21.14it/s]
+ 62%|██████▏   | 102/164 [00:05<00:02, 22.00it/s]
+ 64%|██████▍   | 105/164 [00:05<00:02, 20.39it/s]
+ 66%|██████▌   | 108/164 [00:05<00:02, 20.16it/s]
+ 68%|██████▊   | 111/164 [00:05<00:02, 21.29it/s]
+ 70%|██████▉   | 114/164 [00:05<00:02, 19.90it/s]
+ 74%|███████▍  | 121/164 [00:05<00:01, 26.26it/s]
+ 76%|███████▌  | 124/164 [00:06<00:04,  9.37it/s]
+ 79%|███████▊  | 129/164 [00:07<00:03, 10.30it/s]
+ 82%|████████▏ | 134/164 [00:07<00:02, 13.11it/s]
+ 84%|████████▎ | 137/164 [00:07<00:01, 13.70it/s]
+ 85%|████████▌ | 140/164 [00:07<00:01, 14.36it/s]
+ 87%|████████▋ | 142/164 [00:07<00:01, 14.96it/s]
+ 88%|████████▊ | 144/164 [00:08<00:01, 15.62it/s]
+ 89%|████████▉ | 146/164 [00:08<00:01, 15.73it/s]
+ 90%|█████████ | 148/164 [00:08<00:01, 15.08it/s]
+ 91%|█████████▏| 150/164 [00:08<00:00, 15.16it/s]
+ 93%|█████████▎| 153/164 [00:08<00:00, 18.21it/s]
+ 95%|█████████▌| 156/164 [00:08<00:00, 20.84it/s]
+ 98%|█████████▊| 160/164 [00:08<00:00, 24.93it/s]
+ 99%|█████████▉| 163/164 [00:12<00:00,  2.43it/s]
+100%|██████████| 164/164 [00:14<00:00, 11.21it/s]
+
+Computing expected output...
+Expected outputs computed in 108.14s
+Reading samples...
+
+
+0it [00:00, ?it/s]
+1it [00:00,  3.02it/s]
+399it [00:00, 1007.54it/s]
+
+  0%|          | 0/399 [00:00<?, ?it/s]
+  0%|          | 1/399 [00:00<00:56,  7.08it/s]
+  2%|▏         | 7/399 [00:00<00:17, 22.31it/s]
+  3%|▎         | 13/399 [00:00<00:16, 24.06it/s]
+  5%|▍         | 18/399 [00:00<00:12, 30.21it/s]
+  6%|▌         | 22/399 [00:00<00:12, 29.87it/s]
+  7%|▋         | 26/399 [00:00<00:13, 27.93it/s]
+  8%|▊         | 30/399 [00:01<00:13, 28.01it/s]
+  9%|▉         | 35/399 [00:01<00:15, 23.84it/s]
+ 10%|▉         | 38/399 [00:01<00:15, 23.71it/s]
+ 10%|█         | 41/399 [00:01<00:16, 22.00it/s]
+ 11%|█▏        | 45/399 [00:01<00:15, 23.12it/s]
+ 12%|█▏        | 49/399 [00:01<00:14, 23.64it/s]
+ 13%|█▎        | 53/399 [00:02<00:14, 23.27it/s]
+ 14%|█▍        | 57/399 [00:02<00:14, 23.06it/s]
+ 15%|█▌        | 61/399 [00:02<00:15, 21.63it/s]
+ 16%|█▋        | 65/399 [00:02<00:15, 21.40it/s]
+ 17%|█▋        | 68/399 [00:02<00:16, 20.02it/s]
+ 18%|█▊        | 71/399 [00:03<00:17, 18.45it/s]
+ 18%|█▊        | 73/399 [00:03<00:20, 15.82it/s]
+ 19%|█▉        | 75/399 [00:03<00:20, 16.17it/s]
+ 19%|█▉        | 77/399 [00:03<00:20, 15.53it/s]
+ 20%|██        | 80/399 [00:03<00:20, 15.49it/s]
+ 21%|██        | 83/399 [00:03<00:17, 17.84it/s]
+ 22%|██▏       | 86/399 [00:04<00:17, 17.95it/s]
+ 23%|██▎       | 90/399 [00:04<00:16, 19.09it/s]
+ 24%|██▎       | 94/399 [00:04<00:14, 20.63it/s]
+ 25%|██▍       | 98/399 [00:04<00:13, 21.53it/s]
+ 26%|██▌       | 102/399 [00:04<00:12, 24.64it/s]
+ 26%|██▋       | 105/399 [00:04<00:11, 25.20it/s]
+ 27%|██▋       | 108/399 [00:04<00:12, 23.29it/s]
+ 28%|██▊       | 112/399 [00:05<00:12, 23.34it/s]
+ 29%|██▉       | 115/399 [00:05<00:11, 23.89it/s]
+ 30%|██▉       | 119/399 [00:05<00:12, 22.85it/s]
+ 31%|███       | 122/399 [00:05<00:11, 24.10it/s]
+ 31%|███▏      | 125/399 [00:05<00:13, 20.96it/s]
+ 32%|███▏      | 128/399 [00:05<00:15, 17.70it/s]
+ 33%|███▎      | 132/399 [00:06<00:14, 18.95it/s]
+ 34%|███▍      | 136/399 [00:06<00:13, 19.89it/s]
+ 35%|███▍      | 139/399 [00:06<00:14, 18.31it/s]
+ 36%|███▌      | 142/399 [00:06<00:14, 18.17it/s]
+ 36%|███▋      | 145/399 [00:06<00:13, 18.22it/s]
+ 37%|███▋      | 148/399 [00:07<00:14, 17.21it/s]
+ 38%|███▊      | 150/399 [00:07<00:15, 16.18it/s]
+ 38%|███▊      | 152/399 [00:07<00:16, 14.70it/s]
+ 39%|███▉      | 155/399 [00:07<00:16, 14.57it/s]
+ 40%|███▉      | 159/399 [00:07<00:14, 16.96it/s]
+ 41%|████      | 163/399 [00:07<00:12, 19.18it/s]
+ 42%|████▏     | 167/399 [00:08<00:11, 19.82it/s]
+ 43%|████▎     | 171/399 [00:08<00:11, 20.51it/s]
+ 44%|████▍     | 176/399 [00:08<00:09, 22.57it/s]
+ 45%|████▌     | 181/399 [00:08<00:08, 24.57it/s]
+ 47%|████▋     | 186/399 [00:08<00:08, 26.09it/s]
+ 48%|████▊     | 191/399 [00:09<00:07, 26.91it/s]
+ 49%|████▉     | 195/399 [00:09<00:07, 28.68it/s]
+ 49%|████▉     | 195/399 [00:20<00:07, 28.68it/s]
+ 49%|████▉     | 196/399 [00:20<03:36,  1.07s/it]

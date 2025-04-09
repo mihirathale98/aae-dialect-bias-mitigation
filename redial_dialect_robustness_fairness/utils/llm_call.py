@@ -39,7 +39,7 @@ def get_client():
     #     azure_ad_token_provider=get_bearer_token_provider(token_provider_credential, token_provider_scope),
     #     api_version=api_version,
     # )
-    client = AsyncOpenAI(base_url="https://mihir-athale01--vllm-app-serve.modal.run/v1",
+    client = AsyncOpenAI(base_url="https://mihirathale98--vllm-app-serve.modal.run/v1",
             api_key="super-secret-key",
             )
     return client

@@ -1,0 +1,7 @@
+Computing expected output...
+Expected outputs computed in 112.54s
+Reading samples...
+mbpp (base tests)
+pass@1:	0.236
+mbpp+ (base + extra tests)
+pass@1:	0.195
