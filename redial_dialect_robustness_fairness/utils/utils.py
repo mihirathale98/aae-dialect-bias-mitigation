@@ -347,6 +347,9 @@ def format_save_code_to_eval(outputs: list[dict],
                              function_names: list[str],
                              task_ids: list[str],
                              save_path: str,):
+    print(f"Length of outputs: {len(outputs)}")
+    print(f"Length of task_ids: {len(task_ids)}")
+    print(f"Length of function_names: {len(function_names)}")
     outputs_to_eval = [{'task_id':task_ids[j], 'solution':decode_rephrased_gen(output['parsed_answer'], function_names[j])} for j, output in enumerate(outputs)]
     full_outputs_to_eval = [{'task_id':task_ids[j], 'solution':decode_rephrased_gen(output['response'], function_names[j])} for j, output in enumerate(outputs)]
     write_jsonl(save_path.replace('.json', f'_humaneval_to_eval.jsonl'), outputs_to_eval[:164])
@@ -477,6 +480,7 @@ def eval_save_ans(answers: list[list[str]],
         with open(save_path, 'w') as f:
             json.dump(outputs, f, indent=4)
         if task == 'algorithm':
+            print("Saving code to evaluate...")
             format_save_code_to_eval(outputs=outputs,
                                      function_names=function_names,
                                      save_path=save_path,
@@ -600,14 +604,18 @@ async def eval_general_gpt(client,
         except:
             answers = ['']
         curr_idx = i
+        print("Current index: ", curr_idx)
+
         outputs.extend(eval_save_ans(answers=answers,
                                      prompts=curr_prompts,
                                      gts=gts[i:i+len(curr_prompts)] if gts else None,
                                      original_gts=original_gts[i:i+len(curr_prompts)] if original_gts else None,
                                      data_names=data_names[i:i+len(curr_prompts)],
+                                     function_names=function_names[i:i+len(curr_prompts)],
                                      curr_idx=curr_idx,
+                                     save_path=out_path,
                                      task=task,
-                                     task_ids=task_ids[i+curr_idx:i+curr_idx+len(curr_prompts)] if task_ids else None,))
+                                     task_ids=task_ids[i:i+len(curr_prompts)] if task_ids else None,))
         with open(out_path, 'w') as f:
             json.dump(outputs, f, indent=4)
         with open(os.path.join(out_dir, log_name), 'w') as f:

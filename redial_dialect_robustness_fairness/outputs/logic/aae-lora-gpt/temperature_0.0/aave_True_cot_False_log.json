@@ -13133,5 +13133,264 @@
             "prompt_logprobs": null
         },
         "system_prompt": ""
+    },
+    {
+        "prompt": "If jay decides that he goes for a long walk, he finna have a chance to enjoy some fresh air. In the same light if bruh chooses to chill at home then will be seated on the couch. However, we ain't sure what Jay chooses as we know that atleast one of the following is true: either he takes a long walk or he chills at home. The specific details of which option he chooses is still not known, though we could have that only one of the options is true or both are true. Based on what we got, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. He be playing video games all day\nB. he gets to enjoy the fresh air or he finna sit on the couch\nC. They finna go out to eat at a restaurant \nD. She decides to like go for a swim",
+        "response": {
+            "id": "chatcmpl-9fe3cb271d724b7faa4b2ea7427916ab",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>B. he gets to enjoy the fresh air or he finna sit on the couch</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 23,
+                "prompt_tokens": 202,
+                "total_tokens": 225,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If someone gets in some cardio, their well being might get a boost, ya dig? But if a person be up late at night, they gonna feel worn out the next day. One thing we know fo sho is that either Jack goes for a run and ain't feelin' tired, or he skips the run and ends up feelin' tired. The exact deal is still a mystery. Based on what goin' on, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. he be feeling more tired or he goes to bed late\nB. he finna be more tired or he does to bed early\nC. he finna feel healthier or he dont be staying up late\nD. He wont be feeling healthier or he finna stay up late",
+        "response": {
+            "id": "chatcmpl-ebaf413c8917418fbd3b99445aee0da5",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "The correct answer is C. he finna feel healthier or he dont be staying up late.",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 20,
+                "prompt_tokens": 183,
+                "total_tokens": 203,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "In the animal kingdom, social behavior is strong with all kinds of species. Many animals thrive and feel right at home with their crew, lovin' the bonds they build. But even with all that hustle and bustle, there's always at least one creature who's all about that solo life. This lone animal rolls through the world on its own, lookin' for peace and quiet as its way of livin'. Based on the info, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. there be like only a few animals that really be social like that.\nB. There be exactly one animal that likes moving solo.\nC. Samantha be the only social animal.\nD. There's like several animals that prefer to move solo.",
+        "response": {
+            "id": "chatcmpl-5952ea75868447be9df58c37560c1af9",
+            "choices": [
+                {
+                    "finish_reason": "length",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that prefer to move solo.</s> D. There's like several animals that",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 2048,
+                "prompt_tokens": 177,
+                "total_tokens": 2225,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "In the enchanted forest, the oak tree leaves and pine needles stay green. Usually, you find that green foliage in 'em  woods. But them oak leaves ain't in the woods. And those oak leaves,they got that lobed look goin' on. Based on what we got, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. Them birch leaves be in the woods\nB. Them cherry blossoms be in the woods\nC. Them maple leaves be in the woods\nD. Them pine needles be in the woods",
+        "response": {
+            "id": "chatcmpl-761b2a4415a94134b7f9685a2ad1610a",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>C. Them maple leaves be in the woods</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 15,
+                "prompt_tokens": 138,
+                "total_tokens": 153,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "In a lush graden i caught on to a cluster of crimson apples hanging from a sturdy tree. Er'body knows that apples be like mad red in color. Naturally mos' people think that red fruits be the juiciest. However some different was waiting for me when i plucked a red fruit and took a bite. On the contrary to what we be expecting, this fruit wasnt juicy like how the others be. Based on what goin' on, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. That red fruit that i plucked was mad citrus \nB. Apples in this garden always be lackin' in juiciness \nC. My friend Sarah put me on the fact that apples be juicy\nD. Apples be juicy",
+        "response": {
+            "id": "chatcmpl-8d086a1a5632448f9d2ddd396f159965",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>B</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 7,
+                "prompt_tokens": 182,
+                "total_tokens": 189,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "If a person start reading a book, they will understand what the book be about. In the same way if they finna watch a movie they will for sure get their entertainment vibes on. Its important to note that at least one of 'em statements is true: either john wont be able to catch on the concepts in the book or he wont be able to be entertained by the movie. We cant tell which statements is true and any combination could be possible, it could be that only one statement is true or both are true. However, the specific case remains unknown and can be interpreted anyhow. Based on what we got, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. John watches a movie and don't ' be reading a book\nB. John ain't read a book and ain't watched a movie\nC. John ain't read a book or ain't watch a movie\nD. John reads a book and don't be watching a movie",
+        "response": {
+            "id": "chatcmpl-23eab00bb45b444fa5f599567d79371a",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>C. John ain't read a book or ain't watch a movie</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 20,
+                "prompt_tokens": 220,
+                "total_tokens": 240,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
+    },
+    {
+        "prompt": "Once upon a time cats and em dogs was roaming the world freely, most animals be having fur and are nice to have as pets. Cats unlike other animals, don't be having fur. Dogs on the other hand ain't seen as common pets. Based on the info, what's the best conclusion? Wrap that answer up in <answer></answer> (e.g., <answer>A</answer>).\nA. Cats ain't really seen as pets\nB. Dogs be furry or cats is like seen as pets\nC. dogs don't be having fur\nD. Samantha be liking dogs as pets",
+        "response": {
+            "id": "chatcmpl-d4f198cc4dcd47e08fdb6d7192c8a869",
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                        "content": "<answer>B. Dogs be furry or cats is like seen as pets</answer>",
+                        "refusal": null,
+                        "role": "assistant",
+                        "audio": null,
+                        "function_call": null,
+                        "tool_calls": [],
+                        "reasoning_content": null
+                    },
+                    "stop_reason": null
+                }
+            ],
+            "created": 1744133363,
+            "model": "aae-lora-gpt",
+            "object": "chat.completion",
+            "service_tier": null,
+            "system_fingerprint": null,
+            "usage": {
+                "completion_tokens": 18,
+                "prompt_tokens": 132,
+                "total_tokens": 150,
+                "completion_tokens_details": null,
+                "prompt_tokens_details": null
+            },
+            "prompt_logprobs": null
+        },
+        "system_prompt": ""
     }
 ]

@@ -138,6 +138,10 @@ async def main():
             print(f'model_name: {args.model_name}')
             print(f'dialect: {dia}')
             print(f'prompt length: {len(prompts)}')
+            print("Len of function names: ", len(function_names))
+            print("Len of data names: ", len(data_names))
+            print("Len of task ids: ", len(task_ids))
+            
             
             if args.sae_ablate:
                 prompts = [prompt+' Let\'s rephrase the question in Standard English first then answer it.' for prompt in prompts]

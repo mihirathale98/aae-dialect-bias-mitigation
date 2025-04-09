@@ -1,0 +1,7 @@
+Computing expected output...
+Expected outputs computed in 32.26s
+Reading samples...
+humaneval (base tests)
+pass@1:	0.543
+humaneval+ (base + extra tests)
+pass@1:	0.470

@@ -3038,5 +3038,1765 @@
             0
         ],
         "original_ground_truth": ""
+    },
+    {
+        "task_id": 190,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Winter's around the corner, and most animals be migrating to warmer countries. How many bird families gon be left near the mountain if 3 bird families live near the mountain, 26 new bird families came around to live near the mountain from the arctic, and 2 bird families flew away further south for winter?\nAnswer:",
+        "response": [
+            "<answer>27</answer>"
+        ],
+        "parsed_ground_truth": "27",
+        "parsed_answer": [
+            "27"
+        ],
+        "timestamp": "2025-04-08 13:04:08.015504",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 191,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A book has got 3 chapters in em. How many pages has the book got in total if the first chapter is 66 pages long, the second chapter is 35 pages long, and the third chapter is 24 pages long?\nAnswer:",
+        "response": [
+            "<answer>125</answer>"
+        ],
+        "parsed_ground_truth": "125",
+        "parsed_answer": [
+            "125"
+        ],
+        "timestamp": "2025-04-08 13:04:08.015557",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 192,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Allan brought 2 balloons to the park, and Jake brought 4. How many more balloons has Allan got than Jake if Allan then goes ahead to buy 3 more balloons in the park?\nAnswer:",
+        "response": [
+            "<answer>1</answer>"
+        ],
+        "parsed_ground_truth": "1",
+        "parsed_answer": [
+            "1"
+        ],
+        "timestamp": "2025-04-08 13:04:08.015576",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 193,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Robin cut off 20 inches of his hair. How long was his hair before he cut it if his hair is now 10 inches long?\nAnswer:",
+        "response": [
+            "<answer>30</answer>"
+        ],
+        "parsed_ground_truth": "30",
+        "parsed_answer": [
+            "30"
+        ],
+        "timestamp": "2025-04-08 13:04:08.015586",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 194,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many more kids you reckon Julia played with on Monday than on Wednesday if she played tag with 14 kids on Monday, 2 kids on Tuesday, and 8 kids on Wednesday?\nAnswer:",
+        "response": [
+            "<answer>6</answer>"
+        ],
+        "parsed_ground_truth": "6",
+        "parsed_answer": [
+            "6"
+        ],
+        "timestamp": "2025-04-08 13:04:08.015595",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 195,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. How many wrappers you reckon he initially had if all he's got now are 16 bottle caps and 68 wrappers in his collection?\nAnswer:",
+        "response": [
+            "Let's start by using the information given in the problem. Danny has 16 bottle caps and 68 wrappers in his collection. He also found 66 wrappers and 39 bottle caps at the park. So, he must have had 68 - 66 = 2 wrappers and 16 - 39 = -23 bottle caps initially. Since you can't have a negative number of bottle caps, we can conclude that Danny must have had 0 bottle caps initially. Therefore, the answer is: <answer>0</answer>."
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            "0"
+        ],
+        "timestamp": "2025-04-08 13:04:12.644445",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 196,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many pencils you reckon Faye's got if she's been placing her pencils into 14 rows with 11 pencils in each row?\nAnswer:",
+        "response": [
+            "<answer>154</answer>"
+        ],
+        "parsed_ground_truth": "154",
+        "parsed_answer": [
+            "154"
+        ],
+        "timestamp": "2025-04-08 13:04:12.644469",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 197,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Frank was reading through some books. How many pages you think he reads daily if each book has got 249 pages and it took Frank 3 days to finish each book?\nAnswer:",
+        "response": [
+            "<answer>249 * 3 = 747</answer>"
+        ],
+        "parsed_ground_truth": "83",
+        "parsed_answer": [
+            "249"
+        ],
+        "timestamp": "2025-04-08 13:04:12.644481",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 198,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Say we got 26 children riding on the bus. How many children gon be on the bus if 38 more children got on the bus at the bus station?\nAnswer:",
+        "response": [
+            "<answer>64</answer>"
+        ],
+        "parsed_ground_truth": "64",
+        "parsed_answer": [
+            "64"
+        ],
+        "timestamp": "2025-04-08 13:04:12.644489",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 199,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many emails you think Jack received in the morning and the evening if he received 3 emails in the morning, 4 in the afternoon, and 8 in the evening?\nAnswer:",
+        "response": [
+            "<answer>15</answer>"
+        ],
+        "parsed_ground_truth": "11",
+        "parsed_answer": [
+            "15"
+        ],
+        "timestamp": "2025-04-08 13:04:12.644496",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 200,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Mary is about to bake a cake. The recipe requires 3 cups of sugar and 10 cups of flour. She already put in some cups of flour. How many cups of flour did she put in if she still needs 5 more cups of flour than sugar?\nAnswer:",
+        "response": [
+            "Mary needs 5 more cups of flour than sugar, and she needs 3 cups of sugar. So she needs 3 + 5 = 8 cups of flour. Since she already put in some cups of flour, she has 10 - 8 = 2 cups of flour left."
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:15.379981",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 201,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Being his favorite thing to do, he left checking on the grapevines for his final stop. How many drums of grapes you reckon gon be filled in 77 days if 235 of the pickers told him that they fill 100 drums of raspberries and 221 drums of grapes daily?\nAnswer:",
+        "response": [
+            "<answer> 17,555 </answer>"
+        ],
+        "parsed_ground_truth": "17017",
+        "parsed_answer": [
+            "17555"
+        ],
+        "timestamp": "2025-04-08 13:04:15.380018",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 202,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Winter is around the corner, and most animals be migrating to warmer countries. Say we got 41 bird families living near the mountain. How many more bird families flew away to Africa than those that flew away to Asia if 35 bird families flew away to Asia and 62 bird families flew away to Africa?\nAnswer:",
+        "response": [
+            "<answer>27</answer>"
+        ],
+        "parsed_ground_truth": "27",
+        "parsed_answer": [
+            "27"
+        ],
+        "timestamp": "2025-04-08 13:04:15.380029",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 203,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: The vase got 21 roses in em. Jessica threw 34 roses away from the vase and cut some more new roses from her flower garden to put in the vase. How many more roses you reckon she threw away than those she cut from her garden if the vase's now got 15 roses in em?\nAnswer:",
+        "response": [
+            "<answer>19</answer>"
+        ],
+        "parsed_ground_truth": "6",
+        "parsed_answer": [
+            "19"
+        ],
+        "timestamp": "2025-04-08 13:04:15.380037",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 204,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Ryan spends 6 hours learning English and 5 hours learning Chinese daily. How many hours you think he spends in total on learning English if he learns for 2 days?\nAnswer:",
+        "response": [
+            "Ryan spends 6 hours learning English each day. So in 2 days, he spends 6 * 2 = 12 hours learning English."
+        ],
+        "parsed_ground_truth": "12",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:15.380046",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 205,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Allan brought 5 balloons with em. How many balloons you reckon Jake brought to the park if Allan and Jake brought 6 balloons in total to the park?\nAnswer:",
+        "response": [
+            "<answer>1</answer>"
+        ],
+        "parsed_ground_truth": "1",
+        "parsed_answer": [
+            "1"
+        ],
+        "timestamp": "2025-04-08 13:04:24.045434",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 206,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Say we got 8 different books and 10 different movies in the crazy silly school series. How many more movies than books is there gon be in the crazy silly school series if you read 19 books and watched 61 movies?\nAnswer:",
+        "response": [
+            "Let's start by calculating the number of books and movies read/watched. Since you read 19 books and there are 8 books in total, you have read 19/8 = 2.375 times the total number of books. Since you watched 61 movies and there are 10 movies in total, you have watched 61/10 = 6.1 times the total number of movies.\n\nNow, let's calculate the difference between the number of movies and books read/watched. The number of movies read/watched is 6.1 times the total number of movies, which is 6.1 * 10 = 61. The number of books read is 2.375 times the total number of books, which is 2.375 * 8 = 19. So, the difference between the number of movies and books read is 61 - 19 = 42.\n\nTherefore, there are 42 more movies than books read in the crazy silly school series."
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:24.045468",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 207,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Nell collects cards. She had 438 baseball cards and 18 Ace cards. How many more baseball cards than Ace cards has Nell got if she gave some of her cards to Jeff and all she's got left now are 55 Ace cards and 178 baseball cards?\nAnswer:",
+        "response": [
+            "<answer>178 - 55 = 123</answer>"
+        ],
+        "parsed_ground_truth": "123",
+        "parsed_answer": [
+            "178"
+        ],
+        "timestamp": "2025-04-08 13:04:24.045481",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 208,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: After they done ate a hearty meal they went to see the Buckingham palace. There, Rachel found out 705 visitors been to the Buckingham palace that day. If there was 191 visitors the previous day and 457 visitors the day before that How many mo' visitors been visitin' the Buckingham palace on that day than they been on the previous 245 days?\nAnswer:",
+        "response": [
+            "<answer> 257 </answer>"
+        ],
+        "parsed_ground_truth": "57",
+        "parsed_answer": [
+            "257"
+        ],
+        "timestamp": "2025-04-08 13:04:24.045491",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 209,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Adam could fit around 8 action figures and 10 cabinets on each shelf in his room. His room has got 4 shelves. How many items in total you reckon his shelves gon' hold if his room has got 4 shelves?\nAnswer:",
+        "response": [
+            "<answer>32</answer>"
+        ],
+        "parsed_ground_truth": "72",
+        "parsed_answer": [
+            "32"
+        ],
+        "timestamp": "2025-04-08 13:04:24.045498",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 210,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: The Razorback shop makes 192 dollars off each t-shirt and 34 dollars off each jersey. How much more you reckon a t-shirt costs than the jersey if during the Arkansas and Texas Tech game they sold 157 t-shirts and 19 jerseys?\nAnswer:",
+        "response": [
+            "Let's calculate the total revenue from t-shirts and jerseys. The revenue from t-shirts is 192 x 157 = 30,144. The revenue from jerseys is 34 x 19 = 646. The difference between the revenue from t-shirts and jerseys is 30,144 - 646 = 29,498. So, the t-shirt costs 29,498 more than the jersey."
+        ],
+        "parsed_ground_truth": "158",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:27.541084",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 211,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Baker made 144 cakes. He sold 71 of them. How many more cakes you reckon the baker made than those he sold after he then goes ahead to make 111 more cakes?\nAnswer:",
+        "response": [
+            "<answer>64</answer>"
+        ],
+        "parsed_ground_truth": "184",
+        "parsed_answer": [
+            "64"
+        ],
+        "timestamp": "2025-04-08 13:04:27.541112",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 212,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many more bottles of diet soda than regular soda you reckon they got in a grocery store if they got 22 bottles of regular soda and 61 bottles of diet soda?\nAnswer:",
+        "response": [
+            "<answer>39</answer>"
+        ],
+        "parsed_ground_truth": "39",
+        "parsed_answer": [
+            "39"
+        ],
+        "timestamp": "2025-04-08 13:04:27.541123",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 213,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A farmer has 175 tomatoes and 77 potatoes in his garden. How many tomatoes and potatoes has he got left if he picked 172 potatoes?\nAnswer:",
+        "response": [
+            "<answer>43</answer>"
+        ],
+        "parsed_ground_truth": "80",
+        "parsed_answer": [
+            "43"
+        ],
+        "timestamp": "2025-04-08 13:04:27.541131",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 214,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: David did 51 push-ups in gym class today. How many push-ups did Zachary and David do in total if David did 49 push-ups more than Zachary?\nAnswer:",
+        "response": [
+            "<answer>100</answer>"
+        ],
+        "parsed_ground_truth": "53",
+        "parsed_answer": [
+            "100"
+        ],
+        "timestamp": "2025-04-08 13:04:27.541138",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 215,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: He then went ahead see the oranges getting harvested. He realized they'd harvested 56 sacks of oranges. How many sacks you think they harvested daily if they harvested for a total of 14 days?\nAnswer:",
+        "response": [
+            "<answer>4</answer>"
+        ],
+        "parsed_ground_truth": "4",
+        "parsed_answer": [
+            "4"
+        ],
+        "timestamp": "2025-04-08 13:04:28.184745",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 216,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paco had 9 sweet cookies and 6 salty cookies with em. How many salty cookies you reckon Paco got left if he ate 36 sweet cookies and 3 salty cookies?\nAnswer:",
+        "response": [
+            "<answer>3</answer>"
+        ],
+        "parsed_ground_truth": "3",
+        "parsed_answer": [
+            "3"
+        ],
+        "timestamp": "2025-04-08 13:04:28.184770",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 217,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion:  How much is gon cost to buy 33 packs of dvds if each pack goes for 81 dollars?\nAnswer:",
+        "response": [
+            "<answer>2,683</answer>"
+        ],
+        "parsed_ground_truth": "2673",
+        "parsed_answer": [
+            "2683"
+        ],
+        "timestamp": "2025-04-08 13:04:28.184780",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 218,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Say we got 11 baskets of peaches. How many peaches in total is there gon be in the baskets if each basket has got 10 red peaches and 18 green peaches in em?\nAnswer:",
+        "response": [
+            "<answer>220</answer>"
+        ],
+        "parsed_ground_truth": "308",
+        "parsed_answer": [
+            "220"
+        ],
+        "timestamp": "2025-04-08 13:04:28.184788",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 219,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: The Ferris wheel in paradise park has got 3 small seats and 7 large seats. How many people can ride the ferris wheel on large seats if each small seat can hold 16 people and large seat can only hold 12 people?\nAnswer:",
+        "response": [
+            "<answer>84</answer>"
+        ],
+        "parsed_ground_truth": "84",
+        "parsed_answer": [
+            "84"
+        ],
+        "timestamp": "2025-04-08 13:04:28.184796",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 220,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many more girls than boys does a school have if the school's got 569 girls and 236 boys?\nAnswer:",
+        "response": [
+            "<answer>333</answer>"
+        ],
+        "parsed_ground_truth": "333",
+        "parsed_answer": [
+            "333"
+        ],
+        "timestamp": "2025-04-08 13:04:33.988920",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 221,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Bobby ate 33 pieces of candy. He then ate 4 more. He also ate 14 pieces of chocolate. How many pieces of candy and chocolate you reckon Bobby ate in total?\nAnswer:",
+        "response": [
+            "<BODY>33 + 4 + 14 = 51</BODY>"
+        ],
+        "parsed_ground_truth": "51",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:33.988997",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 222,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Dan has $4. How much he got left after he bought 10 candy bars for a total of $3, with each one costing an equal amount of money?\nAnswer:",
+        "response": [
+            "<answer>$1</answer>"
+        ],
+        "parsed_ground_truth": "1",
+        "parsed_answer": [
+            "1"
+        ],
+        "timestamp": "2025-04-08 13:04:33.989028",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 223,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Josh had 19 marbles in his collection. How many marbles does he have now after losing 11 marbles and finding 5 new ones?\nAnswer:",
+        "response": [
+            "<answer>13</answer>"
+        ],
+        "parsed_ground_truth": "13",
+        "parsed_answer": [
+            "13"
+        ],
+        "timestamp": "2025-04-08 13:04:33.989045",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 224,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Dan has $5. How much money you reckon he spent to buy chocolate than he did to buy candy bars if he got a candy bar for $2 and a chocolate bar for $3?\nAnswer:",
+        "response": [
+            "Let's break it down step by step. Dan has $5. He spent some money on chocolate bars and some on candy bars. Let's say he spent x dollars on chocolate bars and y dollars on candy bars. We know that x + y = 5, since he spent a total of $5. We also know that x = 3 (since each chocolate bar costs $3) and y = 2 (since each candy bar costs $2). So, we can substitute these values into the equation: 3 + 2 = 5. This means that Dan spent $3 on chocolate bars and $2 on candy bars."
+        ],
+        "parsed_ground_truth": "1",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:33.989060",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 225,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many more kids stayed home compared to those that went camping if 202958 kids from Lawrence county go camping and the other 777622 kids stay home during the summer holiday.?\nAnswer:",
+        "response": [
+            "<answer>575664</answer>"
+        ],
+        "parsed_ground_truth": "574664",
+        "parsed_answer": [
+            "575664"
+        ],
+        "timestamp": "2025-04-08 13:04:37.943431",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 226,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: He then went to see the oranges getting harvested. How many days is it gon take to harvest 80 sacks of oranges when he realized they harvest 16 sacks per day and that each sack's got 57 oranges in em?\nAnswer:",
+        "response": [
+            "<answer>5</answer>"
+        ],
+        "parsed_ground_truth": "5",
+        "parsed_answer": [
+            "5"
+        ],
+        "timestamp": "2025-04-08 13:04:37.943456",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 227,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Ed had 2 more marbles than Doug. Doug lost some of his marbles at the playground.  How many marbles did Doug lose if Ed's now got 19 more marbles than him?\nAnswer:",
+        "response": [
+            "Let's start by saying that Ed has x marbles and Doug has x-2 marbles. Since Ed has 19 more marbles than Doug, we can set up the equation x = x-2 + 19. Simplifying the equation, we get x = 21. Since Doug has x-2 marbles, he has 21-2 = 19 marbles. So, Doug lost 2 marbles."
+        ],
+        "parsed_ground_truth": "17",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:37.943468",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 228,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paco had 25 cookies with em. He ate 5 of them. He then bought 3 more cookies. How many more cookies you reckon he ate than those he bought?\nAnswer:",
+        "response": [
+            "<answer>2</answer>"
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            "2"
+        ],
+        "timestamp": "2025-04-08 13:04:37.943477",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 229,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Jake has got 7 fewer peaches than Steven and 9 more than Jill. How many peaches has Jake got if Steve got 16 peaches?\nAnswer:",
+        "response": [
+            "Jake has 16 + 9 - 7 = 18 peaches."
+        ],
+        "parsed_ground_truth": "9",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:37.943485",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 230,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: One meatball sub sandwich be containin' 4 meatballs. Sidney done order 3 less than ten meatball sub sandwiches. Then Mark done eat 4 of Sidney meatball sub sandwiches. So Sidney finna order another three of 'em sub sandwiches. How many of 'em meatballs done be in the sub sandwiches that be remainin'?\nAnswer:",
+        "response": [
+            "Let's break it down step by step!\n\nSidney orders 10 - 3 = 7 meatball sub sandwiches. Mark eats 4 of them, so Sidney has 7 - 4 = 3 left. Sidney orders 3 more, so now Sidney has 3 + 3 = 6 meatball sub sandwiches.\n\nEach meatball sub sandwich contains 4 meatballs, so the total number of meatballs remaining is 6 x 4 = 24.\n\nSo, the answer is: <answer>24</answer>"
+        ],
+        "parsed_ground_truth": "24",
+        "parsed_answer": [
+            "24"
+        ],
+        "timestamp": "2025-04-08 13:04:42.826274",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "3 less than ten meatball sub sandwiches is 10-3=<<10-3=7>>7 sub sandwiches.\nAfter Mark ate 4 of Sidney's meatball sub sandwiches, 7-4=<<7-4=3>>3 remained.\nFinally, after Sidney ordered three more sub sandwiches, there were a total of 3+3=<<3+3=6>>6 sub sandwiches.\nIf each sub sandwich has 4 meatballs, then the remaining sub sandwiches contain a total of 6*4=<<6*4=24>>24 meatballs.\n#### 24"
+    },
+    {
+        "task_id": 231,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Keegan done run a car wash with his homie Tashay raisin' money fo' a baseball camp. They be needin' to raise $200 fo' 'em two. By 3 pm, Keegan done earn $83 and Tasha $91. How much mo' they be needin' to earn that gin' make 'em reach they goal?\nAnswer:",
+        "response": [
+            "<answer>$26</answer>"
+        ],
+        "parsed_ground_truth": "26",
+        "parsed_answer": [
+            "26"
+        ],
+        "timestamp": "2025-04-08 13:04:42.826313",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "They have raised $174 because 83 plus 91 equals <<83+91=174>>174.\nThey need to raise $26 more because 200 minus 174 equals 26.\n#### 26"
+    },
+    {
+        "task_id": 232,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Billie rectangular bedroom area be 360 square feet. If his room length be 3 yards, what the perimeter of the room gon' be in feet?\nAnswer:",
+        "response": [
+            "<answer>24</answer>"
+        ],
+        "parsed_ground_truth": "98",
+        "parsed_answer": [
+            "24"
+        ],
+        "timestamp": "2025-04-08 13:04:42.826323",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "The length of the room is 3 yards * (3 feet / 1 yard) = <<3*(3/1)=9>>9 feet.\nThe width of the room is 360 square feet / 9 feet = <<360/9=40>>40 feet.\nThe room's perimeter is 2(40+9) = 98\n#### 98"
+    },
+    {
+        "task_id": 233,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Deandre done catch 3 tunas last Monday, the first tuna he done catch be weighin' 56 kilograms, the second tuna be weighin' 46 kilograms, and the last tuna weighin' 26 kilograms. If a kilogram of tuna be costin' $0.50, how much he finna be earnin' after he done sel all 'em tunas to the market?\nAnswer:",
+        "response": [
+            "<answer> $132.00 </answer>"
+        ],
+        "parsed_ground_truth": "64",
+        "parsed_answer": [
+            "132.00"
+        ],
+        "timestamp": "2025-04-08 13:04:42.826337",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Deandre will earn 56 x $0.50 = $<<56*0.5=28>>28 from the first tuna.\nHe will earn 46 x $0.50 = $<<46*0.5=23>>23 for the second tuna.\nAnd he will earn 26 x $0.50 = $<<26*0.5=13>>13 from the third tuna.\nTherefore, the total amount he will earn for all the tunas is $28 + $23 + $13= $<<28+23+13=64>>64.\n#### 64"
+    },
+    {
+        "task_id": 234,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A plague hit ten people. Every day, each infected person be spreadin' it to six others mo'. How many of 'em folks be infected after three days?\nAnswer:",
+        "response": [
+            "<answer> 10 * (1 + 6)^3 = 10 * 7^3 = 10 * 343 = 3430</answer>"
+        ],
+        "parsed_ground_truth": "3430",
+        "parsed_answer": [
+            "10"
+        ],
+        "timestamp": "2025-04-08 13:04:42.826351",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "On the first day, the original ten people infect six people each, so 10 * 6 = <<10*6=60>>60 more people are infected.\nThere are 10 + 60 = <<10+60=70>>70 infected people after the first day.\nOn the second day, 70 * 6 = <<70*6=420>>420 more people are infected.\nThere are 70 + 420 = <<70+420=490>>490 infected people after the second day.\nOn the third day, 490 * 6 = 2940 more people are infected. Therefore, there are 490 + 2940 = 3430 infected people after three days.\n#### 3430"
+    },
+    {
+        "task_id": 235,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Jay be makin' snowballs preparing fo' a snowball fight with his sis. He been able to build 20 snowballs an hour, but 2 done melt every 15 minutes. How long it finna be takin' before he got 60 snowballs?\nAnswer:",
+        "response": [
+            "<answer>2 hours</answer>"
+        ],
+        "parsed_ground_truth": "5",
+        "parsed_answer": [
+            "2"
+        ],
+        "timestamp": "2025-04-08 13:04:46.204087",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Every hour, Jay makes 20 snowballs.\nAt the same time, each hour 2 * 60/15 = <<2*60/15=8>>8 snowballs melt.\nThis means that each hour, Jay ends up with 20 \u2013 8 = <<20-8=12>>12 more snowballs.\nIt will take Jay 60 / 12 = <<60/12=5>>5 hours to create enough snowballs.\n#### 5"
+    },
+    {
+        "task_id": 236,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Aight, James done decide he buyin' birthday candles fo' his two kids. One of 'em 12 and the other be 4 years younger. A pack of 5 candles be costin' $3. How much James be spendin' on candles?\nAnswer:",
+        "response": [
+            "<answer> $6 </answer>"
+        ],
+        "parsed_ground_truth": "12",
+        "parsed_answer": [
+            "6"
+        ],
+        "timestamp": "2025-04-08 13:04:46.204120",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "His younger son is 12-4=<<12-4=8>>8 years old\nSo he needs 12+8=<<12+8=20>>20 candles\nThat means he needs 20/5=<<20/5=4>>4 packs of candles\nThe total cost of those is 4*3=$<<4*3=12>>12\n#### 12"
+    },
+    {
+        "task_id": 237,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Martha been collectin' shells since she been 5 years old, every month she done collect one shell. By the time she hit 10, how many shells Martha finna collect?\nAnswer:",
+        "response": [
+            "<answer>5</answer>"
+        ],
+        "parsed_ground_truth": "60",
+        "parsed_answer": [
+            "5"
+        ],
+        "timestamp": "2025-04-08 13:04:46.204135",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "In 12 months of the year, Martha collects 12 * 1 = <<12*1=12>>12 shells.\nFrom her 5th to her 10th birthday, 10 - 5 = <<10-5=5>>5 years have passed.\nDuring the 5 years that have passed, Martha has collected 12 * 5 = <<12*5=60>>60 shells.\n#### 60"
+    },
+    {
+        "task_id": 238,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Matteo been cruisin' 55 miles per hour fo' 4 hours. Shandy done cruise 45 miles per hour fo' 10 hours. How many miles mo' Shandy been drivin' than Matteo?\nAnswer:",
+        "response": [
+            "<answer> 50 miles </answer>"
+        ],
+        "parsed_ground_truth": "230",
+        "parsed_answer": [
+            "50"
+        ],
+        "timestamp": "2025-04-08 13:04:46.204149",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Matteo = 55 * 4 = <<55*4=220>>220 miles\nShandy = 45 * 10 = <<45*10=450>>450 miles\n450 - 220 = <<450-220=230>>230 miles\nShandy drove 230 miles farther than Matteo.\n#### 230"
+    },
+    {
+        "task_id": 239,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A fruit vendor copped 50 watermelons fo' $80. He done sell 'em all with 25% profit. How much each watermelon be sold fo'?\nAnswer:",
+        "response": [
+            "Let's solve the problem. The vendor bought 50 watermelons for $80, so the cost of each watermelon is $80 / 50 = $1.60. He sold them all with a 25% profit, so the selling price of each watermelon is $1.60 x 1.25 = $2.00."
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:46.204164",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "The fruit vendor's profit for the 50 watermelons was $80 x 25/100 = $<<80*25/100=20>>20.\nSo, he was able to sell them all for $80 + $20 = $<<80+20=100>>100.\nThus, the vendor sold each watermelon for $100/$50 = $<<100/50=2>>2 each.\n#### 2"
+    },
+    {
+        "task_id": 240,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Each graham crackers sleeve been makin' the base of 8 large smores. They be 3 sleeves in a box. If 9 kids be wantin'  2 smores apiece and 6 adults gon' eat 1 smore apiece, how many boxes of 'em graham crackers they gon' need ?\nAnswer:",
+        "response": [
+            "<answer> 12 </answer>"
+        ],
+        "parsed_ground_truth": "1",
+        "parsed_answer": [
+            "12"
+        ],
+        "timestamp": "2025-04-08 13:04:59.547603",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Each sleeve makes 8 smores and there are 3 sleeves in a box so a box can make 8*3 = <<8*3=24>>24 smores\nThere are 9 kids who will eat 2 smores a piece so they will eat 9*2 = <<9*2=18>>18 smores\nThere are 6 adults who will eat 1 smore a piece so they will eat 6*1 = <<6*1=6>>6 smores\nTogether the kids will eat 18 and the adults will eat 6 so 18+6 = <<18+6=24>>24 smores\nEach box makes 24 smores and together the kids and adults will eat 24 s'mores so they will need 24/24 = <<24/24=1>>1 box of graham crackers\n#### 1"
+    },
+    {
+        "task_id": 241,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Jimmy got $2 mo' than twice what Ethel got. If Ethel got $8, how much money Jimmy be havin'?\nAnswer:",
+        "response": [
+            "Jimmy got 2 more than twice what Ethel got. If Ethel got $8, then Jimmy got 2 more than 2 x $8. 2 x $8 = $16, and 2 more than that is $18. So Jimmy got $18. <answer>$18</answer>"
+        ],
+        "parsed_ground_truth": "18",
+        "parsed_answer": [
+            "18"
+        ],
+        "timestamp": "2025-04-08 13:04:59.547644",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "The total amount of money jimmy has 2*$8 = $<<2*8=16>>16 more than Ethel.\nIf Jimmy has $2 more than twice the money Ethel has, he has 2+16 = $<<2+16=18>>18\n#### 18"
+    },
+    {
+        "task_id": 242,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: John done sign up fo' a cookin' class. The class meetin' 4 times a week fo' 2 hours each session, and it gon' run 6 weeks. If he pick up a new recipe every 1.5 hours of class time, how many recipes he be learnin'?\nAnswer:",
+        "response": [
+            "<answer>8</answer>"
+        ],
+        "parsed_ground_truth": "32",
+        "parsed_answer": [
+            "8"
+        ],
+        "timestamp": "2025-04-08 13:04:59.547659",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "He is in class for 4*2=<<4*2=8>>8 hours per week\nSo he takes classes for 8*6=<<8*6=48>>48 hours\nThat means he learned 48/1.5=<<48/1.5=32>>32 recipes\n#### 32"
+    },
+    {
+        "task_id": 243,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Ram been usin' a lot of pens. He figured he can be savin' cash by mixin' the ink from five empty pen makin' one full pen. If he buyin' 25 pens and then been using 'em to make new pens when the ink been running low, how many pens he be havin' in total?\nAnswer:",
+        "response": [
+            "<answer>20</answer>"
+        ],
+        "parsed_ground_truth": "31",
+        "parsed_answer": [
+            "20"
+        ],
+        "timestamp": "2025-04-08 13:04:59.547672",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "He can make 5 pens when the 25 run low because 25 / 5 = <<25/5=5>>5\nHe can make 1 pen when the ink in the re-made pens runs low because 5 / 1 = <<5/1=5>>5\nHe will have 31 total pens because 25 + 5 + 1 = <<25+5+1=31>>31\n#### 31"
+    },
+    {
+        "task_id": 244,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Four kids been playin' together\u0097Akbar, Alessandro, Helene, and Wilfred. Helene twice as old as the average group age, and the total age of all 'em be 20. If Akbar 3 years old and Alessandro 4, you finna calculate Wilfred age.\nAnswer:",
+        "response": [
+            "Let's start by calculating the average age of the group. Since Helene is twice as old as the average group age, we can set up an equation:\n\nHelene's age = 2 x (average group age)\n\nWe know that the total age of all four kids is 20, so we can set up another equation:\n\nAkbar's age + Alessandro's age + Helene's age + Wilfred's age = 20\n\nWe also know that Akbar is 3 years old and Alessandro is 4 years old, so we can substitute these values into the equation:\n\n3 + 4 + Helene's age + Wilfred's age = 20\n\nCombine like terms:\n\n7 + Helene's age + Wilfred's age = 20\n\nSubtract 7 from both sides:\n\nHelene's age + Wilfred's age = 13\n\nNow we can substitute Helene's age into the first equation:\n\n2 x (average group age) + Wilfred's age = 13\n\nDivide both sides by 2:\n\nAverage group age = 6.5\n\nSince Helene is twice as old as the average group age, we can calculate her age:\n\nHelene's age = 2 x 6.5 = 13\n\nNow we can find Wilfred's age by subtracting Helene's age from the total age of the group:\n\nWilfred's age = 20 - (3 + 4 + 13) = 20 - 20 = 0\n\nSo Wilfred is 0 years old."
+        ],
+        "parsed_ground_truth": "3",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:04:59.547691",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "If the combined age of the children is 20, the average age of the group is 20 years / 4 = <<20/4=5>>5 years.\nHelene is twice as old as the group's average age, meaning Helene is 2 * 5 years = <<2*5=10>>10 years old.\nThe total age of the three children is 10 years + 3 years + 4 years = <<10+3+4=17>>17 years.\nWilfred's age is 20 years - 17 years = <<20-17=3>>3 years.\n#### 3"
+    },
+    {
+        "task_id": 245,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Amy got two eyeshadow palettes with four colors each and three makeup sets that done come with six eyeshadow colors each. Her sis done steal one of 'em palettes. Amy been usin' up half the colors from one makeup set. How many eyeshadow colors she be havin' left?\nAnswer:",
+        "response": [
+            "<answer>10</answer>"
+        ],
+        "parsed_ground_truth": "19",
+        "parsed_answer": [
+            "10"
+        ],
+        "timestamp": "2025-04-08 13:05:03.678638",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Amy had 2 * 4 + 3 * 6 = 8 + 18 = <<2*4+3*6=26>>26 eyeshadow colors to start.\nHer sister stole one palette of 4 colors, leaving Amy with 26 - 4 = <<26-4=22>>22 colors.\nHalf the colors from one makeup set are 6 / 2 = <<6/2=3>>3 colors.\nThus, Amy has 22 - 3 = <<22-3=19>>19 eyeshadow colors left.\n#### 19"
+    },
+    {
+        "task_id": 246,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A small sunflower got 3 dozen seeds and a large sun flower got 50% mo' seeds than a small sunflower be havin'. How many sunflower seeds be there in total?\nAnswer:",
+        "response": [
+            "Let's start by finding the number of seeds in the small sunflower. 3 dozen seeds is equal to 3 x 12 = 36 seeds. The large sunflower has 50% more seeds than the small sunflower, so it has 36 + 36 x 0.5 = 54 seeds. The total number of seeds is 36 + 54 = 90. So, the answer is: <answer>90</answer>."
+        ],
+        "parsed_ground_truth": "90",
+        "parsed_answer": [
+            "90"
+        ],
+        "timestamp": "2025-04-08 13:05:03.678669",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "The small sunflower has 3 x 12 = <<3*12=36>>36 seeds.\nThe large sunflower has 36 x 50% = <<36*50*.01=18>>18 more seeds than the small sunflower.\nThe large sunflower has 36 + 18 = <<36+18=54>>54 seeds.\nTogether, the two sunflowers have a total of 36 + 54 = <<36+54=90>>90 seeds.\n#### 90"
+    },
+    {
+        "task_id": 247,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Greta and Celinda been bakin' cookies. Greta bakin' 30 cookies and Celinda done bake twice as many. If they finna eat 10 of the cookies while they coolin' and be puttin' the rest in a box. How many cookies be in the box?\nAnswer:",
+        "response": [
+            "<answer>40</answer>"
+        ],
+        "parsed_ground_truth": "80",
+        "parsed_answer": [
+            "40"
+        ],
+        "timestamp": "2025-04-08 13:05:03.678681",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Celinda bakes 30 cookies * 2 = <<30*2=60>>60 cookies.\nSo in total, Celinda and Greta bakes a total of 30 + 60 = <<30+60=90>>90 cookies.\nAfter eating some of the cookies, they have 90 baked cookies \u2013 10 eaten cookies = <<90-10=80>>80 cookies in the box.\n#### 80"
+    },
+    {
+        "task_id": 248,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: David and Dasha done go to the carnival, where they be 9 rides. Each ride be costin' 2 ride tickets at $2 per ticket. You can also be byuin' a ride bracelet fo' $30 that gon' be coverin' 9 rides. If David done buy a ride bracelet and Dasha byuin' tickets, and they finna ride 9 rides, how much money David gon' save?\nAnswer:",
+        "response": [
+            "<answer>$12</answer>"
+        ],
+        "parsed_ground_truth": "6",
+        "parsed_answer": [
+            "12"
+        ],
+        "timestamp": "2025-04-08 13:05:03.678693",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Each ride cost 2 x $2 = $<<2*2=4>>4.\nAll 9 rides cost $4 x 9 = $<<4*9=36>>36.\nBy bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.\n#### 6"
+    },
+    {
+        "task_id": 249,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paul be drivin' a car twice a day: in the morning, and in the afternoon. He done do that fo' 14 days. Each morning ride be costin' him about $6, and each afternoon ride costin' about $2. How much money he been spendin' on drivin' his car during 'em two weeks?\nAnswer:",
+        "response": [
+            "<answer> $98</answer>"
+        ],
+        "parsed_ground_truth": "112",
+        "parsed_answer": [
+            "98"
+        ],
+        "timestamp": "2025-04-08 13:05:03.678770",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Paul's morning rides cost him 14 * 6 = $<<14*6=84>>84.\nDriving in the afternoon, on the other hand, was a cost of 14 * 2 = $<<14*2=28>>28.\nSo in total Paul spend on driving 84 + 28 = $<<84+28=112>>112.\n#### 112"
+    },
+    {
+        "task_id": 250,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Gretchen has 110 coins, right? She got 30 more gold coins than silver coins. So  how many gold coins she got?\nAnswer:",
+        "response": [
+            "Let's solve the problem! Since Gretchen has 30 more gold coins than silver coins, we can set up an equation:\n\nG = S + 30\n\nWhere G is the number of gold coins and S is the number of silver coins.\n\nWe know that Gretchen has 110 coins in total, so we can set up another equation:\n\nG + S = 110\n\nSubstituting the first equation into the second equation, we get:\n\n(S + 30) + S = 110\n\nCombine like terms:\n\n2S + 30 = 110\n\nSubtract 30 from both sides:\n\n2S = 80\n\nDivide both sides by 2:\n\nS = 40\n\nNow we can find the number of gold coins:\n\nG = S + 30\nG = 40 + 30\nG = 70\n\nSo Gretchen has 70 gold coins!"
+        ],
+        "parsed_ground_truth": "70",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:11.482184",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Let x be the number of silver coins Gretchen has\nGretchen has x+30 gold coins.\nx+x+30=110\n2*x=80\nx=<<40=40>>40\nGretchen has 40+30=<<40+30=70>>70 gold coins\n#### 70"
+    },
+    {
+        "task_id": 251,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: So check it out, John's tryna save some cash. He makes $2 an hour, works 5 hours a day, 4 days a week. If he wants to stash away $80, how many weeks it gonna take him? \nAnswer:",
+        "response": [
+            "<answer>10</answer>"
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            "10"
+        ],
+        "timestamp": "2025-04-08 13:05:11.482271",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "He gets paid 2*5=$<<2*5=10>>10 a day.\nSo he gets paid 10*4=$<<10*4=40>>40 a week.\nThat means it would take 80/40=<<80/40=2>>2 weeks to save up the money.\n#### 2"
+    },
+    {
+        "task_id": 252,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: There be 1000 students in the school hall. The hall got 3 entrances A, B, and C that done served as the exits. If after a meeting 30% of 'em students bailed out the building thru exit A, 3/5 of 'em remanining students done gone out thru exit B, and the rest thru exit C, you finna calculate how many of 'em students done gone out thru exit C.\nAnswer:",
+        "response": [
+            "<answer>400</answer>"
+        ],
+        "parsed_ground_truth": "280",
+        "parsed_answer": [
+            "400"
+        ],
+        "timestamp": "2025-04-08 13:05:11.482290",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "The number of students who went out through exit A is 30/100%1000 = 300 students.\nThe number of students who didn't use exit A is 1000-300 = <<1000-300=700>>700\n3/5 of the students used exit B, a total of 3/5*700 = <<3/5*700=420>>420 students.\nIf 420 of the remaining students who didn't use exit A used exit B, the number who used exit C is 700-420 = 280 students.\n#### 280"
+    },
+    {
+        "task_id": 253,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Listen up, the total cost of filling up 20 helium balloons was $900. Two days later, cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if went to fill them after the price increase?\nAnswer:",
+        "response": [
+            "<answer> $1,400</answer>"
+        ],
+        "parsed_ground_truth": "11050",
+        "parsed_answer": [
+            "1400"
+        ],
+        "timestamp": "2025-04-08 13:05:11.482302",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45\nTwo days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65\nIf Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.\n#### 11050"
+    },
+    {
+        "task_id": 254,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: If two thirds of Jana's pips are promeranians, and a third of those are girls, and she got 6 promeranian girls, how many puppies Jana got in the total?\nAnswer:",
+        "response": [
+            "Let's start by identifying the given information. Two-thirds of Jana's puppies are promeranians, and a third of those are girls. This means that 2/3 * 1/3 = 2/9 of Jana's puppies are girls. Since Jana has 6 promeranian girls, we can set up the equation:\n\n2/9 * x = 6\n\nTo solve for x, we can multiply both sides by 9:\n\n2x = 54\n\nDividing both sides by 2 gives us:\n\nx = 27\n\nSo Jana has 27 puppies in total."
+        ],
+        "parsed_ground_truth": "27",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:11.482312",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Jana has 6*3=<<6*3=18>>18 Pomeranians.\nJana has 18/2*3=<<18/2*3=27>>27 puppies.\n#### 27"
+    },
+    {
+        "task_id": 255,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Every month, Madeline gotta buy food, treats, and medicine for her dog. Food's $25 a week. Treats cost $20 a month. Medicine's costs $100 a month. How much money does Madeline spend on her dog in a year if there are 4 weeks in a month?\nAnswer:",
+        "response": [
+            "<answer>$1,600</answer>"
+        ],
+        "parsed_ground_truth": "2640",
+        "parsed_answer": [
+            "1600"
+        ],
+        "timestamp": "2025-04-08 13:05:18.841753",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Madeline spends$25*4=$<<25*4=100>>100 on food for her dog per month.\nShe spends $100+$20+$100=$<<100+20+100=220>>220 on her dog per month.\nShe will spend $220*12=$<<220*12=2640>>2640 on her dog per year\n#### 2640"
+    },
+    {
+        "task_id": 256,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Seven bottles of soda costin' $21.00 while 4 bottles of water be costin' $8. If David wanna buy 3 bottles of soda and 2 bottles of water, how much it finna be costin'?\nAnswer:",
+        "response": [
+            "Let's start by calculating the cost of 3 bottles of soda. Since 7 bottles of soda cost $21.00, 1 bottle of soda costs $21.00 / 7 = $3.00. So, 3 bottles of soda will cost $3.00 x 3 = $9.00.\n\nNext, let's calculate the cost of 2 bottles of water. Since 4 bottles of water cost $8.00, 1 bottle of water costs $8.00 / 4 = $2.00. So, 2 bottles of water will cost $2.00 x 2 = $4.00.\n\nNow, let's add the cost of the soda and water together: $9.00 + $4.00 = $13.00.\n\nSo, the answer is: <answer>$13.00</answer>"
+        ],
+        "parsed_ground_truth": "13",
+        "parsed_answer": [
+            "13.00"
+        ],
+        "timestamp": "2025-04-08 13:05:18.841817",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "One bottle of soda costs $21.00/7 = $<<21/7=3.00>>3.00.\nThree bottles of soda cost $3.00 x 3 = $<<3*3=9.00>>9.00.\nOne bottle of water costs $8.00/4 = $<<8/4=2.00>>2.00.\nTwo bottles of water cost $2.00x 2 = $<<2*2=4.00>>4.00.\nTherefore, 3 bottles of soda and 2 bottles of water cost $9.00 + $4.00 = $13.00.\n#### 13"
+    },
+    {
+        "task_id": 257,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: John done hired a driving service that be gettin' him to his job. His job be 30 miles away and he gotta go there and get back daily. He been goin' to work 5 days a week fo' 50 weeks a year. He gettin' taxed $2 per mile driven and also be givin' his driver a $150 bonus monthly. How much he be payin' a year for drivin'?\nAnswer:",
+        "response": [
+            "<answer> $6,300</answer>"
+        ],
+        "parsed_ground_truth": "31800",
+        "parsed_answer": [
+            "6300"
+        ],
+        "timestamp": "2025-04-08 13:05:18.841834",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "He has to travel 30*2=<<30*2=60>>60 miles per day\nThat means he travels 60*5=<<60*5=300>>300 miles per week\nSo he pays 300*2=$<<300*2=600>>600 per week\nThat means he pays $600*50=$<<600*50=30000>>30000 a year for miles driven\nHe also gives $150*12=$<<150*12=1800>>1800 a year as a bonus to his driver\nSo he pays $30000+$1800=$<<30000+1800=31800>>31,800 a year\n#### 31800"
+    },
+    {
+        "task_id": 258,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A salesman done copped a case of 48 sneakers fo' $576. He done sold 17 of 'em fo' $20 at a flash sale on Monday, then the rest 'em ended up sold to a department store fo' $25 each throughout the rest of the week. How much in dollars the salesman profit was?\nAnswer:",
+        "response": [
+            "Let's break this problem down step by step!\n\nFirst, the salesman sold 17 sneakers for $20 each, so he made 17 x $20 = $340.\n\nThen, he sold the remaining 48 - 17 = 31 sneakers to the department store for $25 each, so he made 31 x $25 = $775.\n\nIn total, the salesman made $340 + $775 = $1115.\n\nThe cost of the sneakers was $576, so the profit is $1115 - $576 = $539.\n\nSo, the answer is: <answer>$539</answer>"
+        ],
+        "parsed_ground_truth": "539",
+        "parsed_answer": [
+            "539"
+        ],
+        "timestamp": "2025-04-08 13:05:18.841844",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "The salesman made 17 \u00d7 $20 = $<<17*20=340>>340 at the flash sale on Monday.\nThere were 48 - 17 = <<48-17=31>>31 sneakers left.\nAt the department store he made 31 \u00d7 $25 = $<<31*25=775>>775 throughout the week.\nIn total he made $340 + $775 = $<<340+775=1115>>1115.\nThe profit made by the salesman was $1115 - $576 = $<<1115-576=539>>539.\n#### 539"
+    },
+    {
+        "task_id": 259,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Emily got 4 kids , Amy, Jackson, Corey, and James. Amy's 5 years older than Jackson and 2 years younger than Corey. James is 10 and is 1 year younger than Corey, so, how old is Jackson?\nAnswer:",
+        "response": [
+            "Let's start by using the information that James is 10 and is 1 year younger than Corey. This means that Corey is 11. Since Amy is 2 years younger than Corey, Amy is 9. Since Amy is 5 years older than Jackson, Jackson is 4. So, Jackson is 4 years old."
+        ],
+        "parsed_ground_truth": "4",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:18.841854",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "James is 10 and 1 year younger than Corey, so Corey is 10 + 1 = <<10+1=11>>11 years old\nAmy is 2 years younger than Corey so is 11 - 2 = 9 years old\nAmy is also 5 years older than Jackson, so Jackson is 9 - 5 = <<9-5=4>>4 years old\n#### 4"
+    },
+    {
+        "task_id": 260,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: In the first half of a soccer game, team A nets 4 goals and team B scores 2 goals less than that. In the second half, team A scores quarter of what of team B scores, which scores 4 times what they did score in the first half. how many goals were scored in total the game?\nAnswer:",
+        "response": [
+            "Let's break down the problem step by step!\n\nIn the first half, team A scores 4 goals and team B scores 2 goals less than that, which is 4 - 2 = 2 goals. So, in the first half, team A scores 4 goals and team B scores 2 goals.\n\nIn the second half, team B scores 4 times what they did in the first half, which is 2 x 4 = 8 goals. Team A scores a quarter of what team B scores, which is 8 / 4 = 2 goals.\n\nSo, in the second half, team A scores 2 goals and team B scores 8 goals.\n\nIn total, team A scores 4 + 2 = 6 goals and team B scores 2 + 8 = 10 goals. Therefore, the total number of goals scored in the game is 6 + 10 = 16 goals.\n\nHere's the answer: <answer>16</answer>"
+        ],
+        "parsed_ground_truth": "16",
+        "parsed_answer": [
+            "16"
+        ],
+        "timestamp": "2025-04-08 13:05:27.669979",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "In the first half, team B scores 4 goals - 2 goals = <<4-2=2>>2 goals.\nThe total number of goals scored in the first half is 2 goals + 4 goals = <<2+4=6>>6 goals\nDuring the second half, team B scores 4 goals * 2 = <<4*2=8>>8 goals.\nTeam A 1/4 * 8 goals = <<1/4*8=2>>2 goals in the second half.\nThe total number of goals in the second half is 8 goals + 2 goals = <<8+2=10>>10 goals\nThe total number of goals in the match is 6 goals + 10 goals = <<6+10=16>>16 goals\n#### 16"
+    },
+    {
+        "task_id": 261,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Justin's got a jar full of coins. He's got 32 quarters, 95 dimes, 120 nickels, and 750 pennies. What's the total cash he's got in that jar?\nAnswer:",
+        "response": [
+            "<answer> $43.50</answer>"
+        ],
+        "parsed_ground_truth": "31",
+        "parsed_answer": [
+            "43.50"
+        ],
+        "timestamp": "2025-04-08 13:05:27.670003",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "There are 32/4 = <<32/4=8>>8 dollars in quarters.\nThere are 95/10 = <<95/10=9.5>>9.5 dollars in dimes.\nThere are 120/20 = <<120/20=6>>6 dollars in nickels.\nThere are 750/100 = <<750/100=7.5>>7.5 dollars in pennies.\nAltogether there are 8+9.5+6+7.5 = <<8+9.5+6+7.5=31>>31 dollars in the jar.\n#### 31"
+    },
+    {
+        "task_id": 262,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Ellen pulled a prank on her friend with a case of 12 sodas and she shook 3 of'em up. Then she took 1 wasn't shaken for herself and left. Ellen's brother stopped by and took 1 of the shaken sodas and 2 of the unshaken cans, then Ellen's friend came along. What is the likelihood, expressed as a percentage, that Ellen's homie gets sprayed with one of the shaken cans?\nAnswer:",
+        "response": [
+            "Let's break this problem down step by step!\n\nEllen started with 12 sodas. She shook 3 of them up, so there are 3 shaken sodas. She took 1 unshaken soda for herself, leaving 11 sodas. Her brother took 1 shaken soda and 2 unshaken sodas, leaving 8 sodas. Now, Ellen's friend is left with 8 sodas, of which 3 are shaken.\n\nThe probability that Ellen's friend gets a shaken soda is the number of shaken sodas divided by the total number of sodas left. So, the probability is:\n\n3 (shaken sodas) / 8 (total sodas) = 0.375\n\nTo express this as a percentage, multiply by 100:\n\n0.375 * 100 = 37.5%\n\nSo, the likelihood that Ellen's friend gets sprayed with one of the shaken cans is 37.5%.\n\nHere's the answer:\n\n<answer>37.5%</answer>"
+        ],
+        "parsed_ground_truth": "25",
+        "parsed_answer": [
+            "37.5"
+        ],
+        "timestamp": "2025-04-08 13:05:27.670014",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "First figure out how many unshaken sodas were in the case when Ellen left the room: 12 total sodas - 3 shaken sodas - 1 taken soda = <<12-3-1=8>>8 unshaken sodas.\nNext, figure out how many unshaken sodas were left after Ellen's brother came: 8 - 2 = <<8-2=6>>6 unshaken sodas.\nThen figure out how many shaken sodas were left after Ellen's brother came: 3 - 1 = <<3-1=2>>2 shaken sodas.\nNow add the number of shaken and unshaken sodas to find the total number of sodas left when Ellen's friend came along: 2 + 6 = <<2+6=8>>8 sodas\nNow divide the number of shaken sodas by the total number of sodas to find the decimal probability Ellen's friend gets sprayed: 2/8 = <<2/8=0.25>>0.25\nNow multiply the decimal probability by 100 to express it as a percentage: .25 * 100 = <<.25*100=25>>25%\n#### 25"
+    },
+    {
+        "task_id": 263,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Walter copped 60 apples from the store. He munched on  2/5 of'em and gave his sister 25% of what was left. Then he sold the restto his uncle for $3 each, how much cash did he make?\nAnswer:",
+        "response": [
+            "Walter started with 60 apples. He ate 2/5 of them, which is 24 apples. He gave his sister 25% of the remaining apples, which is 15 apples. So he had 60 - 24 - 15 = 21 apples left. He sold these apples to his uncle for $3 each, so he made 21 x $3 = $63."
+        ],
+        "parsed_ground_truth": "81",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:27.670023",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "From the 60 apples that Walter bought, he ate 2/5*60=<<2/5*60=24>>24 apples\nThe number of apples remaining was 60-24=<<60-24=36>>36\nWalter gave 25/100*36=<<25/100*36=9>>9 apples to his sister.\nHe remained with 36-9=<<36-9=27>>27 apples.\nHe then sold the apples for 27*$3=$<<27*3=81>>81 to his uncle.\n#### 81"
+    },
+    {
+        "task_id": 264,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: The Doubtfire sisters are driving home with 7 kittens they scooped up from the local animal shelter when their mama calls to let'em know that their two house cats got just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. So, how many kittens that  Doubtfire family  got right now?\nAnswer:",
+        "response": [
+            "<answer> 35 </answer>"
+        ],
+        "parsed_ground_truth": "40",
+        "parsed_answer": [
+            "35"
+        ],
+        "timestamp": "2025-04-08 13:05:27.670032",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Patchy has just had 3 * 7 = <<3*7=21>>21 kittens\nSince Trixie's kittens are 12, both cats have 21 +12 = <<21+12=33>>33 kittens.\nCombining the adopted kittens with those from the two cats, the Doubtfire family now has 7 + 33 = <<7+33=40>>40 kittens.\n#### 40"
+    },
+    {
+        "task_id": 265,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Shelly's 3 kids hit the water park all day.  Mitchel slide down 30 times.  Anne went down the slide 30% less than him and for Robert went down 4 times as much as Anne.  How many times did Robert slide?\nAnswer:",
+        "response": [
+            "Let's start by finding out how many times Anne slid down the slide. Since Anne slid down 30% less than Mitchel, that means she slid down 30% of 30, which is 0.3 x 30 = 9 times. Since Robert slid down 4 times as much as Anne, that means he slid down 4 x 9 = 36 times. So the answer is: <answer>36</answer>."
+        ],
+        "parsed_ground_truth": "84",
+        "parsed_answer": [
+            "36"
+        ],
+        "timestamp": "2025-04-08 13:05:32.715649",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Anne went down the slide 30% less than Mitchel who went down 30 times so that's .30*30 = <<30*.01*30=9>>9 times less\nMitchel went down 30 times and Anne went down 9 times less than him for a total of 30-9 = <<30-9=21>>21 times\nRobert went down the slide 4 times as much as Anne, who went down 21 times so Robert went down the slide 4*21 = <<4*21=84>>84 times\n#### 84"
+    },
+    {
+        "task_id": 266,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Josh got a car shop, right? He's fixing 3 whips a day.  He is open every day of the week except Sunday and Wednesday.  He makes  $4 for each car he works on . So, how much he stackin' in 2 weeks?\nAnswer:",
+        "response": [
+            "Let's break it down step by step!\n\n1. Josh is open 5 days a week (Monday, Tuesday, Thursday, Friday, Saturday). So, he works on 3 cars a day for 5 days a week, which is 3 x 5 = 15 cars a week.\n2. In 2 weeks, Josh works on 15 x 2 = 30 cars.\n3. Josh makes $4 for each car he works on, so he makes 30 x $4 = $120 in 2 weeks.\n\nSo, the answer is: <answer>$120</answer>"
+        ],
+        "parsed_ground_truth": "120",
+        "parsed_answer": [
+            "120"
+        ],
+        "timestamp": "2025-04-08 13:05:32.715688",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "He runs 7-2=<<7-2=5>>5 days a week\nThat means he serves 5*3=<<5*3=15>>15 cars a week\nSo he makes 15*4=$<<15*4=60>>60 a week\nSo he makes 60*2=$<<60*2=120>>120 in 2 weeks\n#### 120"
+    },
+    {
+        "task_id": 267,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: To roll with the car for the weekend, Wilson gotta have an80 or higher in math.  His math grade is gonna be around the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What's his grade lookin' like right now?\nAnswer:",
+        "response": [
+            "To find the average of the test scores, we need to add them up and divide by the number of scores. The sum of the scores is 65 + 94 + 81 + 86 + 74 = 400. There are 5 scores, so the average is 400 / 5 = 80. Since Wilson's grade is the average of the test scores, his current grade is 80."
+        ],
+        "parsed_ground_truth": "80",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:32.715702",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "He received 65, 94, 81, 86 and a 74 on his 5 math tests so that's 65+94+81+86+74 = <<400=400>>400\nHis math grade is calculated by the average test grade on his 5 tests so his math grade is 400/5 = <<400/5=80>>80\n#### 80"
+    },
+    {
+        "task_id": 268,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: If Rose copped five dozens of eggs for $2.40 a dozen. And she will sell it for $1 for 3 eggs. How much cash she be makin', what's her profit lookin' like?\nAnswer:",
+        "response": [
+            "<answer>$1.20</answer>"
+        ],
+        "parsed_ground_truth": "8",
+        "parsed_answer": [
+            "1.20"
+        ],
+        "timestamp": "2025-04-08 13:05:32.715712",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Rose bought five dozens of eggs for $2.40 x 5 = $<<2.40*5=12>>12.\nFive dozens of eggs is equal to 12 x 5 = <<12*5=60>>60 eggs.\nSo there are 60/3 = <<60/3=20>>20 sets of 3 eggs that Rose will sell.\nThus, the total earnings of Rose for selling the eggs are $1 x 20 = $<<20=20>>20.\nTherefore, her profit will be $20 - $12 = $<<20-12=8>>8.\n#### 8"
+    },
+    {
+        "task_id": 269,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: James got 30 teeth, right? His dentist drills 4 of'em and caps 7 more teeth than he drills. What percentage of James' teeth does the dentist handle?\nAnswer:",
+        "response": [
+            "Let's solve the problem step by step. James has 30 teeth, and the dentist drills 4 of them. So, the dentist handles 4/30 = 0.1333 of James' teeth. Since the dentist also caps 7 more teeth than he drills, the dentist handles 4 + 7 = 11 teeth in total. The percentage of James' teeth that the dentist handles is 11/30 = 0.3667, which is approximately 36.67%."
+        ],
+        "parsed_ground_truth": "50",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:32.715722",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "First find the total number of teeth the dentist caps: 4 teeth + 7 teeth = <<4+7=11>>11 teeth\nThen find the total number of teeth the dentist fixes: 11 teeth + 4 teeth = <<11+4=15>>15 teeth\nThen divide that number by the total number of teeth and multiply by 100% to find the percentage of teeth he fixes: 15 teeth / 30 teeth * 100% = 50%\n#### 50"
+    },
+    {
+        "task_id": 270,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Aight, so there was 4 snails in one aquarium and 32 snails in another one. The difference between 'em snails number in the two aquariums be double the amount of fish in both aquariums. If both 'em aquariums got the same number of fish in 'em, how many fish be in each aquarium?\nAnswer:",
+        "response": [
+            "Let's start by finding the difference in the number of snails between the two aquariums. The difference is 32 - 4 = 28. Since the difference is double the number of fish, we can divide the difference by 2 to find the number of fish. 28 / 2 = 14. Since both aquariums have the same number of fish, we can conclude that there are 14 fish in each aquarium."
+        ],
+        "parsed_ground_truth": "7",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:42.920433",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "The difference between the number of snails is 32 - 4 = <<32-4=28>>28 snails.\nThere are 28/2 = <<28/2=14>>14 fish in both aquariums.\nThere are 14/2 = <<14/2=7>>7 fish in each aquarium.\n#### 7"
+    },
+    {
+        "task_id": 271,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Ayo, this bag got a 5% off. If it's marked at $140, how much you gon' drop after the discount?\nAnswer:",
+        "response": [
+            "<answer> $7</answer>"
+        ],
+        "parsed_ground_truth": "133",
+        "parsed_answer": [
+            "7"
+        ],
+        "timestamp": "2025-04-08 13:05:42.920472",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "The discount amounts to $140 x 5/100 = $<<140*5/100=7>>7.\nHence, you will pay $140 - $7 = $<<140-7=133>>133 for the discounted bag.\n#### 133"
+    },
+    {
+        "task_id": 272,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Check this out, Johnny took his allowance like $20 and put an extra $10 to it. He then put money to work this sum of money, which tripled in a year. So, How much money did he bread after a year?\nAnswer:",
+        "response": [
+            "<answer>$60</answer>"
+        ],
+        "parsed_ground_truth": "90",
+        "parsed_answer": [
+            "60"
+        ],
+        "timestamp": "2025-04-08 13:05:42.920490",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Johnny invested twenty and ten dollars for a total of 20+10=<<20+10=30>>30 dollars invested\nJohnny tripled this amount of money over the year, for a total of 30*=90 dollars\n#### 90"
+    },
+    {
+        "task_id": 273,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Aight, so Artie got a flower stand at the Farmers Market. He sellin' three kinds of 'em flowers: marigolds, petunias and begonias. Normally he be sellin' marigolds fo' $2.74 per pot, petunias fo' $1.87 and begonias fo' $2.12 per pot. But today, Artie ain't got no change, so done decided he be roundin' all his prices to the nearest dollar. If Artie sellin' 12 pots of marigolds, 9 pots of petunias and 17 pots of begonias, how much he gon' be makin'?\nAnswer:",
+        "response": [
+            "<answer>$43.33</answer>"
+        ],
+        "parsed_ground_truth": "88",
+        "parsed_answer": [
+            "43.33"
+        ],
+        "timestamp": "2025-04-08 13:05:42.920506",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Artie will round his marigolds up from $2.74 to $3, since the number following the 2 is 5 or higher.\nArtie will round his petunias up from $1.87 to $2, since the number following the 1 is 5 or higher.\nArtie will round his begonias down from $2.12 to $2, since the number following the 2 is less than 5.\nArtie sells 12 marigolds x $3 = $<<12*3=36>>36\nArtie sells 9 petunias x $2 = $<<9*2=18>>18\nArtie sells 17 begonias x $2 = $<<17*2=34>>34\nAltogether, Artie will make $36 + $18 + $34 = $<<36+18+34=88>>88\n#### 88"
+    },
+    {
+        "task_id": 274,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Elly be stacking her books on the new bookcases her folks got her. Each of the middle 2 shelves can hold 10 books. The bottom shelf can hold twice as many books as a middle shelf. The top shelf can hold 5 less books than the bottom shelf. If she got 110 books, how many shelves does she need to hold all of'em?\nAnswer:",
+        "response": [
+            "Let's start by identifying the number of books each shelf can hold. The middle shelves can hold 10 books each, and the bottom shelf can hold 20 books (twice as many as the middle shelves). The top shelf can hold 20 - 5 = 15 books.\n\nSince Elly has 110 books, she needs to find the smallest number of shelves that can hold all of them. Let's start by using the top shelf, which can hold 15 books. She can use the top shelf for 7 sets of 15 books, which leaves 5 books remaining.\n\nNext, she can use the bottom shelf, which can hold 20 books. She can use the bottom shelf for 5 sets of 20 books, which leaves 0 books remaining.\n\nFinally, she can use the middle shelves, which can hold 10 books each. She can use the middle shelves for 1 set of 10 books, which leaves 0 books remaining.\n\nTherefore, Elly needs to use 3 shelves to hold all of her books: the top shelf for 7 sets of 15 books, the bottom shelf for 5 sets of 20 books, and the middle shelves for 1 set of 10 books."
+        ],
+        "parsed_ground_truth": "2",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:42.920524",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "The bottom shelf can hold 2 * 10 = <<2*10=20>>20 books.\nThe 2 middle shelves can hold a total of 2 * 10 = <<2*10=20>>20 books.\nThe top shelf can hold 20 \u2013 5 = <<20-5=15>>15 books.\nEach bookcase can hold a total of 20 books + 20 books + 15 books = <<20+20+15=55>>55 books.\nTo hold all of her books, she needs 110 / 55 = <<110/55=2>>2 bookcases.\n#### 2"
+    },
+    {
+        "task_id": 275,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Aight, Charlie wanna sell beeswax candles. For every pound of wax, he can make 10 candles. The wax and wicks cost him $10 for a pound. He sellin' each candle for $2. So, if he makes and sells 20 candles, how much bread he makin' after expenses?\nAnswer:",
+        "response": [
+            "Let's break it down step by step. First, we need to find out how much it costs Charlie to make 20 candles. Since he can make 10 candles for every pound of wax, he needs 2 pounds of wax to make 20 candles. The cost of wax and wicks is $10 per pound, so the total cost of wax and wicks is $20. Now, we need to find out how much he makes from selling 20 candles. Each candle sells for $2, so he makes $40 from selling 20 candles. Finally, we need to subtract the cost of wax and wicks from the amount he makes from selling the candles. This gives us $20. So, Charlie makes $20 after expenses."
+        ],
+        "parsed_ground_truth": "20",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:50.250251",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "1 pound of beeswax and the wick make 10 candles and he wants to make 20 candles so he needs 20/10 = <<20/10=2>>2 pounds of beeswax\n1 pound of beeswax costs $10.00 and he needs 2 pounds so his supplies will cost 10*2 = $<<10*2=20.00>>20.00\nHe wants to sell each candle for $2.00 each and he's selling 20 candles so that's 2*20 = $<<2*20=40.00>>40.00\nIf he makes $40.00 selling candles and his supplies cost $20.00 then his net profit is 40-20 = $<<40-20=20.00>>20.00\n#### 20"
+    },
+    {
+        "task_id": 276,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Yo, Nancy cleanin' out her old woodshed and seen 90 spiders. She saw a third as many millipedes as spiders, and the number of stink bugs was twice the millipedes minus 12. So how many bugs she countin' up in total?\nAnswer:",
+        "response": [
+            "Let's start by finding the number of millipedes. Since Nancy saw a third as many millipedes as spiders, and there were 90 spiders, the number of millipedes is 90 / 3 = 30.\n\nNext, we need to find the number of stink bugs. Since the number of stink bugs is twice the number of millipedes minus 12, we can set up the equation:\n\nStink bugs = 2 x 30 - 12\n\nStink bugs = 60 - 12\n\nStink bugs = 48\n\nNow we can add the number of spiders, millipedes, and stink bugs to find the total number of bugs:\n\nTotal bugs = 90 + 30 + 48\n\nTotal bugs = 168\n\nSo, Nancy counted a total of 168 bugs."
+        ],
+        "parsed_ground_truth": "168",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:50.250275",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "First find the number of millipedes: 90 spiders / 3 spiders/millipede = <<90/3=30>>30 millipedes\nThen multiply the number of millipedes by 2: 30 bugs * 2 = <<30*2=60>>60 bugs\nThen subtract 12 to find the number of stink bugs: 60 bugs - 12 bugs = <<60-12=48>>48 bugs\nThen add the number of each kind of bug to find the total: 48 bugs + 30 bugs + 90 bugs = <<48+30+90=168>>168 bugs\n#### 168"
+    },
+    {
+        "task_id": 277,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Lindsay be doing the laundry, and thinks she got missed some socks. There are 50 socks that gotta be washing. If she washes 10 pairs  socks and 15 loose socks, So, how many socks got Lindsay missed?\nAnswer:",
+        "response": [
+            "<answer>25</answer>"
+        ],
+        "parsed_ground_truth": "15",
+        "parsed_answer": [
+            "25"
+        ],
+        "timestamp": "2025-04-08 13:05:50.250286",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "Splitting the pairs shows there were 10 pairs of socks * 2 socks/pair = <<10*2=20>>20 socks paired together.\nThis means she has washed a total of 20 paired socks + 15 loose socks = <<20+15=35>>35 socks.\nShe has therefore missed 50 socks \u2013 35 socks = <<50-35=15>>15 socks.\n#### 15"
+    },
+    {
+        "task_id": 278,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Aight, so Bill starts on the 3rd floor, right? Then he takes the elevator up to a floor that's 4 times his starting floor plus 6. So, what floor he end up on now?\nAnswer:",
+        "response": [
+            "Bill starts on the 3rd floor. He takes the elevator up to a floor that is 4 times his starting floor plus 6. So, the floor he ends up on is 3 x 4 + 6 = 12 + 6 = 18."
+        ],
+        "parsed_ground_truth": "18",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:50.250295",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": "First multiply Bill's starting floor number by 4: 3 * 4 = <<3*4=12>>12\nThen add six to find the ending floor Bill is on: 12 + 6 = <<12+6=18>>18\n#### 18"
+    },
+    {
+        "task_id": 279,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Yo, on Thursday, Joe caught 3 pounds of crawlfish. Then on Friday, he caught 4 times that, and on Saturday, he caught half of what he got on Friday. If 3 pounds is one serving, how many servings he got now?\nAnswer:",
+        "response": [
+            "<answer>7</answer>"
+        ],
+        "parsed_ground_truth": "7",
+        "parsed_answer": [
+            "7"
+        ],
+        "timestamp": "2025-04-08 13:05:50.250303",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": "He caught 3 pounds on Thursday and caught 4 times the amount on Friday for a total of 3*4 = <<3*4=12>>12 pounds\nOn Saturday, he caught half the amount of the 12 pounds he caught on Friday so he caught 12/2 = <<12/2=6>>6 pounds\nIn three days he has caught 3+12+6 = <<3+12+6=21>>21 pounds of crawfish\n3 pounds is a serving and he caught 21 pounds so he has 21/3 = <<21/3=7>>7 servings of crawfish\n#### 7"
+    },
+    {
+        "task_id": 280,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paul got a box of 253 crayons for his birthday. How many crayons did he have left if he'd either lost or given away 70 of them by the end of the school year?\nAnswer:",
+        "response": [
+            "<answer>183</answer>"
+        ],
+        "parsed_ground_truth": "183",
+        "parsed_answer": [
+            "183"
+        ],
+        "timestamp": "2025-04-08 13:05:54.267063",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 281,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paul had 21 books. He then bought 42 new ones after he'd sold some in a garage sale. How many more books did he sell than he bought if he's now got 15 books?\nAnswer:",
+        "response": [
+            "Let's solve the problem step by step. Paul started with 21 books. He then bought 42 new ones, so he now has 21 + 42 = 63 books. He then sold some books and ended up with 15 books. So, he must have sold 63 - 15 = 48 books. He bought 42 books, so he must have sold 48 - 42 = 6 more books than he bought."
+        ],
+        "parsed_ground_truth": "6",
+        "parsed_answer": [
+            ""
+        ],
+        "timestamp": "2025-04-08 13:05:54.267175",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 282,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: The ring toss game at the carnival made the same amount of money every day. How much you reckon they made daily if they made 165 dollars in a total of 5 days?\nAnswer:",
+        "response": [
+            "<answer>33</answer>"
+        ],
+        "parsed_ground_truth": "33",
+        "parsed_answer": [
+            "33"
+        ],
+        "timestamp": "2025-04-08 13:05:54.267199",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 283,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paige raised 15 goldfish in the pond, but stray cats loved to eat them. How many goldfish are left if 5 got eaten up?\nAnswer:",
+        "response": [
+            "<answer>10</answer>"
+        ],
+        "parsed_ground_truth": "10",
+        "parsed_answer": [
+            "10"
+        ],
+        "timestamp": "2025-04-08 13:05:54.267217",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 284,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Baker made 110 cakes. How many cakes would the baker still have if he sold 75 of them and then made 76 more cakes?\nAnswer:",
+        "response": [
+            "Let's solve the problem step by step. The baker starts with 110 cakes. He sells 75 of them, so he has 110 - 75 = 35 cakes left. Then, he makes 76 more cakes, so he now has 35 + 76 = 111 cakes. The answer is: <answer>111</answer>."
+        ],
+        "parsed_ground_truth": "111",
+        "parsed_answer": [
+            "111"
+        ],
+        "timestamp": "2025-04-08 13:05:54.267230",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 285,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How many balloons have Allan and Jake got in the park if Allan brought 3 balloons and 20 balls while Jake brought 5 balloons and 59 balls to the park?\nAnswer:",
+        "response": [
+            "<answer>8</answer>"
+        ],
+        "parsed_ground_truth": "8",
+        "parsed_answer": [
+            "8"
+        ],
+        "timestamp": "2025-04-08 13:05:54.939444",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 286,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Julia played tag with 12 kids on Monday and 14 kids on Tuesday. How many kids did she play with in total if she spent a total of 34 hours to play tag on both days?\nAnswer:",
+        "response": [
+            "<answer>26</answer>"
+        ],
+        "parsed_ground_truth": "26",
+        "parsed_answer": [
+            "26"
+        ],
+        "timestamp": "2025-04-08 13:05:54.939475",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 287,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: A mailman gotta give 32 pieces of junk mail to each of the 55 blocks. How many houses you reckon are in a block if he gives 8 mails to each house in a block?\nAnswer:",
+        "response": [
+            "<answer>4</answer>"
+        ],
+        "parsed_ground_truth": "4",
+        "parsed_answer": [
+            "4"
+        ],
+        "timestamp": "2025-04-08 13:05:54.939486",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 288,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Lawrence County has got 898051 kids in it. How many kids stay home if during summer break 629424 kids go camping and the rest stay home?\nAnswer:",
+        "response": [
+            "<answer>268627</answer>"
+        ],
+        "parsed_ground_truth": "268627",
+        "parsed_answer": [
+            "268627"
+        ],
+        "timestamp": "2025-04-08 13:05:54.939494",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 289,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Last week Fred had 47 dollars and Jason had 99 dollars. How much has Fred got now if he delivered newspapers earning 111 dollars and washed cars earning 34 dollars over the weekend?\nAnswer:",
+        "response": [
+            "<answer>182</answer>"
+        ],
+        "parsed_ground_truth": "192",
+        "parsed_answer": [
+            "182"
+        ],
+        "timestamp": "2025-04-08 13:05:54.939502",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 290,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Paco done ate 19 cookies and got 35 cookies left. How many cookies he been havin' in the beginnin'?\nAnswer:",
+        "response": [
+            "<answer>54</answer>"
+        ],
+        "parsed_ground_truth": "54",
+        "parsed_answer": [
+            "54"
+        ],
+        "timestamp": "2025-04-08 13:05:55.544742",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 291,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Say we got a school that has 362 boys and 257 girls in it. How many more girls than boys has the school got if 403 more girls joined the school?\nAnswer:",
+        "response": [
+            "<answer>46</answer>"
+        ],
+        "parsed_ground_truth": "298",
+        "parsed_answer": [
+            "46"
+        ],
+        "timestamp": "2025-04-08 13:05:55.544766",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 292,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: There was 106 dollars in Olivia wallet. After she done went to a supermarket and a showroom there was 26 dollars left. If she done spend 49 dollars at the showroom, how much did she spend at the supermarket?\nAnswer:",
+        "response": [
+            "<answer>80</answer>"
+        ],
+        "parsed_ground_truth": "31",
+        "parsed_answer": [
+            "80"
+        ],
+        "timestamp": "2025-04-08 13:05:55.544779",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 293,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: The bus had 43 children riding on it. Some children got off the bus at the bus stop. How many children got off the bus at the bus stop if the bus then had 21 children left on it?\nAnswer:",
+        "response": [
+            "<answer>22</answer>"
+        ],
+        "parsed_ground_truth": "22",
+        "parsed_answer": [
+            "22"
+        ],
+        "timestamp": "2025-04-08 13:05:55.544787",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 294,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Danny collects bottle caps. He found 30 bottle caps at the park and threw away 63 old ones. How many more bottle caps did Danny throw away than those he found at the park if he now has 42 bottle caps in his collection?\nAnswer:",
+        "response": [
+            "<answer>21</answer>"
+        ],
+        "parsed_ground_truth": "33",
+        "parsed_answer": [
+            "21"
+        ],
+        "timestamp": "2025-04-08 13:05:55.544793",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 295,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Mary is baking a cake. The recipe requires 10 cups of flour, 2 cups of sugar, and 80 cups of salt. How many more cups of flour than cups of sugar does she need to add now if she already put in 7 cups of flour?\nAnswer:",
+        "response": [
+            "<answer>3</answer>"
+        ],
+        "parsed_ground_truth": "1",
+        "parsed_answer": [
+            "3"
+        ],
+        "timestamp": "2025-04-08 13:05:56.525866",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 296,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 14 invitations in it, and she bought 6 packs. How many friends can she invite if she then buys 11 extra invitations?\nAnswer:",
+        "response": [
+            "<answer>98</answer>"
+        ],
+        "parsed_ground_truth": "95",
+        "parsed_answer": [
+            "98"
+        ],
+        "timestamp": "2025-04-08 13:05:56.525888",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 297,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: They decided to go for a swim after resting. How much deeper is the water than Dean's height if the depth of the water is 10 times Dean's height and he stands at 9 feet?\nAnswer:",
+        "response": [
+            "<answer>90</answer>"
+        ],
+        "parsed_ground_truth": "81",
+        "parsed_answer": [
+            "90"
+        ],
+        "timestamp": "2025-04-08 13:05:56.525895",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 298,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: How much money did Edward spend if, outta the $13 he initially had, he spent some and now got $3 left?\nAnswer:",
+        "response": [
+            "<answer>10</answer>"
+        ],
+        "parsed_ground_truth": "10",
+        "parsed_answer": [
+            "10"
+        ],
+        "timestamp": "2025-04-08 13:05:56.525902",
+        "correctness": [
+            1
+        ],
+        "original_ground_truth": ""
+    },
+    {
+        "task_id": 299,
+        "question": "Bet, so here's whatsup. Youn finna get a math problem, and you gon' tryna find the answer out. You gotta simplify that answer as much as possible tehn wrap it up inside <answer></answer> (somethin' like this:, <answer>1</answer>).\nQuestion: Winter is around the corner, and most animals be migrating to warmer countries. There's 18 bird families living near the mountain. How many bird families flew away for the winter if 38 bird families flew away to Africa and 80 bird families flew away to Asia?\nAnswer:",
+        "response": [
+            "<answer>38 + 80 - 18 = 100</answer>"
+        ],
+        "parsed_ground_truth": "118",
+        "parsed_answer": [
+            "38"
+        ],
+        "timestamp": "2025-04-08 13:05:56.525910",
+        "correctness": [
+            0
+        ],
+        "original_ground_truth": ""
     }
 ]
