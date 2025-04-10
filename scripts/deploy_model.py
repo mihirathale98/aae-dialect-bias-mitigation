@@ -33,9 +33,9 @@ VLLM_PORT = 8000
 
 @app.function(
     image=vllm_image,
-    gpu=f"H100:{N_GPU}",
+    gpu=f"A10G:{N_GPU}",
     # how many requests can one replica handle? tune carefully!
-    allow_concurrent_inputs=32,
+    allow_concurrent_inputs=4,
     # how long should we stay up with no requests?
     scaledown_window=5 * MINUTES,
     volumes={
@@ -58,7 +58,7 @@ def serve():
         "--uvicorn-log-level=info",
         MODEL_NAME,
         "--enable-lora",
-        f"--lora-modules aae-lora-gpt={LORA_PATH}",
+        f"--lora-modules llama-3-8b-instruct-lora={LORA_PATH}",
         "--host",
         "0.0.0.0",
         "--port",
